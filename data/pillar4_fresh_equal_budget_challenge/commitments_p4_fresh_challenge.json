@@ -1,0 +1,453 @@
+{
+  "software_version": "Prometheus_Public_Validation_V1.0",
+  "commitment_timestamp_utc": "2026-10-31T14:16:24.622686+00:00",
+  "backend": "ibm_marrakesh",
+  "frozen_baseline_selection_rule": "Minimize (native_2q, depth, trial_seed) within matched CPU wall-clock compilation budget >= Prometheus total compile+select seconds",
+  "records": {
+    "fresh_qaoa_8q_s20261139": {
+      "family": "qaoa_maxcut",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "width": 8,
+      "seed": 20261139,
+      "matched_budget_target_seconds": 6.0504,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 108,
+          "depth": 232,
+          "compile_seconds": 0.0132,
+          "trials_evaluated": 1,
+          "sha256": "6f0a1face1001725f7cfaad2b70ae31d8309b09d8b9fe3cabf0667fdba9e7b4a"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 100,
+          "depth": 248,
+          "compile_seconds": 6.0517,
+          "trials_evaluated": 435,
+          "sha256": "0b0eb9b70681376efc82dbf1ebabfd80c214d7a172298efabb2c6cd552acbe80"
+        },
+        "tket_matched_budget": {
+          "native_2q": 100,
+          "depth": 246,
+          "compile_seconds": 6.0612,
+          "trials_evaluated": 327,
+          "sha256": "0caa3dc669f50e81daff3fe0392477c57fde2a319ea12209f01f02e9e31861c0"
+        },
+        "prometheus_candidate": {
+          "native_2q": 107,
+          "depth": 213,
+          "compile_seconds": 6.0504,
+          "trials_evaluated": 12,
+          "sha256": "4d39a46e5cf30d197a525b5b6bdc5f551339974512a34c45952d4a645292b10e"
+        }
+      }
+    },
+    "fresh_qaoa_10q_s20261158": {
+      "family": "qaoa_maxcut",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "width": 10,
+      "seed": 20261158,
+      "matched_budget_target_seconds": 7.2241,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 171,
+          "depth": 299,
+          "compile_seconds": 0.0154,
+          "trials_evaluated": 1,
+          "sha256": "84f364de67db615e33cf31aaa40841102f57548539d988e0dd63b65bfcfbc7e3"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 143,
+          "depth": 255,
+          "compile_seconds": 7.2317,
+          "trials_evaluated": 447,
+          "sha256": "bc9387559522fe41c96ce423e1bde166c25a51c9e924bed83bb9f0d7774cc99a"
+        },
+        "tket_matched_budget": {
+          "native_2q": 143,
+          "depth": 249,
+          "compile_seconds": 7.2312,
+          "trials_evaluated": 326,
+          "sha256": "8ecc907f20138d7070bb604b1273ad5ce574e386bfbbc956c65cd7a0599f97a4"
+        },
+        "prometheus_candidate": {
+          "native_2q": 155,
+          "depth": 289,
+          "compile_seconds": 7.2241,
+          "trials_evaluated": 12,
+          "sha256": "3de816effdae340339f6688606e9d1e0a203c3e687e55a1b5038c312cb0560a0"
+        }
+      }
+    },
+    "fresh_qaoa_12q_s20261177": {
+      "family": "qaoa_maxcut",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "width": 12,
+      "seed": 20261177,
+      "matched_budget_target_seconds": 7.665,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 214,
+          "depth": 402,
+          "compile_seconds": 0.0164,
+          "trials_evaluated": 1,
+          "sha256": "363c2955d7576c1d61fd14a212b71b66d7e0fe6bc33eaafb14533187423dd8c1"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 197,
+          "depth": 324,
+          "compile_seconds": 7.681,
+          "trials_evaluated": 395,
+          "sha256": "ed1bfc80f2d7defddbb9443d0809dddb31544422590020ee1db826f0b603088c"
+        },
+        "tket_matched_budget": {
+          "native_2q": 195,
+          "depth": 321,
+          "compile_seconds": 7.6847,
+          "trials_evaluated": 331,
+          "sha256": "72cb8451cb777b35ced52483e6ab591cb7a0ffaeb9f86cff55c2652d01baa9a5"
+        },
+        "prometheus_candidate": {
+          "native_2q": 197,
+          "depth": 324,
+          "compile_seconds": 7.665,
+          "trials_evaluated": 12,
+          "sha256": "ed1bfc80f2d7defddbb9443d0809dddb31544422590020ee1db826f0b603088c"
+        }
+      }
+    },
+    "fresh_qaoa_14q_s20261196": {
+      "family": "qaoa_maxcut",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "width": 14,
+      "seed": 20261196,
+      "matched_budget_target_seconds": 8.3542,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 199,
+          "depth": 421,
+          "compile_seconds": 0.0174,
+          "trials_evaluated": 1,
+          "sha256": "3ea5b8ce1bb8c64a2c4c668b70ff8bbe84f35f502a7c085f3bf3ef5946206383"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 194,
+          "depth": 432,
+          "compile_seconds": 8.357,
+          "trials_evaluated": 427,
+          "sha256": "de5670cc6a15ab1f5d12313f27640706056fa0ad741ce60d4c17781e267d32de"
+        },
+        "tket_matched_budget": {
+          "native_2q": 195,
+          "depth": 422,
+          "compile_seconds": 8.3669,
+          "trials_evaluated": 317,
+          "sha256": "d97c1af900af936c60c0398f3cdbc1550e9d081840fbbd13d751f08b86e020bf"
+        },
+        "prometheus_candidate": {
+          "native_2q": 221,
+          "depth": 449,
+          "compile_seconds": 8.3542,
+          "trials_evaluated": 12,
+          "sha256": "25c989d6acf9e51a68bb2ad2139ca8650870e41e3faa0fda297fe47451c9f465"
+        }
+      }
+    },
+    "fresh_qft_8q_s20261239": {
+      "family": "qft_phase",
+      "primary_metric": "target_success_probability",
+      "width": 8,
+      "seed": 20261239,
+      "matched_budget_target_seconds": 5.655,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 69,
+          "depth": 156,
+          "compile_seconds": 0.012,
+          "trials_evaluated": 1,
+          "sha256": "a7e921e114a316c7893eda543d1d57e1ceb4e4eff761018e8a60343c193aca53"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 67,
+          "depth": 159,
+          "compile_seconds": 5.6621,
+          "trials_evaluated": 429,
+          "sha256": "2a9e42866d2b22bb0fbfb3d49d5b4246ed15056b64463fedccd43653c92ebc23"
+        },
+        "tket_matched_budget": {
+          "native_2q": 67,
+          "depth": 155,
+          "compile_seconds": 5.6663,
+          "trials_evaluated": 331,
+          "sha256": "adb923c76ac6ec9740b1275ad1c824a30b1dc2c74c504b01355ebb20fcbda2c0"
+        },
+        "prometheus_candidate": {
+          "native_2q": 67,
+          "depth": 159,
+          "compile_seconds": 5.655,
+          "trials_evaluated": 12,
+          "sha256": "5809c27746ddf25cc29119b3536d9d89efa301eef3e77b8ce83749d3193ae78b"
+        }
+      }
+    },
+    "fresh_qft_10q_s20261264": {
+      "family": "qft_phase",
+      "primary_metric": "target_success_probability",
+      "width": 10,
+      "seed": 20261264,
+      "matched_budget_target_seconds": 6.5822,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 99,
+          "depth": 235,
+          "compile_seconds": 0.0146,
+          "trials_evaluated": 1,
+          "sha256": "43f799241b4cecb2e1231b696a379cdfbff3c550cdbc22864a30ce04ed7c3e18"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 97,
+          "depth": 207,
+          "compile_seconds": 6.5974,
+          "trials_evaluated": 419,
+          "sha256": "7c88a6aa9aa04f2388ac295434f9ad0fda47decb44361f641aa63ac6d5fb8273"
+        },
+        "tket_matched_budget": {
+          "native_2q": 96,
+          "depth": 215,
+          "compile_seconds": 6.5951,
+          "trials_evaluated": 333,
+          "sha256": "95a67b4a407a80c773840623e0514167bd101b5d8b92e20916da039faf9061eb"
+        },
+        "prometheus_candidate": {
+          "native_2q": 97,
+          "depth": 207,
+          "compile_seconds": 6.5822,
+          "trials_evaluated": 12,
+          "sha256": "7c88a6aa9aa04f2388ac295434f9ad0fda47decb44361f641aa63ac6d5fb8273"
+        }
+      }
+    },
+    "fresh_qft_12q_s20261289": {
+      "family": "qft_phase",
+      "primary_metric": "target_success_probability",
+      "width": 12,
+      "seed": 20261289,
+      "matched_budget_target_seconds": 7.7063,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 140,
+          "depth": 346,
+          "compile_seconds": 0.0161,
+          "trials_evaluated": 1,
+          "sha256": "f9013b781b6c02ca294c01128cc8ee1d63a419f1964b26b9d328a20812942a73"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 128,
+          "depth": 299,
+          "compile_seconds": 7.7123,
+          "trials_evaluated": 441,
+          "sha256": "a8ce7d763ad247d4b5d2237e7400868cedf95f84f05b7275fde377ac5b92ac62"
+        },
+        "tket_matched_budget": {
+          "native_2q": 128,
+          "depth": 292,
+          "compile_seconds": 7.7196,
+          "trials_evaluated": 333,
+          "sha256": "0ea77c2ac810ef28b87657b217540bda929a8d3c10febc67f154a69473f26ee0"
+        },
+        "prometheus_candidate": {
+          "native_2q": 136,
+          "depth": 331,
+          "compile_seconds": 7.7063,
+          "trials_evaluated": 12,
+          "sha256": "fafe1b33c29de2b9c4596e1c27a44278ecbcd64ae4beea8e607650fd8d20386c"
+        }
+      }
+    },
+    "fresh_qft_14q_s20261314": {
+      "family": "qft_phase",
+      "primary_metric": "target_success_probability",
+      "width": 14,
+      "seed": 20261314,
+      "matched_budget_target_seconds": 8.3982,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 195,
+          "depth": 421,
+          "compile_seconds": 0.0221,
+          "trials_evaluated": 1,
+          "sha256": "85fcccccef3c3d4f58ab1627b8d457327076b2729ef0ffec81ab1b28663f567a"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 166,
+          "depth": 361,
+          "compile_seconds": 8.4104,
+          "trials_evaluated": 436,
+          "sha256": "0ad4e96595a35c8b00553ca85a5cb3e4ebad4bb51e852fdbd990891f25d8bd26"
+        },
+        "tket_matched_budget": {
+          "native_2q": 164,
+          "depth": 391,
+          "compile_seconds": 8.4141,
+          "trials_evaluated": 337,
+          "sha256": "bbb1d823ac40bbc240022b9d4c5cae41b85cd40064cb01dee9719527d8b9b161"
+        },
+        "prometheus_candidate": {
+          "native_2q": 171,
+          "depth": 375,
+          "compile_seconds": 8.3982,
+          "trials_evaluated": 12,
+          "sha256": "38ea887d9ca4d54f01b90716d415d322da6271f66018c073e8df194e2c06377a"
+        }
+      }
+    },
+    "fresh_dense_8q_s20261339": {
+      "family": "dense",
+      "primary_metric": "squared_hellinger_fidelity",
+      "width": 8,
+      "seed": 20261339,
+      "matched_budget_target_seconds": 5.5437,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 63,
+          "depth": 115,
+          "compile_seconds": 0.0133,
+          "trials_evaluated": 1,
+          "sha256": "0b21f0261e1e14bb3d8de21a3ee4b1a85e7a4d7d393b9a7ba67db493a038f132"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 57,
+          "depth": 109,
+          "compile_seconds": 5.5467,
+          "trials_evaluated": 410,
+          "sha256": "735b8b36cd2ea96c1a12635fd90a57524d855795a9bc51eb1f575d7d9928bd55"
+        },
+        "tket_matched_budget": {
+          "native_2q": 59,
+          "depth": 119,
+          "compile_seconds": 5.5541,
+          "trials_evaluated": 319,
+          "sha256": "dc06d31f6cb48cc843934fe064ef04d4567dc3d1d16204b1bd4abefa1a98b903"
+        },
+        "prometheus_candidate": {
+          "native_2q": 57,
+          "depth": 109,
+          "compile_seconds": 5.5437,
+          "trials_evaluated": 12,
+          "sha256": "5e14beefb61f0289c1c27ecebc60ae2c858c499449013bd8814c65a2cefa471e"
+        }
+      }
+    },
+    "fresh_bipartite_10q_s20261372": {
+      "family": "bipartite",
+      "primary_metric": "squared_hellinger_fidelity",
+      "width": 10,
+      "seed": 20261372,
+      "matched_budget_target_seconds": 4.6996,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 69,
+          "depth": 97,
+          "compile_seconds": 0.0127,
+          "trials_evaluated": 1,
+          "sha256": "d0e5bd74f15a44089c4a567514a085f9e268ce0ec9a721b61c32295c44e92895"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 50,
+          "depth": 88,
+          "compile_seconds": 4.7045,
+          "trials_evaluated": 345,
+          "sha256": "78850387d555a15239f429e6d1f6940eca38977e9d542882507d2f042505ee5a"
+        },
+        "tket_matched_budget": {
+          "native_2q": 59,
+          "depth": 113,
+          "compile_seconds": 4.7046,
+          "trials_evaluated": 303,
+          "sha256": "13431f732a342d7b9f0c7b05ca622264f198d103c73fab42bbbd4c898933c4dd"
+        },
+        "prometheus_candidate": {
+          "native_2q": 51,
+          "depth": 80,
+          "compile_seconds": 4.6996,
+          "trials_evaluated": 12,
+          "sha256": "5f0704017c6f184ac9ce5693d9e800d207e9fc33d2cb5f56bc5008cf462aa374"
+        }
+      }
+    },
+    "fresh_dense_12q_s20261405": {
+      "family": "dense",
+      "primary_metric": "squared_hellinger_fidelity",
+      "width": 12,
+      "seed": 20261405,
+      "matched_budget_target_seconds": 16.4568,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 168,
+          "depth": 223,
+          "compile_seconds": 0.0175,
+          "trials_evaluated": 1,
+          "sha256": "561368cb6bb92f90c5764001dfb0bc56fc8d96210f1c788453b31640c0d51f1b"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 137,
+          "depth": 176,
+          "compile_seconds": 16.4638,
+          "trials_evaluated": 856,
+          "sha256": "4582a2648c73978bd6f7ecbd96e0cddbeb71755bfc0e34df3d5071cf15ad6b77"
+        },
+        "tket_matched_budget": {
+          "native_2q": 164,
+          "depth": 266,
+          "compile_seconds": 16.4742,
+          "trials_evaluated": 339,
+          "sha256": "51298e9124d4b8e61f5323c0aeb8100119c3074d64f5d75bc03b22b175477857"
+        },
+        "prometheus_candidate": {
+          "native_2q": 137,
+          "depth": 177,
+          "compile_seconds": 16.4568,
+          "trials_evaluated": 12,
+          "sha256": "3b93ba048a0f03621f4f52a48f18f300cf0ce8079dc4251649d42c5852064332"
+        }
+      }
+    },
+    "fresh_bipartite_14q_s20261438": {
+      "family": "bipartite",
+      "primary_metric": "squared_hellinger_fidelity",
+      "width": 14,
+      "seed": 20261438,
+      "matched_budget_target_seconds": 6.6625,
+      "candidates": {
+        "sabre_o3_default": {
+          "native_2q": 120,
+          "depth": 166,
+          "compile_seconds": 0.0162,
+          "trials_evaluated": 1,
+          "sha256": "c806eac60b799c5722efb523149b8d2df597d7410a2d9cab6cb6bab151cb3c78"
+        },
+        "sabre_o3_matched_budget": {
+          "native_2q": 96,
+          "depth": 107,
+          "compile_seconds": 6.6663,
+          "trials_evaluated": 399,
+          "sha256": "47bd5f7730f9037a394b98da5089133d63dbf0aa1227b8db38902b48f311c296"
+        },
+        "tket_matched_budget": {
+          "native_2q": 142,
+          "depth": 183,
+          "compile_seconds": 6.6667,
+          "trials_evaluated": 298,
+          "sha256": "b8408bc973d19ef3ff2cb8eda357363cec873bd0e502c479cacd2c6020d28009"
+        },
+        "prometheus_candidate": {
+          "native_2q": 97,
+          "depth": 108,
+          "compile_seconds": 6.6625,
+          "trials_evaluated": 12,
+          "sha256": "1a4d007077da83d62bcf7b6c458c063a5a8600b820dce03327dfadafdafe152f"
+        }
+      }
+    }
+  },
+  "original_pre_execution_commitment_sha256": "d633286bdb7e5cb9e310124f0c46493a11e60bcb344ce010ec464268f3193396"
+}

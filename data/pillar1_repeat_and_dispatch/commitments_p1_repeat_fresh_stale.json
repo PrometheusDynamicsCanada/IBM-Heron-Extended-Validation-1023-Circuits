@@ -1,0 +1,3007 @@
+{
+  "software_version": "Prometheus_Public_Validation_V1.0",
+  "commitment_timestamp_utc": "2026-10-31T12:51:18.186528+00:00",
+  "fresh_calibration_timestamps": {
+    "A": "2026-10-31T09:07:52-03:00",
+    "B": "2026-10-31T09:16:57-03:00",
+    "C": "2026-10-31T09:13:30-03:00"
+  },
+  "stale_calibration_timestamps": {
+    "A": "2026-10-27T18:03:46-03:00",
+    "B": "2026-10-27T18:12:37-03:00",
+    "C": "2026-10-27T18:15:47-03:00"
+  },
+  "instance_slot_policies": {
+    "dense_6q_s260026_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "8b569121eda6f7e68a2704a00f0e7fd65979bfe9d27a38d0d21bbffcf2d1f0ef",
+        "tket": "bbae193e7800dbaedf11a5e75f06028aba7c428c94a329ade77f290b7b7042d2",
+        "prometheus_fresh_candidate": "f8111347496a44d0921ee451667202566627fd9901b85377d85fc1fc33666fb3",
+        "prometheus_stale_candidate": "f8111347496a44d0921ee451667202566627fd9901b85377d85fc1fc33666fb3"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 79,
+          "depth": 159
+        },
+        "tket": {
+          "native_2q": 94,
+          "depth": 168
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 71,
+          "depth": 142
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 71,
+          "depth": 142
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "8b569121eda6f7e68a2704a00f0e7fd65979bfe9d27a38d0d21bbffcf2d1f0ef"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "f8111347496a44d0921ee451667202566627fd9901b85377d85fc1fc33666fb3"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "f8111347496a44d0921ee451667202566627fd9901b85377d85fc1fc33666fb3"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "f8111347496a44d0921ee451667202566627fd9901b85377d85fc1fc33666fb3"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "dense_9q_s260027_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "ed7fdeacd0672f2e289a707a8703e38e33d2950b72ca62caa73919d1e0c27311",
+        "tket": "3962ae434ba815ff16b3a7f31a456a45893065b753c92ce8359c6f20c808a06c",
+        "prometheus_fresh_candidate": "b8c0e7caad20bd583e1bec23f6b7d175b63d558f9b75650c6ed7765572b944fb",
+        "prometheus_stale_candidate": "b8c0e7caad20bd583e1bec23f6b7d175b63d558f9b75650c6ed7765572b944fb"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 210,
+          "depth": 300
+        },
+        "tket": {
+          "native_2q": 252,
+          "depth": 323
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 173,
+          "depth": 237
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 173,
+          "depth": 237
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "ed7fdeacd0672f2e289a707a8703e38e33d2950b72ca62caa73919d1e0c27311"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "b8c0e7caad20bd583e1bec23f6b7d175b63d558f9b75650c6ed7765572b944fb"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "b8c0e7caad20bd583e1bec23f6b7d175b63d558f9b75650c6ed7765572b944fb"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "b8c0e7caad20bd583e1bec23f6b7d175b63d558f9b75650c6ed7765572b944fb"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "dense_12q_s260028_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "a371417ed6ce62ddfe5fea857aa81fe34904d2a7385cdd8e2da7333b3b8209b8",
+        "tket": "9e0ee252f4709b56043fba4953b80c7ae9e26d8f2cfd8915941302d2eb643002",
+        "prometheus_fresh_candidate": "558f21cd8fef6a7faabd13a5ec2589566ab7b1d68f3e192c5ddb3bf37595db61",
+        "prometheus_stale_candidate": "558f21cd8fef6a7faabd13a5ec2589566ab7b1d68f3e192c5ddb3bf37595db61"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 339,
+          "depth": 371
+        },
+        "tket": {
+          "native_2q": 619,
+          "depth": 662
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 295,
+          "depth": 299
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 295,
+          "depth": 299
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "a371417ed6ce62ddfe5fea857aa81fe34904d2a7385cdd8e2da7333b3b8209b8"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "558f21cd8fef6a7faabd13a5ec2589566ab7b1d68f3e192c5ddb3bf37595db61"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "558f21cd8fef6a7faabd13a5ec2589566ab7b1d68f3e192c5ddb3bf37595db61"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "558f21cd8fef6a7faabd13a5ec2589566ab7b1d68f3e192c5ddb3bf37595db61"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "bipartite_6q_s260126_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "c360976733747f947a4c8d0e4120a6a1c5877dc588214ed7072ce93cab08bb6f",
+        "tket": "66892d9cb1a2e2faf210b1e37f79080941969464a6858b0c899dc37eb5e5b989",
+        "prometheus_fresh_candidate": "4705d3e8501b5bf65fb456fb4155abc0654d8c8541d36de6190857fa727fc787",
+        "prometheus_stale_candidate": "a286f3768502b51abfc6930bec4c161295ad888a0be2193dccba83d7643ebee8"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 48,
+          "depth": 109
+        },
+        "tket": {
+          "native_2q": 54,
+          "depth": 106
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 46,
+          "depth": 89
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 46,
+          "depth": 102
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "c360976733747f947a4c8d0e4120a6a1c5877dc588214ed7072ce93cab08bb6f"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "4705d3e8501b5bf65fb456fb4155abc0654d8c8541d36de6190857fa727fc787"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "4705d3e8501b5bf65fb456fb4155abc0654d8c8541d36de6190857fa727fc787"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "a286f3768502b51abfc6930bec4c161295ad888a0be2193dccba83d7643ebee8"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "bipartite_9q_s260127_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "92aad49bdbf0e6a1b3c3b79bde47bdad4ae774c341db7d61085af4c227183c6f",
+        "tket": "d2a8f2df7330b37ac0eb1774ebfcb1f13690f16df6f84ca938e83ccada388eab",
+        "prometheus_fresh_candidate": "6b2c5e9d147ee13cc5ae0a3cbe0f0054efac452deeeba926c272fd5fa4aa9d13",
+        "prometheus_stale_candidate": "10740961eb4051ef415d8e45460977e937bdf16b2ecdd49f585e7e6a58925c0f"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 141,
+          "depth": 222
+        },
+        "tket": {
+          "native_2q": 227,
+          "depth": 327
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 116,
+          "depth": 164
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 130,
+          "depth": 187
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "92aad49bdbf0e6a1b3c3b79bde47bdad4ae774c341db7d61085af4c227183c6f"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "6b2c5e9d147ee13cc5ae0a3cbe0f0054efac452deeeba926c272fd5fa4aa9d13"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "6b2c5e9d147ee13cc5ae0a3cbe0f0054efac452deeeba926c272fd5fa4aa9d13"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "10740961eb4051ef415d8e45460977e937bdf16b2ecdd49f585e7e6a58925c0f"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "bipartite_12q_s260128_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "987242be285d80268f74de1f53b0172d504f39fd7dd17bd455e3a9e74ed800ec",
+        "tket": "827527ce5338f3bb9888cd5e037ce4ace9df0aeb9520dfc2cd3d38f0a273e06d",
+        "prometheus_fresh_candidate": "554dc1d23f6cff09a4e8375afa163ac477e21129650ab67762adc8d8fc690f35",
+        "prometheus_stale_candidate": "d666915cfd9bf7740e47d938456a06a5df47c9f231d8dad4b7870f1ae16aeca5"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 142,
+          "depth": 127
+        },
+        "tket": {
+          "native_2q": 355,
+          "depth": 348
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 144,
+          "depth": 133
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 142,
+          "depth": 127
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "987242be285d80268f74de1f53b0172d504f39fd7dd17bd455e3a9e74ed800ec"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "554dc1d23f6cff09a4e8375afa163ac477e21129650ab67762adc8d8fc690f35"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "987242be285d80268f74de1f53b0172d504f39fd7dd17bd455e3a9e74ed800ec"
+        },
+        "P-full-shared-differs": true,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "d666915cfd9bf7740e47d938456a06a5df47c9f231d8dad4b7870f1ae16aeca5"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "star_6q_s260226_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "29377511d74886d06dc0829d2907fbeaaae9963f5fc1904186a12c0c9ecb8c8f",
+        "tket": "68c27c6dba12dcee5b128567ca0f4ce2368a51827512a88ea79678db0e1ef104",
+        "prometheus_fresh_candidate": "b94995e95e0f83799bd741418a619dd230a648c1f1539469342825c35a265eb7",
+        "prometheus_stale_candidate": "b94995e95e0f83799bd741418a619dd230a648c1f1539469342825c35a265eb7"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 21,
+          "depth": 64
+        },
+        "tket": {
+          "native_2q": 22,
+          "depth": 63
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 21,
+          "depth": 64
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 21,
+          "depth": 64
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "29377511d74886d06dc0829d2907fbeaaae9963f5fc1904186a12c0c9ecb8c8f"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "b94995e95e0f83799bd741418a619dd230a648c1f1539469342825c35a265eb7"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "b94995e95e0f83799bd741418a619dd230a648c1f1539469342825c35a265eb7"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "b94995e95e0f83799bd741418a619dd230a648c1f1539469342825c35a265eb7"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "star_9q_s260227_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "0f13d69351d5c3f3d01fc9941cfc281935b3a01e3e8db04249a1d33e97ef3853",
+        "tket": "dce2728bfa84c72c9df7120e8c46127bffee354c5860f1ba17253b9ebbd3fc6d",
+        "prometheus_fresh_candidate": "9c401340a90c0dd896b6dd37fe9e17c445d0b1432646f447962f0aa9b5624a1f",
+        "prometheus_stale_candidate": "1bedf887037b004aa11cfb78a96c11e040394ba0534d90587a0f12354aae69bb"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 48,
+          "depth": 151
+        },
+        "tket": {
+          "native_2q": 52,
+          "depth": 139
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 48,
+          "depth": 143
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 59,
+          "depth": 125
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "0f13d69351d5c3f3d01fc9941cfc281935b3a01e3e8db04249a1d33e97ef3853"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "9c401340a90c0dd896b6dd37fe9e17c445d0b1432646f447962f0aa9b5624a1f"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "9c401340a90c0dd896b6dd37fe9e17c445d0b1432646f447962f0aa9b5624a1f"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "1bedf887037b004aa11cfb78a96c11e040394ba0534d90587a0f12354aae69bb"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "star_12q_s260228_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "98cf95932adfd3d8d00e73c6347af1e00302980d9ad04dfd924b65e68d92a63e",
+        "tket": "f59b2a5f2b7c1676cf4e4626eb4efc4820373cbfce636b128fd83d8046c56e0f",
+        "prometheus_fresh_candidate": "c346e56cddc74ac4149cfe2ffac9f864041faef0bd698ed2dcb33a2115d0a138",
+        "prometheus_stale_candidate": "8a1a96d44c7a3cc3569ad4ecbd103525e372107fc218b1e1a820833345d2941a"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 86,
+          "depth": 169
+        },
+        "tket": {
+          "native_2q": 82,
+          "depth": 182
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 67,
+          "depth": 149
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 81,
+          "depth": 233
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "f59b2a5f2b7c1676cf4e4626eb4efc4820373cbfce636b128fd83d8046c56e0f"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "c346e56cddc74ac4149cfe2ffac9f864041faef0bd698ed2dcb33a2115d0a138"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "c346e56cddc74ac4149cfe2ffac9f864041faef0bd698ed2dcb33a2115d0a138"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "8a1a96d44c7a3cc3569ad4ecbd103525e372107fc218b1e1a820833345d2941a"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "ising_6q_s260326_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "f708bdd1b50a143357662823b62197ab7840ebf05d9873497931c5ae23b0f8e6",
+        "tket": "3f780157b4258fd71e7603a9f28febcbc59772e33274a2cb0a1594d83a59e5b5",
+        "prometheus_fresh_candidate": "9777803bbf7b6396cc3b8f0ae91ffe3e0d9bd3e38bd1d75334ee2dbf8b5814a1",
+        "prometheus_stale_candidate": "9777803bbf7b6396cc3b8f0ae91ffe3e0d9bd3e38bd1d75334ee2dbf8b5814a1"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 70,
+          "depth": 226
+        },
+        "tket": {
+          "native_2q": 90,
+          "depth": 291
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 68,
+          "depth": 215
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 68,
+          "depth": 215
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "f708bdd1b50a143357662823b62197ab7840ebf05d9873497931c5ae23b0f8e6"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "9777803bbf7b6396cc3b8f0ae91ffe3e0d9bd3e38bd1d75334ee2dbf8b5814a1"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "9777803bbf7b6396cc3b8f0ae91ffe3e0d9bd3e38bd1d75334ee2dbf8b5814a1"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "9777803bbf7b6396cc3b8f0ae91ffe3e0d9bd3e38bd1d75334ee2dbf8b5814a1"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "ising_9q_s260327_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "1837e7d958fe309d8d2d10010535b2baff9a1cc97336c3fe4b6b3f97e00badfe",
+        "tket": "ec32040929c26130393bd0ba09c437d2313a917bf101aae7c559887faec87b5e",
+        "prometheus_fresh_candidate": "e6373338143d31cc1ec45349b76ca613b7dc06f4b8812effd28ff9fb57ab64d3",
+        "prometheus_stale_candidate": "8d8b49bbd08bd7ad48f03dc524fe72b3146d1b2224daec52c490348df5619dfc"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 101,
+          "depth": 310
+        },
+        "tket": {
+          "native_2q": 90,
+          "depth": 343
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 115,
+          "depth": 319
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 123,
+          "depth": 348
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "ec32040929c26130393bd0ba09c437d2313a917bf101aae7c559887faec87b5e"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "e6373338143d31cc1ec45349b76ca613b7dc06f4b8812effd28ff9fb57ab64d3"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "e6373338143d31cc1ec45349b76ca613b7dc06f4b8812effd28ff9fb57ab64d3"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "8d8b49bbd08bd7ad48f03dc524fe72b3146d1b2224daec52c490348df5619dfc"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "ising_12q_s260328_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "f8e9c5918ba79f9c9f612cb2fd74ad2a596e7e4de0e7a50c34cbf0e849c44b01",
+        "tket": "6ef94e741ef415a9cef70c5cc3aed44af44f14203ee33683aa226d87e4367dc6",
+        "prometheus_fresh_candidate": "09f5d42074b22b4513ede638a7518f31181976cb6b9f6042e7a25cbc335ea9c0",
+        "prometheus_stale_candidate": "09f5d42074b22b4513ede638a7518f31181976cb6b9f6042e7a25cbc335ea9c0"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 72,
+          "depth": 287
+        },
+        "tket": {
+          "native_2q": 72,
+          "depth": 362
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 72,
+          "depth": 289
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 72,
+          "depth": 289
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "f8e9c5918ba79f9c9f612cb2fd74ad2a596e7e4de0e7a50c34cbf0e849c44b01"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "09f5d42074b22b4513ede638a7518f31181976cb6b9f6042e7a25cbc335ea9c0"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "09f5d42074b22b4513ede638a7518f31181976cb6b9f6042e7a25cbc335ea9c0"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "09f5d42074b22b4513ede638a7518f31181976cb6b9f6042e7a25cbc335ea9c0"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qaoa_6q_s260426_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "18fbe65dc781c41d7a87bba8629f6939a5f74ac57ba0fb0c4e333491a511b4bc",
+        "tket": "52f667dcfdb506b8dea7558e1eb5490bbf6db61b1a5e4d3b964e1dbcee2eaf8a",
+        "prometheus_fresh_candidate": "4ae71ea070713472090421255366ed84a06229bb3dcc2dae06ffd6992dd25ca9",
+        "prometheus_stale_candidate": "a6c787655a996a214ef36d2b177fb90c42f0ae3b8c31bb778b5c00fe91a06428"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 66,
+          "depth": 164
+        },
+        "tket": {
+          "native_2q": 72,
+          "depth": 175
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 64,
+          "depth": 155
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 64,
+          "depth": 146
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "18fbe65dc781c41d7a87bba8629f6939a5f74ac57ba0fb0c4e333491a511b4bc"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "4ae71ea070713472090421255366ed84a06229bb3dcc2dae06ffd6992dd25ca9"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "4ae71ea070713472090421255366ed84a06229bb3dcc2dae06ffd6992dd25ca9"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "a6c787655a996a214ef36d2b177fb90c42f0ae3b8c31bb778b5c00fe91a06428"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "qaoa_9q_s260427_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "c0addee39344e7be25f9d65f41ee2f7ddb68bfdf80135ce1a02d7ce58e324b57",
+        "tket": "8bacaae4113a2a3981283ba8771ad506518e82a7dc3a0c84c9e31d97df78a9dd",
+        "prometheus_fresh_candidate": "6f40982e513ec72d45e86df7d1c67ea8ea9178a025390e772b6f6054d86a5d7a",
+        "prometheus_stale_candidate": "6f40982e513ec72d45e86df7d1c67ea8ea9178a025390e772b6f6054d86a5d7a"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 212
+        },
+        "tket": {
+          "native_2q": 139,
+          "depth": 218
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 101,
+          "depth": 165
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 101,
+          "depth": 165
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "c0addee39344e7be25f9d65f41ee2f7ddb68bfdf80135ce1a02d7ce58e324b57"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "6f40982e513ec72d45e86df7d1c67ea8ea9178a025390e772b6f6054d86a5d7a"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "6f40982e513ec72d45e86df7d1c67ea8ea9178a025390e772b6f6054d86a5d7a"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "6f40982e513ec72d45e86df7d1c67ea8ea9178a025390e772b6f6054d86a5d7a"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qaoa_12q_s260428_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "f8c70f7f7f89d6ba696f0a5f53e8146ce63c97626fd15c53478ff7065b33085c",
+        "tket": "aa1187aa2f34f41fd1b1fb2b770a0a5661a15246565d3632bd2fde429dcc8b7a",
+        "prometheus_fresh_candidate": "47b53f3f67d6dbd1642690170ec6f090b5aa3ab9efcc40bb4481a771b3b3f875",
+        "prometheus_stale_candidate": "49b27630fd2dd951076fa61058912c7641d6da8fae7fdd39ba1478957a52a7a4"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 138,
+          "depth": 195
+        },
+        "tket": {
+          "native_2q": 198,
+          "depth": 270
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 138,
+          "depth": 194
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 138,
+          "depth": 192
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "f8c70f7f7f89d6ba696f0a5f53e8146ce63c97626fd15c53478ff7065b33085c"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "47b53f3f67d6dbd1642690170ec6f090b5aa3ab9efcc40bb4481a771b3b3f875"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "47b53f3f67d6dbd1642690170ec6f090b5aa3ab9efcc40bb4481a771b3b3f875"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "49b27630fd2dd951076fa61058912c7641d6da8fae7fdd39ba1478957a52a7a4"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "qft_phase_6q_s260526_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "82bb54fa44e57e0e3f6d22e7b503c7bf04d7e864f6075dc472e48b57149e763f",
+        "tket": "9e346fc92c6aafa61bd1c95b1118141151e4b7666ea96cf4751dda21fd9ace2f",
+        "prometheus_fresh_candidate": "aae2ca721b41c886d5916319cbf728c3738767e52d0e18b8d29cf1998f883b87",
+        "prometheus_stale_candidate": "aae2ca721b41c886d5916319cbf728c3738767e52d0e18b8d29cf1998f883b87"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 58,
+          "depth": 137
+        },
+        "tket": {
+          "native_2q": 57,
+          "depth": 187
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 46,
+          "depth": 117
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 46,
+          "depth": 117
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "9e346fc92c6aafa61bd1c95b1118141151e4b7666ea96cf4751dda21fd9ace2f"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "aae2ca721b41c886d5916319cbf728c3738767e52d0e18b8d29cf1998f883b87"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "aae2ca721b41c886d5916319cbf728c3738767e52d0e18b8d29cf1998f883b87"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "aae2ca721b41c886d5916319cbf728c3738767e52d0e18b8d29cf1998f883b87"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qft_phase_9q_s260527_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "2fa88594d52277e3246d249979175264a571ee552f9d343efa3c2cf9e5884b51",
+        "tket": "45bbdbbd23451d1a6c615ed13cf84f807011d39c6c456854b384f4cbc3f4c8e2",
+        "prometheus_fresh_candidate": "8cc4934bed96d96208958251e19d16be0353b6f5d8c5d820fb6fe89df97ec775",
+        "prometheus_stale_candidate": "8cc4934bed96d96208958251e19d16be0353b6f5d8c5d820fb6fe89df97ec775"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 175,
+          "depth": 323
+        },
+        "tket": {
+          "native_2q": 171,
+          "depth": 344
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 145,
+          "depth": 251
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 145,
+          "depth": 251
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "45bbdbbd23451d1a6c615ed13cf84f807011d39c6c456854b384f4cbc3f4c8e2"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8cc4934bed96d96208958251e19d16be0353b6f5d8c5d820fb6fe89df97ec775"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8cc4934bed96d96208958251e19d16be0353b6f5d8c5d820fb6fe89df97ec775"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "8cc4934bed96d96208958251e19d16be0353b6f5d8c5d820fb6fe89df97ec775"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qft_phase_12q_s260528_A": {
+      "backend": "ibm_marrakesh",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "64b1b8e866635fe112b525b381d0f3c8e3a53548edb39798a8c33137a03edd1e",
+        "tket": "56f101b2678ca1c64cd21ceb9e7ce0703204e9b33b0d279c75a761ec0ce6185a",
+        "prometheus_fresh_candidate": "fab40f7805b8ba521bab9cf65a802cf8d8095b08424a03a7c1dbb07927050087",
+        "prometheus_stale_candidate": "fab40f7805b8ba521bab9cf65a802cf8d8095b08424a03a7c1dbb07927050087"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 312,
+          "depth": 442
+        },
+        "tket": {
+          "native_2q": 405,
+          "depth": 639
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 219,
+          "depth": 351
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 219,
+          "depth": 351
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "64b1b8e866635fe112b525b381d0f3c8e3a53548edb39798a8c33137a03edd1e"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "fab40f7805b8ba521bab9cf65a802cf8d8095b08424a03a7c1dbb07927050087"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "fab40f7805b8ba521bab9cf65a802cf8d8095b08424a03a7c1dbb07927050087"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "fab40f7805b8ba521bab9cf65a802cf8d8095b08424a03a7c1dbb07927050087"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "dense_6q_s260026_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "c6ffb5276b19067db6f06e42870f9186687e1ccb8d365781561d9f507330e344",
+        "tket": "bbae193e7800dbaedf11a5e75f06028aba7c428c94a329ade77f290b7b7042d2",
+        "prometheus_fresh_candidate": "2187a16bc3a83bd1c481d014d427b4aefcd7fa698bbe5496d3bdd17bb328b44f",
+        "prometheus_stale_candidate": "2187a16bc3a83bd1c481d014d427b4aefcd7fa698bbe5496d3bdd17bb328b44f"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 79,
+          "depth": 159
+        },
+        "tket": {
+          "native_2q": 94,
+          "depth": 168
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 68,
+          "depth": 152
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 68,
+          "depth": 152
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "c6ffb5276b19067db6f06e42870f9186687e1ccb8d365781561d9f507330e344"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "2187a16bc3a83bd1c481d014d427b4aefcd7fa698bbe5496d3bdd17bb328b44f"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "2187a16bc3a83bd1c481d014d427b4aefcd7fa698bbe5496d3bdd17bb328b44f"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "2187a16bc3a83bd1c481d014d427b4aefcd7fa698bbe5496d3bdd17bb328b44f"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "dense_9q_s260027_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "c42cff19a7d5db7b4ad94b86d57d25be7bca2baac339ecf992b874e295795b83",
+        "tket": "3962ae434ba815ff16b3a7f31a456a45893065b753c92ce8359c6f20c808a06c",
+        "prometheus_fresh_candidate": "d7353d467e75688d8165ddb82ed79de690bfa22b1cbe4351924cd5a089230a22",
+        "prometheus_stale_candidate": "d7353d467e75688d8165ddb82ed79de690bfa22b1cbe4351924cd5a089230a22"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 210,
+          "depth": 302
+        },
+        "tket": {
+          "native_2q": 252,
+          "depth": 323
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 174,
+          "depth": 245
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 174,
+          "depth": 245
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "c42cff19a7d5db7b4ad94b86d57d25be7bca2baac339ecf992b874e295795b83"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "d7353d467e75688d8165ddb82ed79de690bfa22b1cbe4351924cd5a089230a22"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "d7353d467e75688d8165ddb82ed79de690bfa22b1cbe4351924cd5a089230a22"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "d7353d467e75688d8165ddb82ed79de690bfa22b1cbe4351924cd5a089230a22"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "dense_12q_s260028_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "a0bd803f071848ec13e01764abba0b632cf486f3f4fc24914a0eaab770e70cf0",
+        "tket": "9e0ee252f4709b56043fba4953b80c7ae9e26d8f2cfd8915941302d2eb643002",
+        "prometheus_fresh_candidate": "6edf732000374cd924725f5a53550a7c903c00f34cb87707d7d5ed2059c721c6",
+        "prometheus_stale_candidate": "935f6c085de74bec60faf925b526f9fb87ac37216292972f98f0affe60eb3553"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 339,
+          "depth": 375
+        },
+        "tket": {
+          "native_2q": 619,
+          "depth": 662
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 292,
+          "depth": 278
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 295,
+          "depth": 302
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "a0bd803f071848ec13e01764abba0b632cf486f3f4fc24914a0eaab770e70cf0"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "6edf732000374cd924725f5a53550a7c903c00f34cb87707d7d5ed2059c721c6"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "6edf732000374cd924725f5a53550a7c903c00f34cb87707d7d5ed2059c721c6"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "935f6c085de74bec60faf925b526f9fb87ac37216292972f98f0affe60eb3553"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "bipartite_6q_s260126_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "742990bcf2e2699df4f961302ac1aff1ef73b03ddac36fe8a969889898bbbb19",
+        "tket": "66892d9cb1a2e2faf210b1e37f79080941969464a6858b0c899dc37eb5e5b989",
+        "prometheus_fresh_candidate": "9b1f5ccf60f9b9b40c7255898012db33b8a5ac9a4bef79212b95f82e43047692",
+        "prometheus_stale_candidate": "7d23818c78fe1c2af4083dcef91902ea8f100547d04953dc6978125e5e831941"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 48,
+          "depth": 107
+        },
+        "tket": {
+          "native_2q": 54,
+          "depth": 106
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 46,
+          "depth": 93
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 46,
+          "depth": 93
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "742990bcf2e2699df4f961302ac1aff1ef73b03ddac36fe8a969889898bbbb19"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "9b1f5ccf60f9b9b40c7255898012db33b8a5ac9a4bef79212b95f82e43047692"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "9b1f5ccf60f9b9b40c7255898012db33b8a5ac9a4bef79212b95f82e43047692"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "7d23818c78fe1c2af4083dcef91902ea8f100547d04953dc6978125e5e831941"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "bipartite_9q_s260127_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "937a97c80130b890f38f3a4626a1995c5a0357293e01053ff092c5b9f80af8e0",
+        "tket": "d2a8f2df7330b37ac0eb1774ebfcb1f13690f16df6f84ca938e83ccada388eab",
+        "prometheus_fresh_candidate": "e5f4e76db1d06e3c180a797f72c67c0bf74264c75dc31bf043bf2e75371ee52f",
+        "prometheus_stale_candidate": "e5f4e76db1d06e3c180a797f72c67c0bf74264c75dc31bf043bf2e75371ee52f"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 141,
+          "depth": 222
+        },
+        "tket": {
+          "native_2q": 227,
+          "depth": 327
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 116,
+          "depth": 163
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 116,
+          "depth": 163
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "937a97c80130b890f38f3a4626a1995c5a0357293e01053ff092c5b9f80af8e0"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "e5f4e76db1d06e3c180a797f72c67c0bf74264c75dc31bf043bf2e75371ee52f"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "e5f4e76db1d06e3c180a797f72c67c0bf74264c75dc31bf043bf2e75371ee52f"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "e5f4e76db1d06e3c180a797f72c67c0bf74264c75dc31bf043bf2e75371ee52f"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "bipartite_12q_s260128_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "f28b9bdb3df3ad0f2ad442ba0a2486e35734029743c1ea6a9031162e174eb7d5",
+        "tket": "827527ce5338f3bb9888cd5e037ce4ace9df0aeb9520dfc2cd3d38f0a273e06d",
+        "prometheus_fresh_candidate": "07ea6e7e5110cdf1a0f27c6a06b8a83de86618510ca4316ad65026ee32503c74",
+        "prometheus_stale_candidate": "13967d18b817200130c05f563cbb9e0540fbaecc0e7447953882f2cf199e2ca9"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 142,
+          "depth": 127
+        },
+        "tket": {
+          "native_2q": 355,
+          "depth": 348
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 142,
+          "depth": 127
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 142,
+          "depth": 128
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "f28b9bdb3df3ad0f2ad442ba0a2486e35734029743c1ea6a9031162e174eb7d5"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "07ea6e7e5110cdf1a0f27c6a06b8a83de86618510ca4316ad65026ee32503c74"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "07ea6e7e5110cdf1a0f27c6a06b8a83de86618510ca4316ad65026ee32503c74"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "13967d18b817200130c05f563cbb9e0540fbaecc0e7447953882f2cf199e2ca9"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "star_6q_s260226_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "f7187bd7f7dd0abf2129ceda326ba0acfeb00410d72641495d4e802eacd5a514",
+        "tket": "68c27c6dba12dcee5b128567ca0f4ce2368a51827512a88ea79678db0e1ef104",
+        "prometheus_fresh_candidate": "8cbeb09af269856c6b29afe37bb7f51c7e5a08872c428fc2089ca8ca470dad6d",
+        "prometheus_stale_candidate": "8cbeb09af269856c6b29afe37bb7f51c7e5a08872c428fc2089ca8ca470dad6d"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 21,
+          "depth": 65
+        },
+        "tket": {
+          "native_2q": 22,
+          "depth": 63
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 22,
+          "depth": 64
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 22,
+          "depth": 64
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "f7187bd7f7dd0abf2129ceda326ba0acfeb00410d72641495d4e802eacd5a514"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8cbeb09af269856c6b29afe37bb7f51c7e5a08872c428fc2089ca8ca470dad6d"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8cbeb09af269856c6b29afe37bb7f51c7e5a08872c428fc2089ca8ca470dad6d"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "8cbeb09af269856c6b29afe37bb7f51c7e5a08872c428fc2089ca8ca470dad6d"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "star_9q_s260227_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "bc8f9fad0aed5b060d99f90612cd055a4155a81eb1c8b0256ea60bddf52a42d4",
+        "tket": "dce2728bfa84c72c9df7120e8c46127bffee354c5860f1ba17253b9ebbd3fc6d",
+        "prometheus_fresh_candidate": "9113c76db334943326c0a47f251388a729e43866b007f1cc2539978fc57eb369",
+        "prometheus_stale_candidate": "9113c76db334943326c0a47f251388a729e43866b007f1cc2539978fc57eb369"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 48,
+          "depth": 152
+        },
+        "tket": {
+          "native_2q": 52,
+          "depth": 139
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 46,
+          "depth": 104
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 46,
+          "depth": 104
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "bc8f9fad0aed5b060d99f90612cd055a4155a81eb1c8b0256ea60bddf52a42d4"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "9113c76db334943326c0a47f251388a729e43866b007f1cc2539978fc57eb369"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "9113c76db334943326c0a47f251388a729e43866b007f1cc2539978fc57eb369"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "9113c76db334943326c0a47f251388a729e43866b007f1cc2539978fc57eb369"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "star_12q_s260228_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "54d1511e48ab670c7cbef5aa3513cb3d137590e5ff1bdf68db2a682ca75eb968",
+        "tket": "f59b2a5f2b7c1676cf4e4626eb4efc4820373cbfce636b128fd83d8046c56e0f",
+        "prometheus_fresh_candidate": "f1bbd384c9041a454eb05dbdac149f7e80a1df6eb3eda5d1458176eb4f704b77",
+        "prometheus_stale_candidate": "c4d3a94b3fd45b866c112f276ced7a2eaa0ae89e48842aed84856b0fe9311ee0"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 86,
+          "depth": 178
+        },
+        "tket": {
+          "native_2q": 82,
+          "depth": 182
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 94,
+          "depth": 157
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 73,
+          "depth": 163
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "f59b2a5f2b7c1676cf4e4626eb4efc4820373cbfce636b128fd83d8046c56e0f"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "f1bbd384c9041a454eb05dbdac149f7e80a1df6eb3eda5d1458176eb4f704b77"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "f1bbd384c9041a454eb05dbdac149f7e80a1df6eb3eda5d1458176eb4f704b77"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "c4d3a94b3fd45b866c112f276ced7a2eaa0ae89e48842aed84856b0fe9311ee0"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "ising_6q_s260326_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "203755eedc133bd881ebb64fa0a40e092106bb38192a7100a16b3e879e4597d1",
+        "tket": "3f780157b4258fd71e7603a9f28febcbc59772e33274a2cb0a1594d83a59e5b5",
+        "prometheus_fresh_candidate": "5beba2e0ab1d9fcea7831a76906ca34fa47ff78697a61f0662e52411b115da0c",
+        "prometheus_stale_candidate": "5beba2e0ab1d9fcea7831a76906ca34fa47ff78697a61f0662e52411b115da0c"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 70,
+          "depth": 228
+        },
+        "tket": {
+          "native_2q": 90,
+          "depth": 291
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 68,
+          "depth": 211
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 68,
+          "depth": 211
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "203755eedc133bd881ebb64fa0a40e092106bb38192a7100a16b3e879e4597d1"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "5beba2e0ab1d9fcea7831a76906ca34fa47ff78697a61f0662e52411b115da0c"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "5beba2e0ab1d9fcea7831a76906ca34fa47ff78697a61f0662e52411b115da0c"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "5beba2e0ab1d9fcea7831a76906ca34fa47ff78697a61f0662e52411b115da0c"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "ising_9q_s260327_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "c5276be4fe29a03b6fc915e11f01f99e269af9a684f1422d0ffcba7e9886d52d",
+        "tket": "ec32040929c26130393bd0ba09c437d2313a917bf101aae7c559887faec87b5e",
+        "prometheus_fresh_candidate": "da0e479a6f96d756524b4ce724fcbbe7a20987d1e8bcabe32757fc8f252ec6d7",
+        "prometheus_stale_candidate": "ce9a6481532996a38173218dd7a2fa0613979816e27cb962dd5da29ecaec7af8"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 101,
+          "depth": 309
+        },
+        "tket": {
+          "native_2q": 90,
+          "depth": 343
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 81,
+          "depth": 270
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 81,
+          "depth": 262
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "ec32040929c26130393bd0ba09c437d2313a917bf101aae7c559887faec87b5e"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "da0e479a6f96d756524b4ce724fcbbe7a20987d1e8bcabe32757fc8f252ec6d7"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "da0e479a6f96d756524b4ce724fcbbe7a20987d1e8bcabe32757fc8f252ec6d7"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "ce9a6481532996a38173218dd7a2fa0613979816e27cb962dd5da29ecaec7af8"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "ising_12q_s260328_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "2cce077624a446ccd1cab887deef8c7a2cb182ab7317331905717f1b2d20f825",
+        "tket": "6ef94e741ef415a9cef70c5cc3aed44af44f14203ee33683aa226d87e4367dc6",
+        "prometheus_fresh_candidate": "fcdd63d4929d2358e77a499db8d5ff6c66ea20f315448dd97cccde96453c86a9",
+        "prometheus_stale_candidate": "b120ea4915f9c344701ffbc190daa50502857a6206cf7114afd6db23518e2797"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 72,
+          "depth": 289
+        },
+        "tket": {
+          "native_2q": 72,
+          "depth": 362
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 72,
+          "depth": 290
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 72,
+          "depth": 291
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "2cce077624a446ccd1cab887deef8c7a2cb182ab7317331905717f1b2d20f825"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "fcdd63d4929d2358e77a499db8d5ff6c66ea20f315448dd97cccde96453c86a9"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "fcdd63d4929d2358e77a499db8d5ff6c66ea20f315448dd97cccde96453c86a9"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "b120ea4915f9c344701ffbc190daa50502857a6206cf7114afd6db23518e2797"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "qaoa_6q_s260426_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "cec764338c4f80532b0e5cdff7bbc65abbf50f31424ee70b32dc7afdaa81c062",
+        "tket": "52f667dcfdb506b8dea7558e1eb5490bbf6db61b1a5e4d3b964e1dbcee2eaf8a",
+        "prometheus_fresh_candidate": "0b91ca4f1ac54399007f1ae88d55946e4e6709346f1c2c897174228081e92bdd",
+        "prometheus_stale_candidate": "787712ba13990326dcc6bbbbd3387bde70801d12773f31f23272bc68c12cc898"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 66,
+          "depth": 170
+        },
+        "tket": {
+          "native_2q": 72,
+          "depth": 175
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 64,
+          "depth": 156
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 64,
+          "depth": 151
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "cec764338c4f80532b0e5cdff7bbc65abbf50f31424ee70b32dc7afdaa81c062"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "0b91ca4f1ac54399007f1ae88d55946e4e6709346f1c2c897174228081e92bdd"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "0b91ca4f1ac54399007f1ae88d55946e4e6709346f1c2c897174228081e92bdd"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "787712ba13990326dcc6bbbbd3387bde70801d12773f31f23272bc68c12cc898"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "qaoa_9q_s260427_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "893193b89932e6ec7ff3bd2726f1f72d46c5cfe4ee702b0f6f72afbe54138d11",
+        "tket": "8bacaae4113a2a3981283ba8771ad506518e82a7dc3a0c84c9e31d97df78a9dd",
+        "prometheus_fresh_candidate": "feb89d630a7f2a33aff2b7c398590fe5771c936f1b63685742cf4385f7b62bd0",
+        "prometheus_stale_candidate": "feb89d630a7f2a33aff2b7c398590fe5771c936f1b63685742cf4385f7b62bd0"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 214
+        },
+        "tket": {
+          "native_2q": 139,
+          "depth": 218
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 106,
+          "depth": 164
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 106,
+          "depth": 164
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "893193b89932e6ec7ff3bd2726f1f72d46c5cfe4ee702b0f6f72afbe54138d11"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "feb89d630a7f2a33aff2b7c398590fe5771c936f1b63685742cf4385f7b62bd0"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "feb89d630a7f2a33aff2b7c398590fe5771c936f1b63685742cf4385f7b62bd0"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "feb89d630a7f2a33aff2b7c398590fe5771c936f1b63685742cf4385f7b62bd0"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qaoa_12q_s260428_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "0d9c9c03baefa85d5a53d875230132c58bf7562a4168716964758b1d437b7431",
+        "tket": "aa1187aa2f34f41fd1b1fb2b770a0a5661a15246565d3632bd2fde429dcc8b7a",
+        "prometheus_fresh_candidate": "b4cb40608a25c1a61db988457327218e5fcbc2c7314ba00a51a8fbcf1b9a8df3",
+        "prometheus_stale_candidate": "b4cb40608a25c1a61db988457327218e5fcbc2c7314ba00a51a8fbcf1b9a8df3"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 138,
+          "depth": 197
+        },
+        "tket": {
+          "native_2q": 198,
+          "depth": 270
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 138,
+          "depth": 195
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 138,
+          "depth": 195
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "0d9c9c03baefa85d5a53d875230132c58bf7562a4168716964758b1d437b7431"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "b4cb40608a25c1a61db988457327218e5fcbc2c7314ba00a51a8fbcf1b9a8df3"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "b4cb40608a25c1a61db988457327218e5fcbc2c7314ba00a51a8fbcf1b9a8df3"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "b4cb40608a25c1a61db988457327218e5fcbc2c7314ba00a51a8fbcf1b9a8df3"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qft_phase_6q_s260526_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "b91a47fb0e4e93a721d6693fccbee72be9fc8a7e5fd18f487cb1194d9c5c1bc2",
+        "tket": "9e346fc92c6aafa61bd1c95b1118141151e4b7666ea96cf4751dda21fd9ace2f",
+        "prometheus_fresh_candidate": "3e91054c93a2f058e944ed50bae05b498ca6da09db742ef8a08f0b45ab637f08",
+        "prometheus_stale_candidate": "3e91054c93a2f058e944ed50bae05b498ca6da09db742ef8a08f0b45ab637f08"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 58,
+          "depth": 137
+        },
+        "tket": {
+          "native_2q": 57,
+          "depth": 187
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 46,
+          "depth": 113
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 46,
+          "depth": 113
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "9e346fc92c6aafa61bd1c95b1118141151e4b7666ea96cf4751dda21fd9ace2f"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "3e91054c93a2f058e944ed50bae05b498ca6da09db742ef8a08f0b45ab637f08"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "3e91054c93a2f058e944ed50bae05b498ca6da09db742ef8a08f0b45ab637f08"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "3e91054c93a2f058e944ed50bae05b498ca6da09db742ef8a08f0b45ab637f08"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qft_phase_9q_s260527_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "e84e715d55c94e709142082f3aa5097105d394f7b71cb2d5a1e11e02c8c6790a",
+        "tket": "45bbdbbd23451d1a6c615ed13cf84f807011d39c6c456854b384f4cbc3f4c8e2",
+        "prometheus_fresh_candidate": "c4398c5b3a2726400c3c634820559041a6746c8315a334d3b9bccf0bed3832f6",
+        "prometheus_stale_candidate": "c4398c5b3a2726400c3c634820559041a6746c8315a334d3b9bccf0bed3832f6"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 175,
+          "depth": 323
+        },
+        "tket": {
+          "native_2q": 171,
+          "depth": 344
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 145,
+          "depth": 256
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 145,
+          "depth": 256
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "45bbdbbd23451d1a6c615ed13cf84f807011d39c6c456854b384f4cbc3f4c8e2"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "c4398c5b3a2726400c3c634820559041a6746c8315a334d3b9bccf0bed3832f6"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "c4398c5b3a2726400c3c634820559041a6746c8315a334d3b9bccf0bed3832f6"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "c4398c5b3a2726400c3c634820559041a6746c8315a334d3b9bccf0bed3832f6"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qft_phase_12q_s260528_B": {
+      "backend": "ibm_fez",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "48aa6bc72054e51cc6ca87f81cdfefdc3d61633ad26fdbe9be98370efd35c143",
+        "tket": "56f101b2678ca1c64cd21ceb9e7ce0703204e9b33b0d279c75a761ec0ce6185a",
+        "prometheus_fresh_candidate": "2a1804955e4563e43acce9177cc40825a1c8da431b5c58b4559c6302f4dd5714",
+        "prometheus_stale_candidate": "f58ede49481ba8c25b0dba1fe09f7fa5a3318ba79a18735940a1671d10e42b51"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 312,
+          "depth": 442
+        },
+        "tket": {
+          "native_2q": 405,
+          "depth": 639
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 267,
+          "depth": 330
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 219,
+          "depth": 351
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "48aa6bc72054e51cc6ca87f81cdfefdc3d61633ad26fdbe9be98370efd35c143"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "2a1804955e4563e43acce9177cc40825a1c8da431b5c58b4559c6302f4dd5714"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "2a1804955e4563e43acce9177cc40825a1c8da431b5c58b4559c6302f4dd5714"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "f58ede49481ba8c25b0dba1fe09f7fa5a3318ba79a18735940a1671d10e42b51"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "dense_6q_s260026_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "4cbedb7fee9289c859b2053a7b246739fc9532cdeee725d692be24c330e64ba1",
+        "tket": "bbae193e7800dbaedf11a5e75f06028aba7c428c94a329ade77f290b7b7042d2",
+        "prometheus_fresh_candidate": "aaecd86ee9ce82c116015cb619d51d05720a64bc976f1a91d7558c79b2a20669",
+        "prometheus_stale_candidate": "aaecd86ee9ce82c116015cb619d51d05720a64bc976f1a91d7558c79b2a20669"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 79,
+          "depth": 159
+        },
+        "tket": {
+          "native_2q": 94,
+          "depth": 168
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 65,
+          "depth": 132
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 65,
+          "depth": 132
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "4cbedb7fee9289c859b2053a7b246739fc9532cdeee725d692be24c330e64ba1"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "aaecd86ee9ce82c116015cb619d51d05720a64bc976f1a91d7558c79b2a20669"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "aaecd86ee9ce82c116015cb619d51d05720a64bc976f1a91d7558c79b2a20669"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "aaecd86ee9ce82c116015cb619d51d05720a64bc976f1a91d7558c79b2a20669"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "dense_9q_s260027_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "f418beee5126f336e299bf29432543d00f3764497da27b8dc9dfa59fa3659ad4",
+        "tket": "3962ae434ba815ff16b3a7f31a456a45893065b753c92ce8359c6f20c808a06c",
+        "prometheus_fresh_candidate": "fb8f497755a2bdbc4056809656aaff8c73c56abd5cf26d0ce160a2de5b1af30c",
+        "prometheus_stale_candidate": "de1838b0b0f8f35265613049c338a9bb22246ce6289b6357ca1b7e8b15be30f2"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 210,
+          "depth": 304
+        },
+        "tket": {
+          "native_2q": 252,
+          "depth": 323
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 172,
+          "depth": 225
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 170,
+          "depth": 229
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "f418beee5126f336e299bf29432543d00f3764497da27b8dc9dfa59fa3659ad4"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "fb8f497755a2bdbc4056809656aaff8c73c56abd5cf26d0ce160a2de5b1af30c"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "fb8f497755a2bdbc4056809656aaff8c73c56abd5cf26d0ce160a2de5b1af30c"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "de1838b0b0f8f35265613049c338a9bb22246ce6289b6357ca1b7e8b15be30f2"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "dense_12q_s260028_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "5e5f7f71f91c380dbd97f9314793aa2e75dbfa6b172f0615c7900d9545dc36ff",
+        "tket": "9e0ee252f4709b56043fba4953b80c7ae9e26d8f2cfd8915941302d2eb643002",
+        "prometheus_fresh_candidate": "0c82c858669d7592ce80316102e1ba991640d6bc4a23c8ef45168f60e89b861c",
+        "prometheus_stale_candidate": "7105890ae00376fdcc878dc35aa93471b7ba7e41f6a116825c21d89829f266dd"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 339,
+          "depth": 372
+        },
+        "tket": {
+          "native_2q": 619,
+          "depth": 662
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 288,
+          "depth": 276
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 302,
+          "depth": 305
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "5e5f7f71f91c380dbd97f9314793aa2e75dbfa6b172f0615c7900d9545dc36ff"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "0c82c858669d7592ce80316102e1ba991640d6bc4a23c8ef45168f60e89b861c"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "0c82c858669d7592ce80316102e1ba991640d6bc4a23c8ef45168f60e89b861c"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "7105890ae00376fdcc878dc35aa93471b7ba7e41f6a116825c21d89829f266dd"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "bipartite_6q_s260126_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "d36acc686d4d41a8246c11daecaa4f19ef4dd6324b1eec6c2242ee6bf9a3e9ff",
+        "tket": "66892d9cb1a2e2faf210b1e37f79080941969464a6858b0c899dc37eb5e5b989",
+        "prometheus_fresh_candidate": "1248963af53e324f96b4755bde103c605bdfe4612aab410d35747d496ed6fe98",
+        "prometheus_stale_candidate": "1248963af53e324f96b4755bde103c605bdfe4612aab410d35747d496ed6fe98"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 48,
+          "depth": 110
+        },
+        "tket": {
+          "native_2q": 54,
+          "depth": 106
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 46,
+          "depth": 89
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 46,
+          "depth": 89
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "d36acc686d4d41a8246c11daecaa4f19ef4dd6324b1eec6c2242ee6bf9a3e9ff"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "1248963af53e324f96b4755bde103c605bdfe4612aab410d35747d496ed6fe98"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "1248963af53e324f96b4755bde103c605bdfe4612aab410d35747d496ed6fe98"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "1248963af53e324f96b4755bde103c605bdfe4612aab410d35747d496ed6fe98"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "bipartite_9q_s260127_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "953fdd8343fee92a60fb82ac6eccdf4e8686756f405fa93ba694eaecf0beb743",
+        "tket": "d2a8f2df7330b37ac0eb1774ebfcb1f13690f16df6f84ca938e83ccada388eab",
+        "prometheus_fresh_candidate": "e51ee752186599d002023e01a674503c3d74d496f3dd952c1eeaec84705b903e",
+        "prometheus_stale_candidate": "e51ee752186599d002023e01a674503c3d74d496f3dd952c1eeaec84705b903e"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 141,
+          "depth": 222
+        },
+        "tket": {
+          "native_2q": 227,
+          "depth": 327
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 116,
+          "depth": 166
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 116,
+          "depth": 166
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "953fdd8343fee92a60fb82ac6eccdf4e8686756f405fa93ba694eaecf0beb743"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "e51ee752186599d002023e01a674503c3d74d496f3dd952c1eeaec84705b903e"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "e51ee752186599d002023e01a674503c3d74d496f3dd952c1eeaec84705b903e"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "e51ee752186599d002023e01a674503c3d74d496f3dd952c1eeaec84705b903e"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "bipartite_12q_s260128_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "2dac9d0eeea601a2cf5105827f9217ec581b40a6711ed3aa1d6441b5345ba507",
+        "tket": "827527ce5338f3bb9888cd5e037ce4ace9df0aeb9520dfc2cd3d38f0a273e06d",
+        "prometheus_fresh_candidate": "af9815566ec869263c2b02c1d7caa21bf78e0bd01bef383961d4d3898c083daf",
+        "prometheus_stale_candidate": "d69ea66ce5acd3d814401a7fe08ea78a8bd759eecb33d43bcc6daeca4914c1b7"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 142,
+          "depth": 128
+        },
+        "tket": {
+          "native_2q": 355,
+          "depth": 348
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 142,
+          "depth": 127
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 142,
+          "depth": 128
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "2dac9d0eeea601a2cf5105827f9217ec581b40a6711ed3aa1d6441b5345ba507"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "af9815566ec869263c2b02c1d7caa21bf78e0bd01bef383961d4d3898c083daf"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "af9815566ec869263c2b02c1d7caa21bf78e0bd01bef383961d4d3898c083daf"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "d69ea66ce5acd3d814401a7fe08ea78a8bd759eecb33d43bcc6daeca4914c1b7"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "star_6q_s260226_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "4803a97388ddfe25e85105eef8153c143748980760505320b1023ad7b1ad6dd7",
+        "tket": "68c27c6dba12dcee5b128567ca0f4ce2368a51827512a88ea79678db0e1ef104",
+        "prometheus_fresh_candidate": "53a4c366dbe7a00cab65a5d3bfa649e7f7a4d244a76a4c5d0f39b4cd5bb02cb7",
+        "prometheus_stale_candidate": "53a4c366dbe7a00cab65a5d3bfa649e7f7a4d244a76a4c5d0f39b4cd5bb02cb7"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 21,
+          "depth": 63
+        },
+        "tket": {
+          "native_2q": 22,
+          "depth": 63
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 22,
+          "depth": 67
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 22,
+          "depth": 67
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "4803a97388ddfe25e85105eef8153c143748980760505320b1023ad7b1ad6dd7"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "53a4c366dbe7a00cab65a5d3bfa649e7f7a4d244a76a4c5d0f39b4cd5bb02cb7"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "53a4c366dbe7a00cab65a5d3bfa649e7f7a4d244a76a4c5d0f39b4cd5bb02cb7"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "53a4c366dbe7a00cab65a5d3bfa649e7f7a4d244a76a4c5d0f39b4cd5bb02cb7"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "star_9q_s260227_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "480cd6271997d0f4669eb705f52f66f671eed6df9ac8e5211f75bf810bd22e24",
+        "tket": "dce2728bfa84c72c9df7120e8c46127bffee354c5860f1ba17253b9ebbd3fc6d",
+        "prometheus_fresh_candidate": "00643510c542bde0dabc628467490cec3bc392c24c26e8c3a4cbe78a295a8f43",
+        "prometheus_stale_candidate": "dbbfe9cc327f04a8e326af84b20f1451a53964ef068282173539d20f496fc2be"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 48,
+          "depth": 152
+        },
+        "tket": {
+          "native_2q": 52,
+          "depth": 139
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 48,
+          "depth": 114
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 46,
+          "depth": 103
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "480cd6271997d0f4669eb705f52f66f671eed6df9ac8e5211f75bf810bd22e24"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "00643510c542bde0dabc628467490cec3bc392c24c26e8c3a4cbe78a295a8f43"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "00643510c542bde0dabc628467490cec3bc392c24c26e8c3a4cbe78a295a8f43"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "dbbfe9cc327f04a8e326af84b20f1451a53964ef068282173539d20f496fc2be"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "star_12q_s260228_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "8d2bd22a4f10e543bd32b9f058ce81d3de9fd296cc0cb338b9027fe461e8441b",
+        "tket": "f59b2a5f2b7c1676cf4e4626eb4efc4820373cbfce636b128fd83d8046c56e0f",
+        "prometheus_fresh_candidate": "097bb21e7eb23bef53a8cb7238c093fb2750fb84b3643b68a087833612641dc4",
+        "prometheus_stale_candidate": "097bb21e7eb23bef53a8cb7238c093fb2750fb84b3643b68a087833612641dc4"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 86,
+          "depth": 174
+        },
+        "tket": {
+          "native_2q": 82,
+          "depth": 182
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 64,
+          "depth": 163
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 64,
+          "depth": 163
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "f59b2a5f2b7c1676cf4e4626eb4efc4820373cbfce636b128fd83d8046c56e0f"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "097bb21e7eb23bef53a8cb7238c093fb2750fb84b3643b68a087833612641dc4"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "097bb21e7eb23bef53a8cb7238c093fb2750fb84b3643b68a087833612641dc4"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "097bb21e7eb23bef53a8cb7238c093fb2750fb84b3643b68a087833612641dc4"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "ising_6q_s260326_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "8ed04eca5724fa42a77c1f5423462bedfb76483b513f6f549c5181eafeac1f2d",
+        "tket": "3f780157b4258fd71e7603a9f28febcbc59772e33274a2cb0a1594d83a59e5b5",
+        "prometheus_fresh_candidate": "8446c506146faabb4f378c802db14fa2f1bef472b72eaed798eb4fe45da6bb09",
+        "prometheus_stale_candidate": "8446c506146faabb4f378c802db14fa2f1bef472b72eaed798eb4fe45da6bb09"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 70,
+          "depth": 228
+        },
+        "tket": {
+          "native_2q": 90,
+          "depth": 291
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 68,
+          "depth": 212
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 68,
+          "depth": 212
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "8ed04eca5724fa42a77c1f5423462bedfb76483b513f6f549c5181eafeac1f2d"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8446c506146faabb4f378c802db14fa2f1bef472b72eaed798eb4fe45da6bb09"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8446c506146faabb4f378c802db14fa2f1bef472b72eaed798eb4fe45da6bb09"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "8446c506146faabb4f378c802db14fa2f1bef472b72eaed798eb4fe45da6bb09"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "ising_9q_s260327_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "4ca95bf7128dce0cb0f0764055b8965b58e787038d5856753a49f9ce5fd77bdd",
+        "tket": "ec32040929c26130393bd0ba09c437d2313a917bf101aae7c559887faec87b5e",
+        "prometheus_fresh_candidate": "8741ae2c8503911c1bebfb4be18c80013072905b082ece969bb740d4bf94322f",
+        "prometheus_stale_candidate": "1db2aed5f2e640ea245213d3d6d52fff7d926dda7e0f9dd30e4ad69c05b74c18"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 101,
+          "depth": 306
+        },
+        "tket": {
+          "native_2q": 90,
+          "depth": 343
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 81,
+          "depth": 267
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 81,
+          "depth": 268
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "ec32040929c26130393bd0ba09c437d2313a917bf101aae7c559887faec87b5e"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8741ae2c8503911c1bebfb4be18c80013072905b082ece969bb740d4bf94322f"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8741ae2c8503911c1bebfb4be18c80013072905b082ece969bb740d4bf94322f"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "1db2aed5f2e640ea245213d3d6d52fff7d926dda7e0f9dd30e4ad69c05b74c18"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "ising_12q_s260328_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "5c8ef528b585c441f252cda999b12c5483a603ece3ae0589a064931d38320e28",
+        "tket": "6ef94e741ef415a9cef70c5cc3aed44af44f14203ee33683aa226d87e4367dc6",
+        "prometheus_fresh_candidate": "99b9b4a0aa9c131fa8b4b884a3fa59bd9dabbf461f3e924431f1a135334de841",
+        "prometheus_stale_candidate": "b2b4c605c20ca91bcd64330141cc44c44babde545d08c12ba470acaac99fb561"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 72,
+          "depth": 287
+        },
+        "tket": {
+          "native_2q": 72,
+          "depth": 362
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 72,
+          "depth": 290
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 72,
+          "depth": 290
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "5c8ef528b585c441f252cda999b12c5483a603ece3ae0589a064931d38320e28"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "99b9b4a0aa9c131fa8b4b884a3fa59bd9dabbf461f3e924431f1a135334de841"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "99b9b4a0aa9c131fa8b4b884a3fa59bd9dabbf461f3e924431f1a135334de841"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "b2b4c605c20ca91bcd64330141cc44c44babde545d08c12ba470acaac99fb561"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "qaoa_6q_s260426_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "cfb52e681f903249bd0afad039995d140b4a5e9499e44c350d6aef1610b67e14",
+        "tket": "52f667dcfdb506b8dea7558e1eb5490bbf6db61b1a5e4d3b964e1dbcee2eaf8a",
+        "prometheus_fresh_candidate": "8925b075ddb87a559b614d37dc081d02364f685020c4d08f24b60dd1d4d15b1a",
+        "prometheus_stale_candidate": "2af6472469db1f7de6270774264c37a2af57f2d13b66ae20946f05d571af9008"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 66,
+          "depth": 170
+        },
+        "tket": {
+          "native_2q": 72,
+          "depth": 175
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 64,
+          "depth": 192
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 64,
+          "depth": 155
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "cfb52e681f903249bd0afad039995d140b4a5e9499e44c350d6aef1610b67e14"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8925b075ddb87a559b614d37dc081d02364f685020c4d08f24b60dd1d4d15b1a"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8925b075ddb87a559b614d37dc081d02364f685020c4d08f24b60dd1d4d15b1a"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "2af6472469db1f7de6270774264c37a2af57f2d13b66ae20946f05d571af9008"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "qaoa_9q_s260427_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "a77d5bdb355c914c7edf4ba5da8eb355a125a6f84d3f86816bd11910c8a636b8",
+        "tket": "8bacaae4113a2a3981283ba8771ad506518e82a7dc3a0c84c9e31d97df78a9dd",
+        "prometheus_fresh_candidate": "3d2891a1895ff5c57259afd4ac4ff7c8899b4d91af229344b762bd379ae82118",
+        "prometheus_stale_candidate": "50be4ee0b04a3a9edbc176382e6130f414e60223ca8e653b495ac82c3d58665c"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 209
+        },
+        "tket": {
+          "native_2q": 139,
+          "depth": 218
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 101,
+          "depth": 168
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 106,
+          "depth": 164
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "a77d5bdb355c914c7edf4ba5da8eb355a125a6f84d3f86816bd11910c8a636b8"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "3d2891a1895ff5c57259afd4ac4ff7c8899b4d91af229344b762bd379ae82118"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "3d2891a1895ff5c57259afd4ac4ff7c8899b4d91af229344b762bd379ae82118"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "50be4ee0b04a3a9edbc176382e6130f414e60223ca8e653b495ac82c3d58665c"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "qaoa_12q_s260428_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": true,
+      "candidate_hashes": {
+        "sabre_o3": "7d94674020abae79e028dd6a77f762a4b5e2abdb71d2a7a34e89702e515d8f40",
+        "tket": "aa1187aa2f34f41fd1b1fb2b770a0a5661a15246565d3632bd2fde429dcc8b7a",
+        "prometheus_fresh_candidate": "89a9a927a2b19166b47acedbda2d851254c64c65cf07cee5c7f1dcdcd890408a",
+        "prometheus_stale_candidate": "d5082cd14f536299e65a6dc39ac7bc960151f29286d1432fe8dbe0f7695d63ef"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 138,
+          "depth": 196
+        },
+        "tket": {
+          "native_2q": 198,
+          "depth": 270
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 138,
+          "depth": 191
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 138,
+          "depth": 190
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "7d94674020abae79e028dd6a77f762a4b5e2abdb71d2a7a34e89702e515d8f40"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "89a9a927a2b19166b47acedbda2d851254c64c65cf07cee5c7f1dcdcd890408a"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "89a9a927a2b19166b47acedbda2d851254c64c65cf07cee5c7f1dcdcd890408a"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "d5082cd14f536299e65a6dc39ac7bc960151f29286d1432fe8dbe0f7695d63ef"
+        },
+        "P-full-e2e-differs": true
+      }
+    },
+    "qft_phase_6q_s260526_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "cf2703e99280b24caf475061fcd39038fa958d25ba395d60b3287188bcc7e780",
+        "tket": "9e346fc92c6aafa61bd1c95b1118141151e4b7666ea96cf4751dda21fd9ace2f",
+        "prometheus_fresh_candidate": "819731601164806c755d430a7d002d6d9e1ae554f0ac050cd3d85c2dc34c1379",
+        "prometheus_stale_candidate": "819731601164806c755d430a7d002d6d9e1ae554f0ac050cd3d85c2dc34c1379"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 58,
+          "depth": 141
+        },
+        "tket": {
+          "native_2q": 57,
+          "depth": 187
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 46,
+          "depth": 116
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 46,
+          "depth": 116
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "9e346fc92c6aafa61bd1c95b1118141151e4b7666ea96cf4751dda21fd9ace2f"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "819731601164806c755d430a7d002d6d9e1ae554f0ac050cd3d85c2dc34c1379"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "819731601164806c755d430a7d002d6d9e1ae554f0ac050cd3d85c2dc34c1379"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "819731601164806c755d430a7d002d6d9e1ae554f0ac050cd3d85c2dc34c1379"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qft_phase_9q_s260527_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "424b56e0a6a32339e4b2639a4eed4186cdbf391205a85468e1dc4dbf514821ab",
+        "tket": "45bbdbbd23451d1a6c615ed13cf84f807011d39c6c456854b384f4cbc3f4c8e2",
+        "prometheus_fresh_candidate": "8168eacd1b494b6f584927f46ecee7c71911a52d99382a8329e590d8e4bfae2c",
+        "prometheus_stale_candidate": "8168eacd1b494b6f584927f46ecee7c71911a52d99382a8329e590d8e4bfae2c"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 175,
+          "depth": 322
+        },
+        "tket": {
+          "native_2q": 171,
+          "depth": 344
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 145,
+          "depth": 256
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 145,
+          "depth": 256
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "tket",
+          "chosen_sha256": "45bbdbbd23451d1a6c615ed13cf84f807011d39c6c456854b384f4cbc3f4c8e2"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8168eacd1b494b6f584927f46ecee7c71911a52d99382a8329e590d8e4bfae2c"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "8168eacd1b494b6f584927f46ecee7c71911a52d99382a8329e590d8e4bfae2c"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "8168eacd1b494b6f584927f46ecee7c71911a52d99382a8329e590d8e4bfae2c"
+        },
+        "P-full-e2e-differs": false
+      }
+    },
+    "qft_phase_12q_s260528_C": {
+      "backend": "ibm_kingston",
+      "candidate_gen_differs": false,
+      "candidate_hashes": {
+        "sabre_o3": "f5b404522b63946d03b03afa5fc5940e3b2533b39d5d10ecbaed9d20700613b7",
+        "tket": "56f101b2678ca1c64cd21ceb9e7ce0703204e9b33b0d279c75a761ec0ce6185a",
+        "prometheus_fresh_candidate": "cc55115876a9808117bb86ed7e64772fdb676b56169f53f28229a74fa2828eae",
+        "prometheus_stale_candidate": "cc55115876a9808117bb86ed7e64772fdb676b56169f53f28229a74fa2828eae"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 312,
+          "depth": 439
+        },
+        "tket": {
+          "native_2q": 405,
+          "depth": 639
+        },
+        "prometheus_fresh_candidate": {
+          "native_2q": 219,
+          "depth": 356
+        },
+        "prometheus_stale_candidate": {
+          "native_2q": 219,
+          "depth": 356
+        }
+      },
+      "policies": {
+        "ST": {
+          "chosen_pipeline": "sabre_o3",
+          "chosen_sha256": "f5b404522b63946d03b03afa5fc5940e3b2533b39d5d10ecbaed9d20700613b7"
+        },
+        "P-full-shared-fresh": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "cc55115876a9808117bb86ed7e64772fdb676b56169f53f28229a74fa2828eae"
+        },
+        "P-full-shared-stale": {
+          "chosen_pipeline": "prometheus_fresh_candidate",
+          "chosen_sha256": "cc55115876a9808117bb86ed7e64772fdb676b56169f53f28229a74fa2828eae"
+        },
+        "P-full-shared-differs": false,
+        "P-full-e2e-stale": {
+          "chosen_pipeline": "prometheus_stale_candidate",
+          "chosen_sha256": "cc55115876a9808117bb86ed7e64772fdb676b56169f53f28229a74fa2828eae"
+        },
+        "P-full-e2e-differs": false
+      }
+    }
+  },
+  "cross_qpu_dispatch_commitments": {
+    "dense_6q_s260026": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "aaecd86ee9ce82c116015cb619d51d05720a64bc976f1a91d7558c79b2a20669"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "aaecd86ee9ce82c116015cb619d51d05720a64bc976f1a91d7558c79b2a20669"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "aaecd86ee9ce82c116015cb619d51d05720a64bc976f1a91d7558c79b2a20669"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": false
+    },
+    "dense_9q_s260027": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "fb8f497755a2bdbc4056809656aaff8c73c56abd5cf26d0ce160a2de5b1af30c"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "fb8f497755a2bdbc4056809656aaff8c73c56abd5cf26d0ce160a2de5b1af30c"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "de1838b0b0f8f35265613049c338a9bb22246ce6289b6357ca1b7e8b15be30f2"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": true
+    },
+    "dense_12q_s260028": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "0c82c858669d7592ce80316102e1ba991640d6bc4a23c8ef45168f60e89b861c"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "0c82c858669d7592ce80316102e1ba991640d6bc4a23c8ef45168f60e89b861c"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "7105890ae00376fdcc878dc35aa93471b7ba7e41f6a116825c21d89829f266dd"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": true
+    },
+    "bipartite_6q_s260126": {
+      "fresh_dispatch": {
+        "slot": "B",
+        "backend": "ibm_fez",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "9b1f5ccf60f9b9b40c7255898012db33b8a5ac9a4bef79212b95f82e43047692"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "1248963af53e324f96b4755bde103c605bdfe4612aab410d35747d496ed6fe98"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "1248963af53e324f96b4755bde103c605bdfe4612aab410d35747d496ed6fe98"
+      },
+      "shared_dispatch_differs": true,
+      "e2e_dispatch_differs": true
+    },
+    "bipartite_9q_s260127": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "e51ee752186599d002023e01a674503c3d74d496f3dd952c1eeaec84705b903e"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "e51ee752186599d002023e01a674503c3d74d496f3dd952c1eeaec84705b903e"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "e51ee752186599d002023e01a674503c3d74d496f3dd952c1eeaec84705b903e"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": false
+    },
+    "bipartite_12q_s260128": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "af9815566ec869263c2b02c1d7caa21bf78e0bd01bef383961d4d3898c083daf"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "af9815566ec869263c2b02c1d7caa21bf78e0bd01bef383961d4d3898c083daf"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "d69ea66ce5acd3d814401a7fe08ea78a8bd759eecb33d43bcc6daeca4914c1b7"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": true
+    },
+    "star_6q_s260226": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "53a4c366dbe7a00cab65a5d3bfa649e7f7a4d244a76a4c5d0f39b4cd5bb02cb7"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "53a4c366dbe7a00cab65a5d3bfa649e7f7a4d244a76a4c5d0f39b4cd5bb02cb7"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "53a4c366dbe7a00cab65a5d3bfa649e7f7a4d244a76a4c5d0f39b4cd5bb02cb7"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": false
+    },
+    "star_9q_s260227": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "00643510c542bde0dabc628467490cec3bc392c24c26e8c3a4cbe78a295a8f43"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "00643510c542bde0dabc628467490cec3bc392c24c26e8c3a4cbe78a295a8f43"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "dbbfe9cc327f04a8e326af84b20f1451a53964ef068282173539d20f496fc2be"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": true
+    },
+    "star_12q_s260228": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "097bb21e7eb23bef53a8cb7238c093fb2750fb84b3643b68a087833612641dc4"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "097bb21e7eb23bef53a8cb7238c093fb2750fb84b3643b68a087833612641dc4"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "097bb21e7eb23bef53a8cb7238c093fb2750fb84b3643b68a087833612641dc4"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": false
+    },
+    "ising_6q_s260326": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "8446c506146faabb4f378c802db14fa2f1bef472b72eaed798eb4fe45da6bb09"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "8446c506146faabb4f378c802db14fa2f1bef472b72eaed798eb4fe45da6bb09"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "8446c506146faabb4f378c802db14fa2f1bef472b72eaed798eb4fe45da6bb09"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": false
+    },
+    "ising_9q_s260327": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "8741ae2c8503911c1bebfb4be18c80013072905b082ece969bb740d4bf94322f"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "8741ae2c8503911c1bebfb4be18c80013072905b082ece969bb740d4bf94322f"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "1db2aed5f2e640ea245213d3d6d52fff7d926dda7e0f9dd30e4ad69c05b74c18"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": true
+    },
+    "ising_12q_s260328": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "99b9b4a0aa9c131fa8b4b884a3fa59bd9dabbf461f3e924431f1a135334de841"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "99b9b4a0aa9c131fa8b4b884a3fa59bd9dabbf461f3e924431f1a135334de841"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "b2b4c605c20ca91bcd64330141cc44c44babde545d08c12ba470acaac99fb561"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": true
+    },
+    "qaoa_6q_s260426": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "8925b075ddb87a559b614d37dc081d02364f685020c4d08f24b60dd1d4d15b1a"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "8925b075ddb87a559b614d37dc081d02364f685020c4d08f24b60dd1d4d15b1a"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "2af6472469db1f7de6270774264c37a2af57f2d13b66ae20946f05d571af9008"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": true
+    },
+    "qaoa_9q_s260427": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "3d2891a1895ff5c57259afd4ac4ff7c8899b4d91af229344b762bd379ae82118"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "3d2891a1895ff5c57259afd4ac4ff7c8899b4d91af229344b762bd379ae82118"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "50be4ee0b04a3a9edbc176382e6130f414e60223ca8e653b495ac82c3d58665c"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": true
+    },
+    "qaoa_12q_s260428": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "89a9a927a2b19166b47acedbda2d851254c64c65cf07cee5c7f1dcdcd890408a"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "89a9a927a2b19166b47acedbda2d851254c64c65cf07cee5c7f1dcdcd890408a"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "d5082cd14f536299e65a6dc39ac7bc960151f29286d1432fe8dbe0f7695d63ef"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": true
+    },
+    "qft_phase_6q_s260526": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "819731601164806c755d430a7d002d6d9e1ae554f0ac050cd3d85c2dc34c1379"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "819731601164806c755d430a7d002d6d9e1ae554f0ac050cd3d85c2dc34c1379"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "819731601164806c755d430a7d002d6d9e1ae554f0ac050cd3d85c2dc34c1379"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": false
+    },
+    "qft_phase_9q_s260527": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "8168eacd1b494b6f584927f46ecee7c71911a52d99382a8329e590d8e4bfae2c"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "8168eacd1b494b6f584927f46ecee7c71911a52d99382a8329e590d8e4bfae2c"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "8168eacd1b494b6f584927f46ecee7c71911a52d99382a8329e590d8e4bfae2c"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": false
+    },
+    "qft_phase_12q_s260528": {
+      "fresh_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "cc55115876a9808117bb86ed7e64772fdb676b56169f53f28229a74fa2828eae"
+      },
+      "stale_shared_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_fresh_candidate",
+        "sha256": "cc55115876a9808117bb86ed7e64772fdb676b56169f53f28229a74fa2828eae"
+      },
+      "stale_e2e_dispatch": {
+        "slot": "C",
+        "backend": "ibm_kingston",
+        "pipeline": "prometheus_stale_candidate",
+        "sha256": "cc55115876a9808117bb86ed7e64772fdb676b56169f53f28229a74fa2828eae"
+      },
+      "shared_dispatch_differs": false,
+      "e2e_dispatch_differs": false
+    }
+  },
+  "original_pre_execution_commitment_sha256": "6ac105ab67b996ac745dc9c175387bb4c4ae4ee686b427262abd11bec0144f77"
+}

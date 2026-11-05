@@ -1,0 +1,3982 @@
+{
+  "jobs": [
+    {
+      "file": "p1_slotA_ibm_marrakesh_block1.json",
+      "batch_label": "Pillar1_SlotA_ibm_marrakesh_Block1",
+      "backend": "ibm_marrakesh",
+      "job_id": "dbittfohoj4c73b6u790",
+      "submission_timestamp": "2026-10-31T12:27:43.257644Z",
+      "completion_timestamp": "2026-10-31T12:28:16.669623Z",
+      "circuits": 72,
+      "shots": 73728,
+      "est_seconds": 22.54,
+      "rep_seconds": 18.432,
+      "qpu_charge_seconds": 23.0,
+      "exec_seconds": 20.2169,
+      "wall_seconds": 33.41
+    },
+    {
+      "file": "p1_slotA_ibm_marrakesh_block2.json",
+      "batch_label": "Pillar1_SlotA_ibm_marrakesh_Block2",
+      "backend": "ibm_marrakesh",
+      "job_id": "dbiu8iohoj4c73b6ulc0",
+      "submission_timestamp": "2026-10-31T12:51:21.701127+00:00",
+      "completion_timestamp": "2026-10-31T12:51:54.974258+00:00",
+      "circuits": 72,
+      "shots": 73728,
+      "est_seconds": 22.541,
+      "rep_seconds": 18.432,
+      "qpu_charge_seconds": 23.0,
+      "exec_seconds": 20.2172,
+      "wall_seconds": 33.27
+    },
+    {
+      "file": "p1_slotB_ibm_fez_block1.json",
+      "batch_label": "Pillar1_SlotB_ibm_fez_Block1",
+      "backend": "ibm_fez",
+      "job_id": "dbiu8rlep8hs73aoj580",
+      "submission_timestamp": "2026-10-31T12:51:57.459557+00:00",
+      "completion_timestamp": "2026-10-31T12:53:26.102279+00:00",
+      "circuits": 72,
+      "shots": 73728,
+      "est_seconds": 22.451,
+      "rep_seconds": 18.432,
+      "qpu_charge_seconds": 22.0,
+      "exec_seconds": 19.5695,
+      "wall_seconds": 88.64
+    },
+    {
+      "file": "p1_slotB_ibm_fez_block2.json",
+      "batch_label": "Pillar1_SlotB_ibm_fez_Block2",
+      "backend": "ibm_fez",
+      "job_id": "dbiu9i6ne4hc73bfapd0",
+      "submission_timestamp": "2026-10-31T12:53:27.261863+00:00",
+      "completion_timestamp": "2026-10-31T12:54:07.940695+00:00",
+      "circuits": 72,
+      "shots": 73728,
+      "est_seconds": 22.451,
+      "rep_seconds": 18.432,
+      "qpu_charge_seconds": 22.0,
+      "exec_seconds": 19.5695,
+      "wall_seconds": 40.68
+    },
+    {
+      "file": "p1_slotC_ibm_kingston_block1.json",
+      "batch_label": "Pillar1_SlotC_ibm_kingston_Block1",
+      "backend": "ibm_kingston",
+      "job_id": "dbiu9slep8hs73aoj6sg",
+      "submission_timestamp": "2026-10-31T12:54:09.477052+00:00",
+      "completion_timestamp": "2026-10-31T12:54:41.373338+00:00",
+      "circuits": 72,
+      "shots": 73728,
+      "est_seconds": 22.49,
+      "rep_seconds": 18.432,
+      "qpu_charge_seconds": 22.0,
+      "exec_seconds": 19.8099,
+      "wall_seconds": 31.9
+    },
+    {
+      "file": "p1_slotC_ibm_kingston_block2.json",
+      "batch_label": "Pillar1_SlotC_ibm_kingston_Block2",
+      "backend": "ibm_kingston",
+      "job_id": "dbiua4ohoj4c73b6unm0",
+      "submission_timestamp": "2026-10-31T12:54:42.688165+00:00",
+      "completion_timestamp": "2026-10-31T12:55:13.519506+00:00",
+      "circuits": 72,
+      "shots": 73728,
+      "est_seconds": 22.49,
+      "rep_seconds": 18.432,
+      "qpu_charge_seconds": 22.0,
+      "exec_seconds": 19.8099,
+      "wall_seconds": 30.83
+    },
+    {
+      "file": "p2_slotA_ibm_marrakesh_mirror_and_controls.json",
+      "batch_label": "Pillar2_SlotA_ibm_marrakesh_Mirror93",
+      "backend": "ibm_marrakesh",
+      "job_id": "dbiv5hhkdqps738vgd70",
+      "submission_timestamp": "2026-10-31T13:53:06.544138+00:00",
+      "completion_timestamp": "2026-10-31T13:54:03.331901+00:00",
+      "circuits": 93,
+      "shots": 95232,
+      "est_seconds": 28.692,
+      "rep_seconds": 23.808,
+      "qpu_charge_seconds": 29.0,
+      "exec_seconds": 26.7106,
+      "wall_seconds": 56.79
+    },
+    {
+      "file": "p2_slotB_ibm_fez_mirror_and_controls.json",
+      "batch_label": "Pillar2_SlotB_ibm_fez_Mirror93",
+      "backend": "ibm_fez",
+      "job_id": "dbiv5vpffo6c73b8igig",
+      "submission_timestamp": "2026-10-31T13:54:05.359855+00:00",
+      "completion_timestamp": "2026-10-31T13:54:50.446114+00:00",
+      "circuits": 93,
+      "shots": 95232,
+      "est_seconds": 28.613,
+      "rep_seconds": 23.808,
+      "qpu_charge_seconds": 28.0,
+      "exec_seconds": 25.6869,
+      "wall_seconds": 45.09
+    },
+    {
+      "file": "p2_slotC_ibm_kingston_mirror_and_controls.json",
+      "batch_label": "Pillar2_SlotC_ibm_kingston_Mirror93",
+      "backend": "ibm_kingston",
+      "job_id": "dbiv6bhffo6c73b8ih70",
+      "submission_timestamp": "2026-10-31T13:54:52.320587+00:00",
+      "completion_timestamp": "2026-10-31T13:58:15.223059+00:00",
+      "circuits": 93,
+      "shots": 95232,
+      "est_seconds": 28.637,
+      "rep_seconds": 23.808,
+      "qpu_charge_seconds": 28.0,
+      "exec_seconds": 26.0139,
+      "wall_seconds": 202.9
+    },
+    {
+      "file": "p3_slotA_ibm_marrakesh_qaoa_trajectory.json",
+      "batch_label": "Pillar3_SlotA_ibm_marrakesh_QAOA72",
+      "backend": "ibm_marrakesh",
+      "job_id": "dbivd3gnceqs73aitni0",
+      "submission_timestamp": "2026-10-31T14:09:17.260365+00:00",
+      "completion_timestamp": "2026-10-31T14:09:50.621083+00:00",
+      "circuits": 72,
+      "shots": 73728,
+      "est_seconds": 23.013,
+      "rep_seconds": 18.432,
+      "qpu_charge_seconds": 23.0,
+      "exec_seconds": 20.6379,
+      "wall_seconds": 33.36
+    },
+    {
+      "file": "p3_slotB_ibm_fez_qaoa_trajectory.json",
+      "batch_label": "Pillar3_SlotB_ibm_fez_QAOA72",
+      "backend": "ibm_fez",
+      "job_id": "dbivdc56p51s73cjoi2g",
+      "submission_timestamp": "2026-10-31T14:09:51.871884+00:00",
+      "completion_timestamp": "2026-10-31T14:10:24.128236+00:00",
+      "circuits": 72,
+      "shots": 73728,
+      "est_seconds": 22.937,
+      "rep_seconds": 18.432,
+      "qpu_charge_seconds": 22.0,
+      "exec_seconds": 19.8116,
+      "wall_seconds": 32.26
+    },
+    {
+      "file": "p3_slotC_ibm_kingston_qaoa_trajectory.json",
+      "batch_label": "Pillar3_SlotC_ibm_kingston_QAOA72",
+      "backend": "ibm_kingston",
+      "job_id": "dbivdkgnceqs73aiton0",
+      "submission_timestamp": "2026-10-31T14:10:25.780494+00:00",
+      "completion_timestamp": "2026-10-31T14:10:57.561340+00:00",
+      "circuits": 72,
+      "shots": 73728,
+      "est_seconds": 23.008,
+      "rep_seconds": 18.432,
+      "qpu_charge_seconds": 22.0,
+      "exec_seconds": 20.0866,
+      "wall_seconds": 31.78
+    },
+    {
+      "file": "p4_slotA_ibm_marrakesh_block1_packed.json",
+      "batch_label": "Pillar4_ibm_marrakesh_Block1_Packed48",
+      "backend": "ibm_marrakesh",
+      "job_id": "dbivgepkdqps738vh4g0",
+      "submission_timestamp": "2026-10-31T14:16:26.509644+00:00",
+      "completion_timestamp": "2026-10-31T14:17:13.934695+00:00",
+      "circuits": 48,
+      "shots": 49152,
+      "est_seconds": 16.077,
+      "rep_seconds": 12.288,
+      "qpu_charge_seconds": 16.0,
+      "exec_seconds": 13.5397,
+      "wall_seconds": 47.43
+    },
+    {
+      "file": "p4_slotA_ibm_marrakesh_block2_isolated_prometheus_candidate.json",
+      "batch_label": "Pillar4_ibm_marrakesh_Block2_Isolated_prometheus_candidate",
+      "backend": "ibm_marrakesh",
+      "job_id": "dbivh4hffo6c73b8j7tg",
+      "submission_timestamp": "2026-10-31T14:17:54.164655+00:00",
+      "completion_timestamp": "2026-10-31T14:18:18.817742+00:00",
+      "circuits": 12,
+      "shots": 12288,
+      "est_seconds": 6.264,
+      "rep_seconds": 3.072,
+      "qpu_charge_seconds": 6.0,
+      "exec_seconds": 3.3772,
+      "wall_seconds": 24.65
+    },
+    {
+      "file": "p4_slotA_ibm_marrakesh_block2_isolated_sabre_o3_default.json",
+      "batch_label": "Pillar4_ibm_marrakesh_Block2_Isolated_sabre_o3_default",
+      "backend": "ibm_marrakesh",
+      "job_id": "dbivgqonceqs73aitvng",
+      "submission_timestamp": "2026-10-31T14:17:15.467222+00:00",
+      "completion_timestamp": "2026-10-31T14:17:25.597136+00:00",
+      "circuits": 12,
+      "shots": 12288,
+      "est_seconds": 6.28,
+      "rep_seconds": 3.072,
+      "qpu_charge_seconds": 6.0,
+      "exec_seconds": 3.3789,
+      "wall_seconds": 10.13
+    },
+    {
+      "file": "p4_slotA_ibm_marrakesh_block2_isolated_sabre_o3_matched_budget.json",
+      "batch_label": "Pillar4_ibm_marrakesh_Block2_Isolated_sabre_o3_matched_budget",
+      "backend": "ibm_marrakesh",
+      "job_id": "dbivgtpffo6c73b8j7gg",
+      "submission_timestamp": "2026-10-31T14:17:27.274813+00:00",
+      "completion_timestamp": "2026-10-31T14:17:39.016171+00:00",
+      "circuits": 12,
+      "shots": 12288,
+      "est_seconds": 6.261,
+      "rep_seconds": 3.072,
+      "qpu_charge_seconds": 6.0,
+      "exec_seconds": 3.3753,
+      "wall_seconds": 11.74
+    },
+    {
+      "file": "p4_slotA_ibm_marrakesh_block2_isolated_tket_matched_budget.json",
+      "batch_label": "Pillar4_ibm_marrakesh_Block2_Isolated_tket_matched_budget",
+      "backend": "ibm_marrakesh",
+      "job_id": "dbivh18nceqs73aiu02g",
+      "submission_timestamp": "2026-10-31T14:17:40.812305+00:00",
+      "completion_timestamp": "2026-10-31T14:17:52.685618+00:00",
+      "circuits": 12,
+      "shots": 12288,
+      "est_seconds": 6.272,
+      "rep_seconds": 3.072,
+      "qpu_charge_seconds": 6.0,
+      "exec_seconds": 3.4075,
+      "wall_seconds": 11.87
+    }
+  ],
+  "total_qpu_charge_seconds": 326.0,
+  "total_exec_seconds": 285.219,
+  "total_est_seconds": 331.017,
+  "total_circuits": 1023,
+  "total_shots": 1047552,
+  "p1_diff_counts": {
+    "candidate_gen_differs": 25,
+    "P-full-shared-differs": 1,
+    "P-full-e2e-differs": 25
+  },
+  "p1_repeat_summary": {
+    "sabre_o3": {
+      "oct27_fh_mean_med": [
+        0.569637,
+        0.67045
+      ],
+      "oct27_fb_mean_med": [
+        0.723146,
+        0.818809
+      ],
+      "oct27_tvd_mean_med": [
+        0.494798,
+        0.418982
+      ],
+      "oct31_fh_mean_med": [
+        0.612095,
+        0.679445
+      ],
+      "oct31_fb_mean_med": [
+        0.759012,
+        0.824284
+      ],
+      "oct31_tvd_mean_med": [
+        0.44419,
+        0.386598
+      ]
+    },
+    "tket": {
+      "oct27_fh_mean_med": [
+        0.481137,
+        0.53088
+      ],
+      "oct27_fb_mean_med": [
+        0.64189,
+        0.728592
+      ],
+      "oct27_tvd_mean_med": [
+        0.574764,
+        0.540574
+      ],
+      "oct31_fh_mean_med": [
+        0.525869,
+        0.626551
+      ],
+      "oct31_fb_mean_med": [
+        0.675249,
+        0.791549
+      ],
+      "oct31_tvd_mean_med": [
+        0.530534,
+        0.483261
+      ]
+    },
+    "prometheus_candidate": {
+      "oct27_fh_mean_med": [
+        0.617628,
+        0.721854
+      ],
+      "oct27_fb_mean_med": [
+        0.761893,
+        0.84962
+      ],
+      "oct27_tvd_mean_med": [
+        0.450495,
+        0.397852
+      ],
+      "oct31_fh_mean_med": [
+        0.645276,
+        0.724309
+      ],
+      "oct31_fb_mean_med": [
+        0.783807,
+        0.851063
+      ],
+      "oct31_tvd_mean_med": [
+        0.408149,
+        0.346053
+      ]
+    }
+  },
+  "p1_policies": {
+    "S": {
+      "fh_mean_med": [
+        0.612095,
+        0.683687
+      ],
+      "fb_mean_med": [
+        0.759012,
+        0.826812
+      ],
+      "tvd_mean_med": [
+        0.44419,
+        0.388771
+      ],
+      "fh_b2_mean_med": [
+        0.615199,
+        0.688905
+      ],
+      "tvd_b2_mean_med": [
+        0.441031,
+        0.381573
+      ],
+      "2q_mean_med": [
+        122.833333,
+        93.5
+      ],
+      "depth_mean_med": [
+        221.222222,
+        203.0
+      ]
+    },
+    "T": {
+      "fh_mean_med": [
+        0.525869,
+        0.621307
+      ],
+      "fb_mean_med": [
+        0.675249,
+        0.788193
+      ],
+      "tvd_mean_med": [
+        0.530534,
+        0.480774
+      ],
+      "fh_b2_mean_med": [
+        0.526258,
+        0.610534
+      ],
+      "tvd_b2_mean_med": [
+        0.529948,
+        0.483261
+      ],
+      "2q_mean_med": [
+        169.5,
+        92.0
+      ],
+      "depth_mean_med": [
+        285.944444,
+        280.5
+      ]
+    },
+    "ST": {
+      "fh_mean_med": [
+        0.595971,
+        0.689068
+      ],
+      "fb_mean_med": [
+        0.737912,
+        0.830055
+      ],
+      "tvd_mean_med": [
+        0.460709,
+        0.385044
+      ],
+      "fh_b2_mean_med": [
+        0.596929,
+        0.694323
+      ],
+      "tvd_b2_mean_med": [
+        0.460249,
+        0.378067
+      ],
+      "2q_mean_med": [
+        121.722222,
+        86.0
+      ],
+      "depth_mean_med": [
+        227.5,
+        203.0
+      ]
+    },
+    "P-full-shared-fresh": {
+      "fh_mean_med": [
+        0.645276,
+        0.723269
+      ],
+      "fb_mean_med": [
+        0.783807,
+        0.850423
+      ],
+      "tvd_mean_med": [
+        0.408149,
+        0.344885
+      ],
+      "fh_b2_mean_med": [
+        0.650242,
+        0.730752
+      ],
+      "tvd_b2_mean_med": [
+        0.4028,
+        0.352342
+      ],
+      "2q_mean_med": [
+        108.018519,
+        81.0
+      ],
+      "depth_mean_med": [
+        189.833333,
+        165.5
+      ]
+    },
+    "P-full-shared-stale": {
+      "fh_mean_med": [
+        0.645433,
+        0.723269
+      ],
+      "fb_mean_med": [
+        0.783948,
+        0.850423
+      ],
+      "tvd_mean_med": [
+        0.408013,
+        0.344885
+      ],
+      "fh_b2_mean_med": [
+        0.650178,
+        0.730752
+      ],
+      "tvd_b2_mean_med": [
+        0.403003,
+        0.352342
+      ],
+      "2q_mean_med": [
+        107.981481,
+        81.0
+      ],
+      "depth_mean_med": [
+        189.722222,
+        165.5
+      ]
+    },
+    "P-full-e2e-stale": {
+      "fh_mean_med": [
+        0.645966,
+        0.733456
+      ],
+      "fb_mean_med": [
+        0.783587,
+        0.856323
+      ],
+      "tvd_mean_med": [
+        0.408646,
+        0.32312
+      ],
+      "fh_b2_mean_med": [
+        0.650002,
+        0.74602
+      ],
+      "tvd_b2_mean_med": [
+        0.403554,
+        0.313699
+      ],
+      "2q_mean_med": [
+        107.907407,
+        81.0
+      ],
+      "depth_mean_med": [
+        192.351852,
+        165.5
+      ]
+    }
+  },
+  "p1_pipelines": {
+    "sabre_o3": {
+      "fh_mean_med": [
+        0.612095,
+        0.683687
+      ],
+      "fb_mean_med": [
+        0.759012,
+        0.826812
+      ],
+      "tvd_mean_med": [
+        0.44419,
+        0.388771
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        122.833333,
+        93.5
+      ],
+      "depth_mean_med": [
+        221.222222,
+        203.0
+      ]
+    },
+    "tket": {
+      "fh_mean_med": [
+        0.525869,
+        0.621307
+      ],
+      "fb_mean_med": [
+        0.675249,
+        0.788193
+      ],
+      "tvd_mean_med": [
+        0.530534,
+        0.480774
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        169.5,
+        92.0
+      ],
+      "depth_mean_med": [
+        285.944444,
+        280.5
+      ]
+    },
+    "prometheus_fresh_candidate": {
+      "fh_mean_med": [
+        0.645276,
+        0.723269
+      ],
+      "fb_mean_med": [
+        0.783807,
+        0.850423
+      ],
+      "tvd_mean_med": [
+        0.408149,
+        0.344885
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        108.018519,
+        81.0
+      ],
+      "depth_mean_med": [
+        189.833333,
+        165.5
+      ]
+    },
+    "prometheus_stale_candidate": {
+      "fh_mean_med": [
+        0.645966,
+        0.733456
+      ],
+      "fb_mean_med": [
+        0.783587,
+        0.856323
+      ],
+      "tvd_mean_med": [
+        0.408646,
+        0.32312
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        107.907407,
+        81.0
+      ],
+      "depth_mean_med": [
+        192.351852,
+        165.5
+      ]
+    }
+  },
+  "p1_slots": {
+    "A_sabre_o3": {
+      "fh_mean_med": [
+        0.591076,
+        0.675831
+      ],
+      "fb_mean_med": [
+        0.744918,
+        0.822026
+      ],
+      "tvd_mean_med": [
+        0.466831,
+        0.40905
+      ],
+      "2q_mean_med": [
+        122.833333,
+        93.5
+      ],
+      "depth_mean_med": [
+        220.444444,
+        203.5
+      ]
+    },
+    "A_tket": {
+      "fh_mean_med": [
+        0.487097,
+        0.611026
+      ],
+      "fb_mean_med": [
+        0.64654,
+        0.781401
+      ],
+      "tvd_mean_med": [
+        0.574686,
+        0.505945
+      ],
+      "2q_mean_med": [
+        169.5,
+        92.0
+      ],
+      "depth_mean_med": [
+        285.944444,
+        280.5
+      ]
+    },
+    "A_prometheus_fresh_candidate": {
+      "fh_mean_med": [
+        0.610155,
+        0.688756
+      ],
+      "fb_mean_med": [
+        0.761327,
+        0.829707
+      ],
+      "tvd_mean_med": [
+        0.44371,
+        0.396655
+      ],
+      "2q_mean_med": [
+        108.277778,
+        86.5
+      ],
+      "depth_mean_med": [
+        193.111111,
+        164.5
+      ]
+    },
+    "A_prometheus_stale_candidate": {
+      "fh_mean_med": [
+        0.622758,
+        0.707729
+      ],
+      "fb_mean_med": [
+        0.768689,
+        0.841186
+      ],
+      "tvd_mean_med": [
+        0.434208,
+        0.369084
+      ],
+      "2q_mean_med": [
+        110.777778,
+        91.0
+      ],
+      "depth_mean_med": [
+        199.444444,
+        189.5
+      ]
+    },
+    "B_sabre_o3": {
+      "fh_mean_med": [
+        0.603368,
+        0.65331
+      ],
+      "fb_mean_med": [
+        0.752435,
+        0.808051
+      ],
+      "tvd_mean_med": [
+        0.452512,
+        0.396734
+      ],
+      "2q_mean_med": [
+        122.833333,
+        93.5
+      ],
+      "depth_mean_med": [
+        222.0,
+        205.5
+      ]
+    },
+    "B_tket": {
+      "fh_mean_med": [
+        0.50657,
+        0.59799
+      ],
+      "fb_mean_med": [
+        0.644993,
+        0.773208
+      ],
+      "tvd_mean_med": [
+        0.551645,
+        0.487041
+      ],
+      "2q_mean_med": [
+        169.5,
+        92.0
+      ],
+      "depth_mean_med": [
+        285.944444,
+        280.5
+      ]
+    },
+    "B_prometheus_fresh_candidate": {
+      "fh_mean_med": [
+        0.640612,
+        0.749433
+      ],
+      "fb_mean_med": [
+        0.775332,
+        0.865639
+      ],
+      "tvd_mean_med": [
+        0.413752,
+        0.316027
+      ],
+      "2q_mean_med": [
+        110.388889,
+        87.5
+      ],
+      "depth_mean_med": [
+        187.111111,
+        163.5
+      ]
+    },
+    "B_prometheus_stale_candidate": {
+      "fh_mean_med": [
+        0.631222,
+        0.724946
+      ],
+      "fb_mean_med": [
+        0.768775,
+        0.851231
+      ],
+      "tvd_mean_med": [
+        0.423384,
+        0.325443
+      ],
+      "2q_mean_med": [
+        106.722222,
+        77.0
+      ],
+      "depth_mean_med": [
+        189.333333,
+        163.5
+      ]
+    },
+    "C_sabre_o3": {
+      "fh_mean_med": [
+        0.64184,
+        0.760108
+      ],
+      "fb_mean_med": [
+        0.779682,
+        0.871733
+      ],
+      "tvd_mean_med": [
+        0.413226,
+        0.347412
+      ],
+      "2q_mean_med": [
+        122.833333,
+        93.5
+      ],
+      "depth_mean_med": [
+        221.222222,
+        202.5
+      ]
+    },
+    "C_tket": {
+      "fh_mean_med": [
+        0.58394,
+        0.660224
+      ],
+      "fb_mean_med": [
+        0.734212,
+        0.812261
+      ],
+      "tvd_mean_med": [
+        0.465271,
+        0.424769
+      ],
+      "2q_mean_med": [
+        169.5,
+        92.0
+      ],
+      "depth_mean_med": [
+        285.944444,
+        280.5
+      ]
+    },
+    "C_prometheus_fresh_candidate": {
+      "fh_mean_med": [
+        0.685063,
+        0.78063
+      ],
+      "fb_mean_med": [
+        0.814762,
+        0.883468
+      ],
+      "tvd_mean_med": [
+        0.366985,
+        0.328394
+      ],
+      "2q_mean_med": [
+        105.388889,
+        76.5
+      ],
+      "depth_mean_med": [
+        189.277778,
+        179.5
+      ]
+    },
+    "C_prometheus_stale_candidate": {
+      "fh_mean_med": [
+        0.683918,
+        0.795475
+      ],
+      "fb_mean_med": [
+        0.813297,
+        0.891874
+      ],
+      "tvd_mean_med": [
+        0.368345,
+        0.298805
+      ],
+      "2q_mean_med": [
+        106.222222,
+        76.5
+      ],
+      "depth_mean_med": [
+        188.277778,
+        165.0
+      ]
+    }
+  },
+  "p1_dispatch": {
+    "fresh_dispatch_fh": [
+      0.684625,
+      0.78063
+    ],
+    "fresh_dispatch_fb": [
+      0.814538,
+      0.883468
+    ],
+    "fresh_dispatch_tvd": [
+      0.367557,
+      0.328394
+    ],
+    "fresh_dispatch_b2_fh": [
+      0.6859,
+      0.779204
+    ],
+    "stale_shared_dispatch_fh": [
+      0.685063,
+      0.78063
+    ],
+    "stale_shared_dispatch_tvd": [
+      0.366985,
+      0.328394
+    ],
+    "stale_e2e_dispatch_fh": [
+      0.683918,
+      0.795475
+    ],
+    "stale_e2e_dispatch_tvd": [
+      0.368345,
+      0.298805
+    ],
+    "shared_dispatch_diff_count": 1,
+    "e2e_dispatch_diff_count": 10,
+    "slotA_prom_fh": [
+      0.610155,
+      0.688756
+    ],
+    "slotB_prom_fh": [
+      0.640612,
+      0.749433
+    ],
+    "slotC_prom_fh": [
+      0.685063,
+      0.78063
+    ],
+    "slotA_sabre_fh": [
+      0.591076,
+      0.675831
+    ],
+    "slotB_sabre_fh": [
+      0.603368,
+      0.65331
+    ],
+    "slotC_sabre_fh": [
+      0.64184,
+      0.760108
+    ],
+    "block1_oracle_verified_on_block2_fh": [
+      0.697465,
+      0.779204
+    ]
+  },
+  "p2_overall": {
+    "sabre_o3": {
+      "survival_mean_med": [
+        0.145496,
+        0.009278
+      ],
+      "bit_acc_mean_med": [
+        0.764205,
+        0.780643
+      ],
+      "pol_mean_med": [
+        0.528409,
+        0.561286
+      ],
+      "2q_mean_med": [
+        725.142857,
+        482.5
+      ],
+      "depth_mean_med": [
+        283.666667,
+        240.0
+      ]
+    },
+    "tket": {
+      "survival_mean_med": [
+        0.060698,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.655417,
+        0.666565
+      ],
+      "pol_mean_med": [
+        0.310835,
+        0.33313
+      ],
+      "2q_mean_med": [
+        1492.857143,
+        781.0
+      ],
+      "depth_mean_med": [
+        505.642857,
+        424.0
+      ]
+    },
+    "prometheus_candidate": {
+      "survival_mean_med": [
+        0.166004,
+        0.022949
+      ],
+      "bit_acc_mean_med": [
+        0.791013,
+        0.803737
+      ],
+      "pol_mean_med": [
+        0.582027,
+        0.607475
+      ],
+      "2q_mean_med": [
+        682.142857,
+        419.5
+      ],
+      "depth_mean_med": [
+        245.119048,
+        233.0
+      ]
+    }
+  },
+  "p2_by_width_depth": {
+    "8q_d1_prometheus_candidate": {
+      "survival_mean_med": [
+        0.780111,
+        0.776855
+      ],
+      "bit_acc_mean_med": [
+        0.957011,
+        0.956909
+      ],
+      "pol_mean_med": [
+        0.914022,
+        0.913819
+      ],
+      "2q_mean_med": [
+        38.0,
+        38.0
+      ],
+      "depth_mean_med": [
+        77.333333,
+        75.0
+      ]
+    },
+    "8q_d1_sabre_o3": {
+      "survival_mean_med": [
+        0.779134,
+        0.776368
+      ],
+      "bit_acc_mean_med": [
+        0.955017,
+        0.952881
+      ],
+      "pol_mean_med": [
+        0.910034,
+        0.905761
+      ],
+      "2q_mean_med": [
+        38.0,
+        38.0
+      ],
+      "depth_mean_med": [
+        74.5,
+        75.0
+      ]
+    },
+    "8q_d1_tket": {
+      "survival_mean_med": [
+        0.377116,
+        0.379394
+      ],
+      "bit_acc_mean_med": [
+        0.835571,
+        0.84552
+      ],
+      "pol_mean_med": [
+        0.671142,
+        0.69104
+      ],
+      "2q_mean_med": [
+        50.0,
+        50.0
+      ],
+      "depth_mean_med": [
+        125.5,
+        125.5
+      ]
+    },
+    "8q_d2_prometheus_candidate": {
+      "survival_mean_med": [
+        0.520182,
+        0.535644
+      ],
+      "bit_acc_mean_med": [
+        0.853109,
+        0.851501
+      ],
+      "pol_mean_med": [
+        0.706217,
+        0.703003
+      ],
+      "2q_mean_med": [
+        101.0,
+        100.0
+      ],
+      "depth_mean_med": [
+        249.166667,
+        251.0
+      ]
+    },
+    "8q_d2_sabre_o3": {
+      "survival_mean_med": [
+        0.465169,
+        0.441894
+      ],
+      "bit_acc_mean_med": [
+        0.836446,
+        0.829773
+      ],
+      "pol_mean_med": [
+        0.672892,
+        0.659546
+      ],
+      "2q_mean_med": [
+        100.0,
+        100.0
+      ],
+      "depth_mean_med": [
+        212.833333,
+        212.5
+      ]
+    },
+    "8q_d2_tket": {
+      "survival_mean_med": [
+        0.352539,
+        0.3208
+      ],
+      "bit_acc_mean_med": [
+        0.776062,
+        0.764526
+      ],
+      "pol_mean_med": [
+        0.552124,
+        0.529052
+      ],
+      "2q_mean_med": [
+        115.0,
+        115.0
+      ],
+      "depth_mean_med": [
+        314.5,
+        314.5
+      ]
+    },
+    "16q_d1_prometheus_candidate": {
+      "survival_mean_med": [
+        0.388672,
+        0.36914
+      ],
+      "bit_acc_mean_med": [
+        0.903188,
+        0.909027
+      ],
+      "pol_mean_med": [
+        0.806376,
+        0.818054
+      ],
+      "2q_mean_med": [
+        119.5,
+        118.0
+      ],
+      "depth_mean_med": [
+        107.5,
+        107.5
+      ]
+    },
+    "16q_d1_sabre_o3": {
+      "survival_mean_med": [
+        0.299154,
+        0.328613
+      ],
+      "bit_acc_mean_med": [
+        0.88563,
+        0.889252
+      ],
+      "pol_mean_med": [
+        0.771261,
+        0.778504
+      ],
+      "2q_mean_med": [
+        127.0,
+        127.0
+      ],
+      "depth_mean_med": [
+        115.0,
+        115.0
+      ]
+    },
+    "16q_d1_tket": {
+      "survival_mean_med": [
+        0.060872,
+        0.070312
+      ],
+      "bit_acc_mean_med": [
+        0.732951,
+        0.746124
+      ],
+      "pol_mean_med": [
+        0.465902,
+        0.492248
+      ],
+      "2q_mean_med": [
+        316.0,
+        316.0
+      ],
+      "depth_mean_med": [
+        256.0,
+        256.0
+      ]
+    },
+    "16q_d2_prometheus_candidate": {
+      "survival_mean_med": [
+        0.203451,
+        0.178223
+      ],
+      "bit_acc_mean_med": [
+        0.779643,
+        0.774902
+      ],
+      "pol_mean_med": [
+        0.559285,
+        0.549805
+      ],
+      "2q_mean_med": [
+        257.0,
+        258.0
+      ],
+      "depth_mean_med": [
+        241.333333,
+        242.0
+      ]
+    },
+    "16q_d2_sabre_o3": {
+      "survival_mean_med": [
+        0.175944,
+        0.129394
+      ],
+      "bit_acc_mean_med": [
+        0.768036,
+        0.758576
+      ],
+      "pol_mean_med": [
+        0.536072,
+        0.517151
+      ],
+      "2q_mean_med": [
+        255.0,
+        255.0
+      ],
+      "depth_mean_med": [
+        242.5,
+        243.5
+      ]
+    },
+    "16q_d2_tket": {
+      "survival_mean_med": [
+        0.042481,
+        0.030762
+      ],
+      "bit_acc_mean_med": [
+        0.642344,
+        0.645264
+      ],
+      "pol_mean_med": [
+        0.284689,
+        0.290527
+      ],
+      "2q_mean_med": [
+        414.0,
+        414.0
+      ],
+      "depth_mean_med": [
+        427.0,
+        427.0
+      ]
+    },
+    "24q_d1_prometheus_candidate": {
+      "survival_mean_med": [
+        0.261067,
+        0.254394
+      ],
+      "bit_acc_mean_med": [
+        0.913778,
+        0.917806
+      ],
+      "pol_mean_med": [
+        0.827555,
+        0.835612
+      ],
+      "2q_mean_med": [
+        174.0,
+        174.0
+      ],
+      "depth_mean_med": [
+        107.166667,
+        107.5
+      ]
+    },
+    "24q_d1_sabre_o3": {
+      "survival_mean_med": [
+        0.235514,
+        0.240234
+      ],
+      "bit_acc_mean_med": [
+        0.912326,
+        0.914266
+      ],
+      "pol_mean_med": [
+        0.824653,
+        0.828532
+      ],
+      "2q_mean_med": [
+        174.0,
+        174.0
+      ],
+      "depth_mean_med": [
+        115.833333,
+        116.0
+      ]
+    },
+    "24q_d1_tket": {
+      "survival_mean_med": [
+        0.015951,
+        0.011719
+      ],
+      "bit_acc_mean_med": [
+        0.754829,
+        0.749594
+      ],
+      "pol_mean_med": [
+        0.509657,
+        0.499186
+      ],
+      "2q_mean_med": [
+        396.0,
+        396.0
+      ],
+      "depth_mean_med": [
+        307.5,
+        307.5
+      ]
+    },
+    "24q_d2_prometheus_candidate": {
+      "survival_mean_med": [
+        0.058105,
+        0.051269
+      ],
+      "bit_acc_mean_med": [
+        0.758992,
+        0.749227
+      ],
+      "pol_mean_med": [
+        0.517985,
+        0.498453
+      ],
+      "2q_mean_med": [
+        386.0,
+        390.0
+      ],
+      "depth_mean_med": [
+        249.166667,
+        250.0
+      ]
+    },
+    "24q_d2_sabre_o3": {
+      "survival_mean_med": [
+        0.032226,
+        0.018066
+      ],
+      "bit_acc_mean_med": [
+        0.733134,
+        0.716593
+      ],
+      "pol_mean_med": [
+        0.466268,
+        0.433187
+      ],
+      "2q_mean_med": [
+        462.0,
+        462.0
+      ],
+      "depth_mean_med": [
+        308.333333,
+        308.0
+      ]
+    },
+    "24q_d2_tket": {
+      "survival_mean_med": [
+        0.000488,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.604078,
+        0.603862
+      ],
+      "pol_mean_med": [
+        0.208157,
+        0.207723
+      ],
+      "2q_mean_med": [
+        804.5,
+        804.5
+      ],
+      "depth_mean_med": [
+        548.5,
+        548.5
+      ]
+    },
+    "35q_d1_prometheus_candidate": {
+      "survival_mean_med": [
+        0.087077,
+        0.066407
+      ],
+      "bit_acc_mean_med": [
+        0.873428,
+        0.867411
+      ],
+      "pol_mean_med": [
+        0.746856,
+        0.734822
+      ],
+      "2q_mean_med": [
+        304.5,
+        304.5
+      ],
+      "depth_mean_med": [
+        144.166667,
+        144.0
+      ]
+    },
+    "35q_d1_sabre_o3": {
+      "survival_mean_med": [
+        0.045247,
+        0.037598
+      ],
+      "bit_acc_mean_med": [
+        0.86104,
+        0.857714
+      ],
+      "pol_mean_med": [
+        0.722079,
+        0.715429
+      ],
+      "2q_mean_med": [
+        339.0,
+        339.0
+      ],
+      "depth_mean_med": [
+        171.166667,
+        171.5
+      ]
+    },
+    "35q_d1_tket": {
+      "survival_mean_med": [
+        0.000326,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.753586,
+        0.752819
+      ],
+      "pol_mean_med": [
+        0.50717,
+        0.505636
+      ],
+      "2q_mean_med": [
+        387.0,
+        387.0
+      ],
+      "depth_mean_med": [
+        211.5,
+        211.5
+      ]
+    },
+    "35q_d2_prometheus_candidate": {
+      "survival_mean_med": [
+        0.009114,
+        0.006347
+      ],
+      "bit_acc_mean_med": [
+        0.727083,
+        0.714983
+      ],
+      "pol_mean_med": [
+        0.454167,
+        0.429967
+      ],
+      "2q_mean_med": [
+        562.0,
+        553.0
+      ],
+      "depth_mean_med": [
+        247.166667,
+        234.0
+      ]
+    },
+    "35q_d2_sabre_o3": {
+      "survival_mean_med": [
+        0.003255,
+        0.000489
+      ],
+      "bit_acc_mean_med": [
+        0.670773,
+        0.661635
+      ],
+      "pol_mean_med": [
+        0.341546,
+        0.32327
+      ],
+      "2q_mean_med": [
+        649.0,
+        649.0
+      ],
+      "depth_mean_med": [
+        369.166667,
+        369.0
+      ]
+    },
+    "35q_d2_tket": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.538863,
+        0.532883
+      ],
+      "pol_mean_med": [
+        0.077725,
+        0.065765
+      ],
+      "2q_mean_med": [
+        1416.0,
+        1416.0
+      ],
+      "depth_mean_med": [
+        718.5,
+        718.5
+      ]
+    },
+    "51q_d1_prometheus_candidate": {
+      "survival_mean_med": [
+        0.016113,
+        0.010742
+      ],
+      "bit_acc_mean_med": [
+        0.864398,
+        0.858666
+      ],
+      "pol_mean_med": [
+        0.728796,
+        0.717333
+      ],
+      "2q_mean_med": [
+        457.5,
+        458.0
+      ],
+      "depth_mean_med": [
+        163.0,
+        162.5
+      ]
+    },
+    "51q_d1_sabre_o3": {
+      "survival_mean_med": [
+        0.001139,
+        0.001465
+      ],
+      "bit_acc_mean_med": [
+        0.827538,
+        0.828326
+      ],
+      "pol_mean_med": [
+        0.655076,
+        0.656652
+      ],
+      "2q_mean_med": [
+        503.0,
+        503.0
+      ],
+      "depth_mean_med": [
+        186.166667,
+        186.5
+      ]
+    },
+    "51q_d1_tket": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.72354,
+        0.732154
+      ],
+      "pol_mean_med": [
+        0.44708,
+        0.464307
+      ],
+      "2q_mean_med": [
+        778.5,
+        692.0
+      ],
+      "depth_mean_med": [
+        272.5,
+        232.5
+      ]
+    },
+    "51q_d2_prometheus_candidate": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.677482,
+        0.675417
+      ],
+      "pol_mean_med": [
+        0.354964,
+        0.350835
+      ],
+      "2q_mean_med": [
+        978.0,
+        969.5
+      ],
+      "depth_mean_med": [
+        342.666667,
+        342.0
+      ]
+    },
+    "51q_d2_sabre_o3": {
+      "survival_mean_med": [
+        0.000163,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.64269,
+        0.636748
+      ],
+      "pol_mean_med": [
+        0.28538,
+        0.273495
+      ],
+      "2q_mean_med": [
+        1160.0,
+        1160.0
+      ],
+      "depth_mean_med": [
+        444.333333,
+        446.0
+      ]
+    },
+    "51q_d2_tket": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.513627,
+        0.516869
+      ],
+      "pol_mean_med": [
+        0.027254,
+        0.03374
+      ],
+      "2q_mean_med": [
+        2402.0,
+        2402.0
+      ],
+      "depth_mean_med": [
+        902.5,
+        902.5
+      ]
+    },
+    "75q_d1_prometheus_candidate": {
+      "survival_mean_med": [
+        0.000163,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.809036,
+        0.807155
+      ],
+      "pol_mean_med": [
+        0.618073,
+        0.61431
+      ],
+      "2q_mean_med": [
+        764.0,
+        758.5
+      ],
+      "depth_mean_med": [
+        201.333333,
+        199.5
+      ]
+    },
+    "75q_d1_sabre_o3": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.789112,
+        0.784447
+      ],
+      "pol_mean_med": [
+        0.578225,
+        0.568893
+      ],
+      "2q_mean_med": [
+        814.0,
+        814.0
+      ],
+      "depth_mean_med": [
+        237.333333,
+        237.5
+      ]
+    },
+    "75q_d1_tket": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.696354,
+        0.699778
+      ],
+      "pol_mean_med": [
+        0.392708,
+        0.399558
+      ],
+      "2q_mean_med": [
+        1184.0,
+        1184.0
+      ],
+      "depth_mean_med": [
+        330.5,
+        330.5
+      ]
+    },
+    "75q_d2_prometheus_candidate": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.622528,
+        0.627285
+      ],
+      "pol_mean_med": [
+        0.245057,
+        0.254571
+      ],
+      "2q_mean_med": [
+        1644.0,
+        1586.0
+      ],
+      "depth_mean_med": [
+        417.333333,
+        408.5
+      ]
+    },
+    "75q_d2_sabre_o3": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.572704,
+        0.571523
+      ],
+      "pol_mean_med": [
+        0.145408,
+        0.143047
+      ],
+      "2q_mean_med": [
+        1703.0,
+        1703.0
+      ],
+      "depth_mean_med": [
+        548.5,
+        548.0
+      ]
+    },
+    "75q_d2_tket": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.533368,
+        0.534479
+      ],
+      "pol_mean_med": [
+        0.066736,
+        0.068958
+      ],
+      "2q_mean_med": [
+        2557.0,
+        2557.0
+      ],
+      "depth_mean_med": [
+        721.0,
+        721.0
+      ]
+    },
+    "101q_d1_prometheus_candidate": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.768967,
+        0.759229
+      ],
+      "pol_mean_med": [
+        0.537934,
+        0.518458
+      ],
+      "2q_mean_med": [
+        1163.0,
+        1206.0
+      ],
+      "depth_mean_med": [
+        268.666667,
+        278.5
+      ]
+    },
+    "101q_d1_sabre_o3": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.69004,
+        0.694703
+      ],
+      "pol_mean_med": [
+        0.380079,
+        0.389406
+      ],
+      "2q_mean_med": [
+        1347.0,
+        1347.0
+      ],
+      "depth_mean_med": [
+        365.333333,
+        366.5
+      ]
+    },
+    "101q_d1_tket": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.567503,
+        0.570917
+      ],
+      "pol_mean_med": [
+        0.135007,
+        0.141834
+      ],
+      "2q_mean_med": [
+        3159.0,
+        3159.0
+      ],
+      "depth_mean_med": [
+        558.5,
+        558.5
+      ]
+    },
+    "101q_d2_prometheus_candidate": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.565544,
+        0.564477
+      ],
+      "pol_mean_med": [
+        0.131088,
+        0.128954
+      ],
+      "2q_mean_med": [
+        2601.5,
+        2608.5
+      ],
+      "depth_mean_med": [
+        615.666667,
+        607.5
+      ]
+    },
+    "101q_d2_sabre_o3": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.554378,
+        0.550143
+      ],
+      "pol_mean_med": [
+        0.108756,
+        0.100286
+      ],
+      "2q_mean_med": [
+        2481.0,
+        2481.0
+      ],
+      "depth_mean_med": [
+        580.333333,
+        579.5
+      ]
+    },
+    "101q_d2_tket": {
+      "survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "bit_acc_mean_med": [
+        0.503165,
+        0.503467
+      ],
+      "pol_mean_med": [
+        0.00633,
+        0.006933
+      ],
+      "2q_mean_med": [
+        6921.0,
+        6921.0
+      ],
+      "depth_mean_med": [
+        1385.0,
+        1385.0
+      ]
+    }
+  },
+  "p2_spam_controls": {
+    "24q_prometheus_candidate": {
+      "ctrl_survival_mean_med": [
+        0.722005,
+        0.703125
+      ],
+      "ctrl_bit_acc_mean_med": [
+        0.986179,
+        0.985352
+      ],
+      "ctrl_pol_mean_med": [
+        0.972358,
+        0.970703
+      ],
+      "mirror_d1_survival_mean_med": [
+        0.263997,
+        0.248047
+      ],
+      "mirror_d1_bit_acc_mean_med": [
+        0.914144,
+        0.9163
+      ],
+      "mirror_d1_pol_mean_med": [
+        0.828288,
+        0.832601
+      ]
+    },
+    "24q_sabre_o3": {
+      "ctrl_survival_mean_med": [
+        0.710612,
+        0.696289
+      ],
+      "ctrl_bit_acc_mean_med": [
+        0.985731,
+        0.984904
+      ],
+      "ctrl_pol_mean_med": [
+        0.971463,
+        0.969808
+      ],
+      "mirror_d1_survival_mean_med": [
+        0.236653,
+        0.240234
+      ],
+      "mirror_d1_bit_acc_mean_med": [
+        0.911296,
+        0.908081
+      ],
+      "mirror_d1_pol_mean_med": [
+        0.822591,
+        0.816162
+      ]
+    },
+    "24q_tket": {
+      "ctrl_survival_mean_med": [
+        0.615234,
+        0.615234
+      ],
+      "ctrl_bit_acc_mean_med": [
+        0.979451,
+        0.979777
+      ],
+      "ctrl_pol_mean_med": [
+        0.958903,
+        0.959554
+      ],
+      "mirror_d1_survival_mean_med": [
+        0.013672,
+        0.006836
+      ],
+      "mirror_d1_bit_acc_mean_med": [
+        0.755981,
+        0.753866
+      ],
+      "mirror_d1_pol_mean_med": [
+        0.511963,
+        0.507731
+      ]
+    },
+    "51q_prometheus_candidate": {
+      "ctrl_survival_mean_med": [
+        0.356445,
+        0.433594
+      ],
+      "ctrl_bit_acc_mean_med": [
+        0.97842,
+        0.98472
+      ],
+      "ctrl_pol_mean_med": [
+        0.95684,
+        0.969439
+      ],
+      "mirror_d1_survival_mean_med": [
+        0.019857,
+        0.010742
+      ],
+      "mirror_d1_bit_acc_mean_med": [
+        0.86302,
+        0.859356
+      ],
+      "mirror_d1_pol_mean_med": [
+        0.726039,
+        0.718712
+      ]
+    },
+    "51q_sabre_o3": {
+      "ctrl_survival_mean_med": [
+        0.337565,
+        0.335938
+      ],
+      "ctrl_bit_acc_mean_med": [
+        0.978586,
+        0.97953
+      ],
+      "ctrl_pol_mean_med": [
+        0.957172,
+        0.959061
+      ],
+      "mirror_d1_survival_mean_med": [
+        0.001628,
+        0.001953
+      ],
+      "mirror_d1_bit_acc_mean_med": [
+        0.824755,
+        0.827895
+      ],
+      "mirror_d1_pol_mean_med": [
+        0.64951,
+        0.65579
+      ]
+    },
+    "51q_tket": {
+      "ctrl_survival_mean_med": [
+        0.184896,
+        0.089844
+      ],
+      "ctrl_bit_acc_mean_med": [
+        0.967007,
+        0.958467
+      ],
+      "ctrl_pol_mean_med": [
+        0.934015,
+        0.916935
+      ],
+      "mirror_d1_survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "mirror_d1_bit_acc_mean_med": [
+        0.737739,
+        0.737458
+      ],
+      "mirror_d1_pol_mean_med": [
+        0.475477,
+        0.474916
+      ]
+    },
+    "101q_prometheus_candidate": {
+      "ctrl_survival_mean_med": [
+        0.116537,
+        0.125977
+      ],
+      "ctrl_bit_acc_mean_med": [
+        0.974696,
+        0.980488
+      ],
+      "ctrl_pol_mean_med": [
+        0.949393,
+        0.960976
+      ],
+      "mirror_d1_survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "mirror_d1_bit_acc_mean_med": [
+        0.764155,
+        0.755608
+      ],
+      "mirror_d1_pol_mean_med": [
+        0.528311,
+        0.511216
+      ]
+    },
+    "101q_sabre_o3": {
+      "ctrl_survival_mean_med": [
+        0.133138,
+        0.188477
+      ],
+      "ctrl_bit_acc_mean_med": [
+        0.975524,
+        0.983195
+      ],
+      "ctrl_pol_mean_med": [
+        0.95105,
+        0.966391
+      ],
+      "mirror_d1_survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "mirror_d1_bit_acc_mean_med": [
+        0.689872,
+        0.696889
+      ],
+      "mirror_d1_pol_mean_med": [
+        0.379744,
+        0.393777
+      ]
+    },
+    "101q_tket": {
+      "ctrl_survival_mean_med": [
+        0.072591,
+        0.083008
+      ],
+      "ctrl_bit_acc_mean_med": [
+        0.968918,
+        0.977249
+      ],
+      "ctrl_pol_mean_med": [
+        0.937835,
+        0.954498
+      ],
+      "mirror_d1_survival_mean_med": [
+        0.0,
+        0.0
+      ],
+      "mirror_d1_bit_acc_mean_med": [
+        0.565262,
+        0.567334
+      ],
+      "mirror_d1_pol_mean_med": [
+        0.130524,
+        0.134669
+      ]
+    }
+  },
+  "p3_overall": {
+    "sabre_o3": {
+      "approx_ratio_mean_med": [
+        0.574852,
+        0.613086
+      ],
+      "p_ge_90_mean_med": [
+        0.028307,
+        0.012695
+      ],
+      "k95_mean_med": [
+        505.030769,
+        204.0
+      ],
+      "2q_mean_med": [
+        151.625,
+        151.0
+      ],
+      "depth_mean_med": [
+        320.666667,
+        309.5
+      ]
+    },
+    "tket": {
+      "approx_ratio_mean_med": [
+        0.577902,
+        0.601171
+      ],
+      "p_ge_90_mean_med": [
+        0.028768,
+        0.011719
+      ],
+      "k95_mean_med": [
+        592.865672,
+        204.0
+      ],
+      "2q_mean_med": [
+        192.375,
+        201.0
+      ],
+      "depth_mean_med": [
+        396.625,
+        390.0
+      ]
+    },
+    "prometheus_candidate": {
+      "approx_ratio_mean_med": [
+        0.57557,
+        0.610769
+      ],
+      "p_ge_90_mean_med": [
+        0.03144,
+        0.013184
+      ],
+      "k95_mean_med": [
+        529.030769,
+        160.0
+      ],
+      "2q_mean_med": [
+        143.236111,
+        145.5
+      ],
+      "depth_mean_med": [
+        313.638889,
+        302.5
+      ]
+    }
+  },
+  "p3_by_stage": {
+    "initial_sabre_o3": {
+      "ideal_ar_mean": 0.3799,
+      "ideal_p90_mean": 0.0024,
+      "approx_ratio_mean_med": [
+        0.456268,
+        0.452729
+      ],
+      "p_ge_90_mean_med": [
+        0.006266,
+        0.005371
+      ],
+      "k95_mean_med": [
+        997.764706,
+        306.0
+      ],
+      "2q_mean_med": [
+        151.625,
+        151.0
+      ],
+      "depth_mean_med": [
+        320.958333,
+        313.5
+      ]
+    },
+    "initial_tket": {
+      "ideal_ar_mean": 0.3799,
+      "ideal_p90_mean": 0.0024,
+      "approx_ratio_mean_med": [
+        0.481736,
+        0.479818
+      ],
+      "p_ge_90_mean_med": [
+        0.007691,
+        0.004883
+      ],
+      "k95_mean_med": [
+        1205.8,
+        382.0
+      ],
+      "2q_mean_med": [
+        192.375,
+        201.0
+      ],
+      "depth_mean_med": [
+        396.625,
+        390.0
+      ]
+    },
+    "initial_prometheus_candidate": {
+      "ideal_ar_mean": 0.3799,
+      "ideal_p90_mean": 0.0024,
+      "approx_ratio_mean_med": [
+        0.445499,
+        0.451001
+      ],
+      "p_ge_90_mean_med": [
+        0.005778,
+        0.003906
+      ],
+      "k95_mean_med": [
+        1017.882353,
+        306.0
+      ],
+      "2q_mean_med": [
+        143.166667,
+        145.5
+      ],
+      "depth_mean_med": [
+        309.291667,
+        302.5
+      ]
+    },
+    "intermediate_sabre_o3": {
+      "ideal_ar_mean": 0.6687,
+      "ideal_p90_mean": 0.0495,
+      "approx_ratio_mean_med": [
+        0.628945,
+        0.622003
+      ],
+      "p_ge_90_mean_med": [
+        0.037964,
+        0.029297
+      ],
+      "k95_mean_med": [
+        370.5,
+        103.0
+      ],
+      "2q_mean_med": [
+        151.625,
+        151.0
+      ],
+      "depth_mean_med": [
+        321.166667,
+        313.0
+      ]
+    },
+    "intermediate_tket": {
+      "ideal_ar_mean": 0.6687,
+      "ideal_p90_mean": 0.0495,
+      "approx_ratio_mean_med": [
+        0.62149,
+        0.616553
+      ],
+      "p_ge_90_mean_med": [
+        0.037191,
+        0.03125
+      ],
+      "k95_mean_med": [
+        321.0,
+        78.0
+      ],
+      "2q_mean_med": [
+        192.375,
+        201.0
+      ],
+      "depth_mean_med": [
+        396.625,
+        390.0
+      ]
+    },
+    "intermediate_prometheus_candidate": {
+      "ideal_ar_mean": 0.6687,
+      "ideal_p90_mean": 0.0495,
+      "approx_ratio_mean_med": [
+        0.636801,
+        0.627588
+      ],
+      "p_ge_90_mean_med": [
+        0.040812,
+        0.030274
+      ],
+      "k95_mean_med": [
+        399.958333,
+        100.5
+      ],
+      "2q_mean_med": [
+        143.375,
+        145.5
+      ],
+      "depth_mean_med": [
+        316.125,
+        301.0
+      ]
+    },
+    "final_cobyla_solution_sabre_o3": {
+      "ideal_ar_mean": 0.6852,
+      "ideal_p90_mean": 0.057,
+      "approx_ratio_mean_med": [
+        0.639344,
+        0.622786
+      ],
+      "p_ge_90_mean_med": [
+        0.04069,
+        0.035157
+      ],
+      "k95_mean_med": [
+        290.541667,
+        85.0
+      ],
+      "2q_mean_med": [
+        151.625,
+        151.0
+      ],
+      "depth_mean_med": [
+        319.875,
+        309.5
+      ]
+    },
+    "final_cobyla_solution_tket": {
+      "ideal_ar_mean": 0.6852,
+      "ideal_p90_mean": 0.057,
+      "approx_ratio_mean_med": [
+        0.63048,
+        0.62264
+      ],
+      "p_ge_90_mean_med": [
+        0.041423,
+        0.028809
+      ],
+      "k95_mean_med": [
+        342.625,
+        112.5
+      ],
+      "2q_mean_med": [
+        192.375,
+        201.0
+      ],
+      "depth_mean_med": [
+        396.625,
+        390.0
+      ]
+    },
+    "final_cobyla_solution_prometheus_candidate": {
+      "ideal_ar_mean": 0.6852,
+      "ideal_p90_mean": 0.057,
+      "approx_ratio_mean_med": [
+        0.644409,
+        0.630154
+      ],
+      "p_ge_90_mean_med": [
+        0.04773,
+        0.033691
+      ],
+      "k95_mean_med": [
+        311.833333,
+        88.0
+      ],
+      "2q_mean_med": [
+        143.166667,
+        145.5
+      ],
+      "depth_mean_med": [
+        315.5,
+        302.5
+      ]
+    }
+  },
+  "p4_overall": {
+    "sabre_o3_default": {
+      "fh_mean_med": [
+        0.249041,
+        0.133391
+      ],
+      "fb_mean_med": [
+        0.411726,
+        0.363967
+      ],
+      "tvd_mean_med": [
+        0.60478,
+        0.629597
+      ],
+      "fh_b1_mean_med": [
+        0.248103,
+        0.128433
+      ],
+      "fh_b2_mean_med": [
+        0.24998,
+        0.138349
+      ],
+      "2q_mean_med": [
+        134.583333,
+        130.0
+      ],
+      "depth_mean_med": [
+        259.416667,
+        233.5
+      ],
+      "compile_s_mean_med": [
+        0.015575,
+        0.01575
+      ],
+      "trials_mean_med": [
+        1.0,
+        1.0
+      ]
+    },
+    "sabre_o3_matched_budget": {
+      "fh_mean_med": [
+        0.284941,
+        0.234875
+      ],
+      "fb_mean_med": [
+        0.452315,
+        0.470914
+      ],
+      "tvd_mean_med": [
+        0.569649,
+        0.534298
+      ],
+      "fh_b1_mean_med": [
+        0.277146,
+        0.226008
+      ],
+      "fh_b2_mean_med": [
+        0.292736,
+        0.228288
+      ],
+      "2q_mean_med": [
+        119.333333,
+        114.0
+      ],
+      "depth_mean_med": [
+        230.416667,
+        227.5
+      ],
+      "compile_s_mean_med": [
+        7.590408,
+        6.949
+      ],
+      "trials_mean_med": [
+        453.25,
+        428.0
+      ]
+    },
+    "tket_matched_budget": {
+      "fh_mean_med": [
+        0.276269,
+        0.217028
+      ],
+      "fb_mean_med": [
+        0.437788,
+        0.441941
+      ],
+      "tvd_mean_med": [
+        0.579929,
+        0.558831
+      ],
+      "fh_b1_mean_med": [
+        0.275243,
+        0.223424
+      ],
+      "fh_b2_mean_med": [
+        0.277295,
+        0.210632
+      ],
+      "2q_mean_med": [
+        126.0,
+        135.0
+      ],
+      "depth_mean_med": [
+        247.666667,
+        247.5
+      ],
+      "compile_s_mean_med": [
+        7.594892,
+        6.94895
+      ],
+      "trials_mean_med": [
+        324.5,
+        329.0
+      ]
+    },
+    "prometheus_candidate": {
+      "fh_mean_med": [
+        0.295336,
+        0.269721
+      ],
+      "fb_mean_med": [
+        0.478842,
+        0.510881
+      ],
+      "tvd_mean_med": [
+        0.540975,
+        0.54102
+      ],
+      "fh_b1_mean_med": [
+        0.285681,
+        0.248606
+      ],
+      "fh_b2_mean_med": [
+        0.304991,
+        0.290835
+      ],
+      "2q_mean_med": [
+        124.416667,
+        121.5
+      ],
+      "depth_mean_med": [
+        235.083333,
+        210.0
+      ],
+      "compile_s_mean_med": [
+        7.583167,
+        6.9433
+      ],
+      "trials_mean_med": [
+        12.0,
+        12.0
+      ]
+    }
+  },
+  "p4_by_family": {
+    "qaoa_maxcut_tket_matched_budget": {
+      "fh_mean_med": [
+        0.285192,
+        0.190884
+      ],
+      "fb_mean_med": [
+        0.432912,
+        0.3988
+      ],
+      "tvd_mean_med": [
+        0.58792,
+        0.595245
+      ],
+      "approx_ratio_mean_med": [
+        0.54431,
+        0.542347
+      ],
+      "p_ge_90_mean_med": [
+        0.010376,
+        0.004394
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        158.25,
+        169.0
+      ],
+      "depth_mean_med": [
+        309.5,
+        285.0
+      ]
+    },
+    "dense_sabre_o3_matched_budget": {
+      "fh_mean_med": [
+        0.445416,
+        0.442481
+      ],
+      "fb_mean_med": [
+        0.615236,
+        0.614347
+      ],
+      "tvd_mean_med": [
+        0.425026,
+        0.424253
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        97.0,
+        97.0
+      ],
+      "depth_mean_med": [
+        142.5,
+        142.5
+      ]
+    },
+    "bipartite_sabre_o3_default": {
+      "fh_mean_med": [
+        0.251736,
+        0.246382
+      ],
+      "fb_mean_med": [
+        0.407776,
+        0.405544
+      ],
+      "tvd_mean_med": [
+        0.594023,
+        0.596248
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        94.5,
+        94.5
+      ],
+      "depth_mean_med": [
+        131.5,
+        131.5
+      ]
+    },
+    "bipartite_tket_matched_budget": {
+      "fh_mean_med": [
+        0.2549,
+        0.247853
+      ],
+      "fb_mean_med": [
+        0.402316,
+        0.399388
+      ],
+      "tvd_mean_med": [
+        0.595341,
+        0.595688
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        100.5,
+        100.5
+      ],
+      "depth_mean_med": [
+        148.0,
+        148.0
+      ]
+    },
+    "qft_phase_sabre_o3_matched_budget": {
+      "fh_mean_med": [
+        0.21814,
+        0.199389
+      ],
+      "fb_mean_med": [
+        0.405242,
+        0.421834
+      ],
+      "tvd_mean_med": [
+        0.620049,
+        0.625123
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.079224,
+        0.056153
+      ],
+      "2q_mean_med": [
+        114.5,
+        112.5
+      ],
+      "depth_mean_med": [
+        256.5,
+        253.0
+      ]
+    },
+    "bipartite_prometheus_candidate": {
+      "fh_mean_med": [
+        0.247446,
+        0.245759
+      ],
+      "fb_mean_med": [
+        0.406198,
+        0.405034
+      ],
+      "tvd_mean_med": [
+        0.590933,
+        0.594933
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        74.0,
+        74.0
+      ],
+      "depth_mean_med": [
+        94.0,
+        94.0
+      ]
+    },
+    "qaoa_maxcut_prometheus_candidate": {
+      "fh_mean_med": [
+        0.288821,
+        0.214839
+      ],
+      "fb_mean_med": [
+        0.450858,
+        0.427501
+      ],
+      "tvd_mean_med": [
+        0.563361,
+        0.570428
+      ],
+      "approx_ratio_mean_med": [
+        0.530888,
+        0.529361
+      ],
+      "p_ge_90_mean_med": [
+        0.009766,
+        0.003907
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        170.0,
+        176.0
+      ],
+      "depth_mean_med": [
+        318.75,
+        306.5
+      ]
+    },
+    "bipartite_sabre_o3_matched_budget": {
+      "fh_mean_med": [
+        0.248993,
+        0.244929
+      ],
+      "fb_mean_med": [
+        0.410588,
+        0.408448
+      ],
+      "tvd_mean_med": [
+        0.589104,
+        0.592458
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        73.0,
+        73.0
+      ],
+      "depth_mean_med": [
+        97.5,
+        97.5
+      ]
+    },
+    "qaoa_maxcut_sabre_o3_default": {
+      "fh_mean_med": [
+        0.260586,
+        0.180929
+      ],
+      "fb_mean_med": [
+        0.425734,
+        0.395649
+      ],
+      "tvd_mean_med": [
+        0.593851,
+        0.594469
+      ],
+      "approx_ratio_mean_med": [
+        0.53901,
+        0.538031
+      ],
+      "p_ge_90_mean_med": [
+        0.009888,
+        0.003906
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        173.0,
+        185.0
+      ],
+      "depth_mean_med": [
+        338.5,
+        350.5
+      ]
+    },
+    "qft_phase_tket_matched_budget": {
+      "fh_mean_med": [
+        0.205591,
+        0.201961
+      ],
+      "fb_mean_med": [
+        0.388309,
+        0.400571
+      ],
+      "tvd_mean_med": [
+        0.627559,
+        0.637507
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.067505,
+        0.050782
+      ],
+      "2q_mean_med": [
+        113.75,
+        112.0
+      ],
+      "depth_mean_med": [
+        263.25,
+        253.5
+      ]
+    },
+    "dense_sabre_o3_default": {
+      "fh_mean_med": [
+        0.429742,
+        0.42042
+      ],
+      "fb_mean_med": [
+        0.599615,
+        0.59461
+      ],
+      "tvd_mean_med": [
+        0.443036,
+        0.450235
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        115.5,
+        115.5
+      ],
+      "depth_mean_med": [
+        169.0,
+        169.0
+      ]
+    },
+    "dense_prometheus_candidate": {
+      "fh_mean_med": [
+        0.439333,
+        0.439941
+      ],
+      "fb_mean_med": [
+        0.605096,
+        0.606426
+      ],
+      "tvd_mean_med": [
+        0.433449,
+        0.430968
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        97.0,
+        97.0
+      ],
+      "depth_mean_med": [
+        143.0,
+        143.0
+      ]
+    },
+    "qaoa_maxcut_sabre_o3_matched_budget": {
+      "fh_mean_med": [
+        0.289477,
+        0.197575
+      ],
+      "fb_mean_med": [
+        0.438791,
+        0.414137
+      ],
+      "tvd_mean_med": [
+        0.581832,
+        0.582766
+      ],
+      "approx_ratio_mean_med": [
+        0.542857,
+        0.539386
+      ],
+      "p_ge_90_mean_med": [
+        0.008789,
+        0.003907
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        158.5,
+        168.5
+      ],
+      "depth_mean_med": [
+        314.75,
+        289.5
+      ]
+    },
+    "qft_phase_sabre_o3_default": {
+      "fh_mean_med": [
+        0.145799,
+        0.082942
+      ],
+      "fb_mean_med": [
+        0.305749,
+        0.26196
+      ],
+      "tvd_mean_med": [
+        0.701958,
+        0.721706
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.049438,
+        0.015625
+      ],
+      "2q_mean_med": [
+        125.75,
+        119.5
+      ],
+      "depth_mean_med": [
+        289.5,
+        290.5
+      ]
+    },
+    "qft_phase_prometheus_candidate": {
+      "fh_mean_med": [
+        0.253798,
+        0.276146
+      ],
+      "fb_mean_med": [
+        0.480021,
+        0.521131
+      ],
+      "tvd_mean_med": [
+        0.547372,
+        0.534426
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.08728,
+        0.084961
+      ],
+      "2q_mean_med": [
+        117.75,
+        116.5
+      ],
+      "depth_mean_med": [
+        268.0,
+        269.0
+      ]
+    },
+    "dense_tket_matched_budget": {
+      "fh_mean_med": [
+        0.421146,
+        0.421175
+      ],
+      "fb_mean_med": [
+        0.581969,
+        0.582619
+      ],
+      "tvd_mean_med": [
+        0.453273,
+        0.454497
+      ],
+      "approx_ratio_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_ge_90_mean_med": [
+        0.0,
+        0.0
+      ],
+      "p_corr_mean_med": [
+        0.0,
+        0.0
+      ],
+      "2q_mean_med": [
+        111.5,
+        111.5
+      ],
+      "depth_mean_med": [
+        192.5,
+        192.5
+      ]
+    }
+  },
+  "p4_instances_table": [
+    {
+      "instance_id": "fresh_bipartite_10q_s20261372",
+      "family": "bipartite",
+      "width": 10,
+      "sabre_o3_default": {
+        "fh_b1": 0.4785,
+        "fh_b2": 0.5017,
+        "fh_mean": 0.4901,
+        "fb_mean": 0.7,
+        "tvd_mean": 0.3556,
+        "native_2q": 69,
+        "depth": 97,
+        "compile_seconds": 0.0127,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.4732,
+        "fh_b2": 0.4905,
+        "fh_mean": 0.4818,
+        "fb_mean": 0.6941,
+        "tvd_mean": 0.3567,
+        "native_2q": 50,
+        "depth": 88,
+        "compile_seconds": 4.7045,
+        "trials_evaluated": 345,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.4853,
+        "fh_b2": 0.5153,
+        "fh_mean": 0.5003,
+        "fb_mean": 0.7072,
+        "tvd_mean": 0.3344,
+        "native_2q": 59,
+        "depth": 113,
+        "compile_seconds": 4.7046,
+        "trials_evaluated": 303,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.4841,
+        "fh_b2": 0.4773,
+        "fh_mean": 0.4807,
+        "fb_mean": 0.6933,
+        "tvd_mean": 0.3542,
+        "native_2q": 51,
+        "depth": 80,
+        "compile_seconds": 4.6996,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      }
+    },
+    {
+      "instance_id": "fresh_bipartite_14q_s20261438",
+      "family": "bipartite",
+      "width": 14,
+      "sabre_o3_default": {
+        "fh_b1": 0.0125,
+        "fh_b2": 0.0142,
+        "fh_mean": 0.0134,
+        "fb_mean": 0.1155,
+        "tvd_mean": 0.8324,
+        "native_2q": 120,
+        "depth": 166,
+        "compile_seconds": 0.0162,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.0166,
+        "fh_b2": 0.0157,
+        "fh_mean": 0.0161,
+        "fb_mean": 0.1271,
+        "tvd_mean": 0.8216,
+        "native_2q": 96,
+        "depth": 107,
+        "compile_seconds": 6.6663,
+        "trials_evaluated": 399,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.0104,
+        "fh_b2": 0.0086,
+        "fh_mean": 0.0095,
+        "fb_mean": 0.0974,
+        "tvd_mean": 0.8562,
+        "native_2q": 142,
+        "depth": 183,
+        "compile_seconds": 6.6667,
+        "trials_evaluated": 298,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.0142,
+        "fh_b2": 0.0141,
+        "fh_mean": 0.0142,
+        "fb_mean": 0.1191,
+        "tvd_mean": 0.8277,
+        "native_2q": 97,
+        "depth": 108,
+        "compile_seconds": 6.6625,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      }
+    },
+    {
+      "instance_id": "fresh_dense_12q_s20261405",
+      "family": "dense",
+      "width": 12,
+      "sabre_o3_default": {
+        "fh_b1": 0.1112,
+        "fh_b2": 0.1129,
+        "fh_mean": 0.1121,
+        "fb_mean": 0.3348,
+        "tvd_mean": 0.6233,
+        "native_2q": 168,
+        "depth": 223,
+        "compile_seconds": 0.0175,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.1291,
+        "fh_b2": 0.1253,
+        "fh_mean": 0.1272,
+        "fb_mean": 0.3566,
+        "tvd_mean": 0.5991,
+        "native_2q": 137,
+        "depth": 176,
+        "compile_seconds": 16.4638,
+        "trials_evaluated": 856,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.0858,
+        "fh_b2": 0.0881,
+        "fh_mean": 0.0869,
+        "fb_mean": 0.2948,
+        "tvd_mean": 0.6577,
+        "native_2q": 164,
+        "depth": 266,
+        "compile_seconds": 16.4742,
+        "trials_evaluated": 339,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.1141,
+        "fh_b2": 0.1098,
+        "fh_mean": 0.1119,
+        "fb_mean": 0.3346,
+        "tvd_mean": 0.6214,
+        "native_2q": 137,
+        "depth": 177,
+        "compile_seconds": 16.4568,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      }
+    },
+    {
+      "instance_id": "fresh_dense_8q_s20261339",
+      "family": "dense",
+      "width": 8,
+      "sabre_o3_default": {
+        "fh_b1": 0.7279,
+        "fh_b2": 0.7669,
+        "fh_mean": 0.7474,
+        "fb_mean": 0.8645,
+        "tvd_mean": 0.2628,
+        "native_2q": 63,
+        "depth": 115,
+        "compile_seconds": 0.0133,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.7559,
+        "fh_b2": 0.7714,
+        "fh_mean": 0.7637,
+        "fb_mean": 0.8739,
+        "tvd_mean": 0.251,
+        "native_2q": 57,
+        "depth": 109,
+        "compile_seconds": 5.5467,
+        "trials_evaluated": 410,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.7543,
+        "fh_b2": 0.7564,
+        "fh_mean": 0.7554,
+        "fb_mean": 0.8691,
+        "tvd_mean": 0.2488,
+        "native_2q": 59,
+        "depth": 119,
+        "compile_seconds": 5.5541,
+        "trials_evaluated": 319,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.7676,
+        "fh_b2": 0.7658,
+        "fh_mean": 0.7667,
+        "fb_mean": 0.8756,
+        "tvd_mean": 0.2455,
+        "native_2q": 57,
+        "depth": 109,
+        "compile_seconds": 5.5437,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": null
+      }
+    },
+    {
+      "instance_id": "fresh_qaoa_10q_s20261158",
+      "family": "qaoa_maxcut",
+      "width": 10,
+      "sabre_o3_default": {
+        "fh_b1": 0.3354,
+        "fh_b2": 0.3045,
+        "fh_mean": 0.32,
+        "fb_mean": 0.5655,
+        "tvd_mean": 0.4794,
+        "native_2q": 171,
+        "depth": 299,
+        "compile_seconds": 0.0154,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": 0.5279,
+        "p_ge_90_mean": 0.0049,
+        "p_correct_mean": null
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.3538,
+        "fh_b2": 0.3313,
+        "fh_mean": 0.3426,
+        "fb_mean": 0.5852,
+        "tvd_mean": 0.4563,
+        "native_2q": 143,
+        "depth": 255,
+        "compile_seconds": 7.2317,
+        "trials_evaluated": 447,
+        "approx_ratio_mean": 0.5189,
+        "p_ge_90_mean": 0.0049,
+        "p_correct_mean": null
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.3611,
+        "fh_b2": 0.3332,
+        "fh_mean": 0.3471,
+        "fb_mean": 0.5891,
+        "tvd_mean": 0.4599,
+        "native_2q": 143,
+        "depth": 249,
+        "compile_seconds": 7.2312,
+        "trials_evaluated": 326,
+        "approx_ratio_mean": 0.5182,
+        "p_ge_90_mean": 0.0054,
+        "p_correct_mean": null
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.368,
+        "fh_b2": 0.3833,
+        "fh_mean": 0.3757,
+        "fb_mean": 0.6129,
+        "tvd_mean": 0.4304,
+        "native_2q": 155,
+        "depth": 289,
+        "compile_seconds": 7.2241,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": 0.5158,
+        "p_ge_90_mean": 0.0059,
+        "p_correct_mean": null
+      }
+    },
+    {
+      "instance_id": "fresh_qaoa_12q_s20261177",
+      "family": "qaoa_maxcut",
+      "width": 12,
+      "sabre_o3_default": {
+        "fh_b1": 0.0524,
+        "fh_b2": 0.0573,
+        "fh_mean": 0.0549,
+        "fb_mean": 0.2342,
+        "tvd_mean": 0.7149,
+        "native_2q": 214,
+        "depth": 402,
+        "compile_seconds": 0.0164,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": 0.522,
+        "p_ge_90_mean": 0.001,
+        "p_correct_mean": null
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.0639,
+        "fh_b2": 0.0616,
+        "fh_mean": 0.0627,
+        "fb_mean": 0.2504,
+        "tvd_mean": 0.7017,
+        "native_2q": 197,
+        "depth": 324,
+        "compile_seconds": 7.681,
+        "trials_evaluated": 395,
+        "approx_ratio_mean": 0.5193,
+        "p_ge_90_mean": 0.001,
+        "p_correct_mean": null
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.0486,
+        "fh_b2": 0.0453,
+        "fh_mean": 0.0469,
+        "fb_mean": 0.2166,
+        "tvd_mean": 0.7304,
+        "native_2q": 195,
+        "depth": 321,
+        "compile_seconds": 7.6847,
+        "trials_evaluated": 331,
+        "approx_ratio_mean": 0.5274,
+        "p_ge_90_mean": 0.0015,
+        "p_correct_mean": null
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.0617,
+        "fh_b2": 0.0614,
+        "fh_mean": 0.0615,
+        "fb_mean": 0.2481,
+        "tvd_mean": 0.7032,
+        "native_2q": 197,
+        "depth": 324,
+        "compile_seconds": 7.665,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": 0.525,
+        "p_ge_90_mean": 0.002,
+        "p_correct_mean": null
+      }
+    },
+    {
+      "instance_id": "fresh_qaoa_14q_s20261196",
+      "family": "qaoa_maxcut",
+      "width": 14,
+      "sabre_o3_default": {
+        "fh_b1": 0.0081,
+        "fh_b2": 0.0086,
+        "fh_mean": 0.0083,
+        "fb_mean": 0.0913,
+        "tvd_mean": 0.8559,
+        "native_2q": 199,
+        "depth": 421,
+        "compile_seconds": 0.0174,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": 0.5482,
+        "p_ge_90_mean": 0.0029,
+        "p_correct_mean": null
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.0031,
+        "fh_b2": 0.0027,
+        "fh_mean": 0.0029,
+        "fb_mean": 0.0537,
+        "tvd_mean": 0.91,
+        "native_2q": 194,
+        "depth": 432,
+        "compile_seconds": 8.357,
+        "trials_evaluated": 427,
+        "approx_ratio_mean": 0.5793,
+        "p_ge_90_mean": 0.002,
+        "p_correct_mean": null
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.0046,
+        "fh_b2": 0.0037,
+        "fh_mean": 0.0041,
+        "fb_mean": 0.0643,
+        "tvd_mean": 0.8951,
+        "native_2q": 195,
+        "depth": 422,
+        "compile_seconds": 8.3669,
+        "trials_evaluated": 317,
+        "approx_ratio_mean": 0.5746,
+        "p_ge_90_mean": 0.0039,
+        "p_correct_mean": null
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.0111,
+        "fh_b2": 0.0094,
+        "fh_mean": 0.0103,
+        "fb_mean": 0.1012,
+        "tvd_mean": 0.8464,
+        "native_2q": 221,
+        "depth": 449,
+        "compile_seconds": 8.3542,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": 0.5328,
+        "p_ge_90_mean": 0.001,
+        "p_correct_mean": null
+      }
+    },
+    {
+      "instance_id": "fresh_qaoa_8q_s20261139",
+      "family": "qaoa_maxcut",
+      "width": 8,
+      "sabre_o3_default": {
+        "fh_b1": 0.6565,
+        "fh_b2": 0.6617,
+        "fh_mean": 0.6591,
+        "fb_mean": 0.8119,
+        "tvd_mean": 0.3252,
+        "native_2q": 108,
+        "depth": 232,
+        "compile_seconds": 0.0132,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": 0.558,
+        "p_ge_90_mean": 0.0308,
+        "p_correct_mean": null
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.7351,
+        "fh_b2": 0.7644,
+        "fh_mean": 0.7497,
+        "fb_mean": 0.8658,
+        "tvd_mean": 0.2594,
+        "native_2q": 100,
+        "depth": 248,
+        "compile_seconds": 6.0517,
+        "trials_evaluated": 435,
+        "approx_ratio_mean": 0.5539,
+        "p_ge_90_mean": 0.0273,
+        "p_correct_mean": null
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.7472,
+        "fh_b2": 0.7379,
+        "fh_mean": 0.7426,
+        "fb_mean": 0.8617,
+        "tvd_mean": 0.2663,
+        "native_2q": 100,
+        "depth": 246,
+        "compile_seconds": 6.0612,
+        "trials_evaluated": 327,
+        "approx_ratio_mean": 0.557,
+        "p_ge_90_mean": 0.0308,
+        "p_correct_mean": null
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.6975,
+        "fh_b2": 0.7182,
+        "fh_mean": 0.7078,
+        "fb_mean": 0.8413,
+        "tvd_mean": 0.2734,
+        "native_2q": 107,
+        "depth": 213,
+        "compile_seconds": 6.0504,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": 0.55,
+        "p_ge_90_mean": 0.0303,
+        "p_correct_mean": null
+      }
+    },
+    {
+      "instance_id": "fresh_qft_10q_s20261264",
+      "family": "qft_phase",
+      "width": 10,
+      "sabre_o3_default": {
+        "fh_b1": 0.1456,
+        "fh_b2": 0.1638,
+        "fh_mean": 0.1547,
+        "fb_mean": 0.3932,
+        "tvd_mean": 0.6359,
+        "native_2q": 99,
+        "depth": 235,
+        "compile_seconds": 0.0146,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0259
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.3229,
+        "fh_b2": 0.4161,
+        "fh_mean": 0.3695,
+        "fb_mean": 0.6067,
+        "tvd_mean": 0.4695,
+        "native_2q": 97,
+        "depth": 207,
+        "compile_seconds": 6.5974,
+        "trials_evaluated": 419,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0908
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.3652,
+        "fh_b2": 0.4047,
+        "fh_mean": 0.385,
+        "fb_mean": 0.6202,
+        "tvd_mean": 0.45,
+        "native_2q": 96,
+        "depth": 215,
+        "compile_seconds": 6.5951,
+        "trials_evaluated": 333,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0796
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.3466,
+        "fh_b2": 0.376,
+        "fh_mean": 0.3613,
+        "fb_mean": 0.6009,
+        "tvd_mean": 0.4712,
+        "native_2q": 97,
+        "depth": 207,
+        "compile_seconds": 6.5822,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0942
+      }
+    },
+    {
+      "instance_id": "fresh_qft_12q_s20261289",
+      "family": "qft_phase",
+      "width": 12,
+      "sabre_o3_default": {
+        "fh_b1": 0.004,
+        "fh_b2": 0.0035,
+        "fh_mean": 0.0037,
+        "fb_mean": 0.0612,
+        "tvd_mean": 0.9163,
+        "native_2q": 140,
+        "depth": 346,
+        "compile_seconds": 0.0161,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0044
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.0758,
+        "fh_b2": 0.0617,
+        "fh_mean": 0.0688,
+        "fb_mean": 0.2619,
+        "tvd_mean": 0.757,
+        "native_2q": 128,
+        "depth": 299,
+        "compile_seconds": 7.7123,
+        "trials_evaluated": 441,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0337
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.0354,
+        "fh_b2": 0.0387,
+        "fh_mean": 0.0371,
+        "fb_mean": 0.1925,
+        "tvd_mean": 0.8108,
+        "native_2q": 128,
+        "depth": 292,
+        "compile_seconds": 7.7196,
+        "trials_evaluated": 333,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0215
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.1506,
+        "fh_b2": 0.2057,
+        "fh_mean": 0.1782,
+        "fb_mean": 0.4208,
+        "tvd_mean": 0.6108,
+        "native_2q": 136,
+        "depth": 331,
+        "compile_seconds": 7.7063,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0703
+      }
+    },
+    {
+      "instance_id": "fresh_qft_14q_s20261314",
+      "family": "qft_phase",
+      "width": 14,
+      "sabre_o3_default": {
+        "fh_b1": 0.0202,
+        "fh_b2": 0.014,
+        "fh_mean": 0.0171,
+        "fb_mean": 0.1304,
+        "tvd_mean": 0.8127,
+        "native_2q": 195,
+        "depth": 421,
+        "compile_seconds": 0.0221,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0083
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.0133,
+        "fh_b2": 0.0079,
+        "fh_mean": 0.0106,
+        "fb_mean": 0.1023,
+        "tvd_mean": 0.8394,
+        "native_2q": 166,
+        "depth": 361,
+        "compile_seconds": 8.4104,
+        "trials_evaluated": 436,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0015
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.0122,
+        "fh_b2": 0.0164,
+        "fh_mean": 0.0143,
+        "fb_mean": 0.1192,
+        "tvd_mean": 0.8189,
+        "native_2q": 164,
+        "depth": 391,
+        "compile_seconds": 8.4141,
+        "trials_evaluated": 337,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0034
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.0645,
+        "fh_b2": 0.0729,
+        "fh_mean": 0.0687,
+        "fb_mean": 0.262,
+        "tvd_mean": 0.7014,
+        "native_2q": 171,
+        "depth": 375,
+        "compile_seconds": 8.3982,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.0068
+      }
+    },
+    {
+      "instance_id": "fresh_qft_8q_s20261239",
+      "family": "qft_phase",
+      "width": 8,
+      "sabre_o3_default": {
+        "fh_b1": 0.4247,
+        "fh_b2": 0.3905,
+        "fh_mean": 0.4076,
+        "fb_mean": 0.6383,
+        "tvd_mean": 0.443,
+        "native_2q": 69,
+        "depth": 156,
+        "compile_seconds": 0.012,
+        "trials_evaluated": 1,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.1592
+      },
+      "sabre_o3_matched_budget": {
+        "fh_b1": 0.383,
+        "fh_b2": 0.4642,
+        "fh_mean": 0.4236,
+        "fb_mean": 0.6501,
+        "tvd_mean": 0.4142,
+        "native_2q": 67,
+        "depth": 159,
+        "compile_seconds": 5.6621,
+        "trials_evaluated": 429,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.1909
+      },
+      "tket_matched_budget": {
+        "fh_b1": 0.3929,
+        "fh_b2": 0.3792,
+        "fh_mean": 0.3861,
+        "fb_mean": 0.6213,
+        "tvd_mean": 0.4305,
+        "native_2q": 67,
+        "depth": 155,
+        "compile_seconds": 5.6663,
+        "trials_evaluated": 331,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.1655
+      },
+      "prometheus_candidate": {
+        "fh_b1": 0.3482,
+        "fh_b2": 0.4659,
+        "fh_mean": 0.407,
+        "fb_mean": 0.6363,
+        "tvd_mean": 0.4061,
+        "native_2q": 67,
+        "depth": 159,
+        "compile_seconds": 5.655,
+        "trials_evaluated": 12,
+        "approx_ratio_mean": null,
+        "p_ge_90_mean": null,
+        "p_correct_mean": 0.1777
+      }
+    }
+  ],
+  "p1_non_tie_subsets": {
+    "P-full-shared": {
+      "count": 1,
+      "fresh_fh_mean_med": [
+        0.32871,
+        0.32871
+      ],
+      "stale_fh_mean_med": [
+        0.337192,
+        0.337192
+      ],
+      "fresh_tvd_mean_med": [
+        0.630245,
+        0.630245
+      ],
+      "stale_tvd_mean_med": [
+        0.622897,
+        0.622897
+      ],
+      "fresh_wins_fh": 0,
+      "stale_wins_fh": 1
+    },
+    "P-full-e2e": {
+      "count": 25,
+      "fresh_fh_mean_med": [
+        0.597848,
+        0.692021
+      ],
+      "stale_fh_mean_med": [
+        0.597173,
+        0.648745
+      ],
+      "fresh_tvd_mean_med": [
+        0.453046,
+        0.406901
+      ],
+      "stale_tvd_mean_med": [
+        0.45265,
+        0.495303
+      ],
+      "fresh_wins_fh": 10,
+      "stale_wins_fh": 15
+    },
+    "cand_gen": {
+      "count": 25,
+      "fresh_fh_mean_med": [
+        0.597848,
+        0.692021
+      ],
+      "stale_fh_mean_med": [
+        0.597173,
+        0.648745
+      ],
+      "fresh_tvd_mean_med": [
+        0.453046,
+        0.406901
+      ],
+      "stale_tvd_mean_med": [
+        0.45265,
+        0.495303
+      ],
+      "fresh_wins_fh": 10,
+      "stale_wins_fh": 15
+    }
+  }
+}

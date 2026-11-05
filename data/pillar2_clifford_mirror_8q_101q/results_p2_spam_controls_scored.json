@@ -1,0 +1,677 @@
+[
+  {
+    "control_id": "control_24q_s1",
+    "matched_mirror_id": "mirror_24q_d1_s1",
+    "backend": "ibm_marrakesh",
+    "backend_slot": "A",
+    "width": 24,
+    "pipeline": "sabre_o3",
+    "job_id": "dbiv5hhkdqps738vgd70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.623047,
+      "exact_hits": 638,
+      "mean_bit_accuracy": 0.980957,
+      "zero_centered_polarization": 0.961914,
+      "mean_hamming_fraction": 0.019043
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.200195,
+      "exact_hits": 205,
+      "mean_bit_accuracy": 0.908081,
+      "zero_centered_polarization": 0.816162,
+      "mean_hamming_fraction": 0.091919
+    },
+    "spam_normalized_polarization_ratio": 0.848477
+  },
+  {
+    "control_id": "control_24q_s1",
+    "matched_mirror_id": "mirror_24q_d1_s1",
+    "backend": "ibm_marrakesh",
+    "backend_slot": "A",
+    "width": 24,
+    "pipeline": "tket",
+    "job_id": "dbiv5hhkdqps738vgd70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.469727,
+      "exact_hits": 481,
+      "mean_bit_accuracy": 0.969767,
+      "zero_centered_polarization": 0.939535,
+      "mean_hamming_fraction": 0.030233
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.003906,
+      "exact_hits": 4,
+      "mean_bit_accuracy": 0.719889,
+      "zero_centered_polarization": 0.439779,
+      "mean_hamming_fraction": 0.280111
+    },
+    "spam_normalized_polarization_ratio": 0.468082
+  },
+  {
+    "control_id": "control_24q_s1",
+    "matched_mirror_id": "mirror_24q_d1_s1",
+    "backend": "ibm_marrakesh",
+    "backend_slot": "A",
+    "width": 24,
+    "pipeline": "prometheus_candidate",
+    "job_id": "dbiv5hhkdqps738vgd70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.662109,
+      "exact_hits": 678,
+      "mean_bit_accuracy": 0.982422,
+      "zero_centered_polarization": 0.964844,
+      "mean_hamming_fraction": 0.017578
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.245117,
+      "exact_hits": 251,
+      "mean_bit_accuracy": 0.9163,
+      "zero_centered_polarization": 0.832601,
+      "mean_hamming_fraction": 0.0837
+    },
+    "spam_normalized_polarization_ratio": 0.862938
+  },
+  {
+    "control_id": "control_51q_s1",
+    "matched_mirror_id": "mirror_51q_d1_s1",
+    "backend": "ibm_marrakesh",
+    "backend_slot": "A",
+    "width": 51,
+    "pipeline": "sabre_o3",
+    "job_id": "dbiv5hhkdqps738vgd70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.220703,
+      "exact_hits": 226,
+      "mean_bit_accuracy": 0.971527,
+      "zero_centered_polarization": 0.943053,
+      "mean_hamming_fraction": 0.028473
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.000977,
+      "exact_hits": 1,
+      "mean_bit_accuracy": 0.827895,
+      "zero_centered_polarization": 0.65579,
+      "mean_hamming_fraction": 0.172105
+    },
+    "spam_normalized_polarization_ratio": 0.69539
+  },
+  {
+    "control_id": "control_51q_s1",
+    "matched_mirror_id": "mirror_51q_d1_s1",
+    "backend": "ibm_marrakesh",
+    "backend_slot": "A",
+    "width": 51,
+    "pipeline": "tket",
+    "job_id": "dbiv5hhkdqps738vgd70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.089844,
+      "exact_hits": 92,
+      "mean_bit_accuracy": 0.958467,
+      "zero_centered_polarization": 0.916935,
+      "mean_hamming_fraction": 0.041533
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.711416,
+      "zero_centered_polarization": 0.422832,
+      "mean_hamming_fraction": 0.288584
+    },
+    "spam_normalized_polarization_ratio": 0.461136
+  },
+  {
+    "control_id": "control_51q_s1",
+    "matched_mirror_id": "mirror_51q_d1_s1",
+    "backend": "ibm_marrakesh",
+    "backend_slot": "A",
+    "width": 51,
+    "pipeline": "prometheus_candidate",
+    "job_id": "dbiv5hhkdqps738vgd70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.12793,
+      "exact_hits": 131,
+      "mean_bit_accuracy": 0.963006,
+      "zero_centered_polarization": 0.926011,
+      "mean_hamming_fraction": 0.036994
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.003906,
+      "exact_hits": 4,
+      "mean_bit_accuracy": 0.833793,
+      "zero_centered_polarization": 0.667586,
+      "mean_hamming_fraction": 0.166207
+    },
+    "spam_normalized_polarization_ratio": 0.720927
+  },
+  {
+    "control_id": "control_101q_s1",
+    "matched_mirror_id": "mirror_101q_d1_s1",
+    "backend": "ibm_marrakesh",
+    "backend_slot": "A",
+    "width": 101,
+    "pipeline": "sabre_o3",
+    "job_id": "dbiv5hhkdqps738vgd70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.010742,
+      "exact_hits": 11,
+      "mean_bit_accuracy": 0.959274,
+      "zero_centered_polarization": 0.918549,
+      "mean_hamming_fraction": 0.040726
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.696889,
+      "zero_centered_polarization": 0.393777,
+      "mean_hamming_fraction": 0.303111
+    },
+    "spam_normalized_polarization_ratio": 0.428695
+  },
+  {
+    "control_id": "control_101q_s1",
+    "matched_mirror_id": "mirror_101q_d1_s1",
+    "backend": "ibm_marrakesh",
+    "backend_slot": "A",
+    "width": 101,
+    "pipeline": "tket",
+    "job_id": "dbiv5hhkdqps738vgd70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.003906,
+      "exact_hits": 4,
+      "mean_bit_accuracy": 0.949828,
+      "zero_centered_polarization": 0.899656,
+      "mean_hamming_fraction": 0.050172
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.567334,
+      "zero_centered_polarization": 0.134669,
+      "mean_hamming_fraction": 0.432666
+    },
+    "spam_normalized_polarization_ratio": 0.149689
+  },
+  {
+    "control_id": "control_101q_s1",
+    "matched_mirror_id": "mirror_101q_d1_s1",
+    "backend": "ibm_marrakesh",
+    "backend_slot": "A",
+    "width": 101,
+    "pipeline": "prometheus_candidate",
+    "job_id": "dbiv5hhkdqps738vgd70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.006836,
+      "exact_hits": 7,
+      "mean_bit_accuracy": 0.958859,
+      "zero_centered_polarization": 0.917717,
+      "mean_hamming_fraction": 0.041141
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.745359,
+      "zero_centered_polarization": 0.490718,
+      "mean_hamming_fraction": 0.254641
+    },
+    "spam_normalized_polarization_ratio": 0.534716
+  },
+  {
+    "control_id": "control_24q_s1",
+    "matched_mirror_id": "mirror_24q_d1_s1",
+    "backend": "ibm_fez",
+    "backend_slot": "B",
+    "width": 24,
+    "pipeline": "sabre_o3",
+    "job_id": "dbiv5vpffo6c73b8igig",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.8125,
+      "exact_hits": 832,
+      "mean_bit_accuracy": 0.991333,
+      "zero_centered_polarization": 0.982666,
+      "mean_hamming_fraction": 0.008667
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.240234,
+      "exact_hits": 246,
+      "mean_bit_accuracy": 0.901693,
+      "zero_centered_polarization": 0.803385,
+      "mean_hamming_fraction": 0.098307
+    },
+    "spam_normalized_polarization_ratio": 0.817557
+  },
+  {
+    "control_id": "control_24q_s1",
+    "matched_mirror_id": "mirror_24q_d1_s1",
+    "backend": "ibm_fez",
+    "backend_slot": "B",
+    "width": 24,
+    "pipeline": "tket",
+    "job_id": "dbiv5vpffo6c73b8igig",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.615234,
+      "exact_hits": 630,
+      "mean_bit_accuracy": 0.979777,
+      "zero_centered_polarization": 0.959554,
+      "mean_hamming_fraction": 0.020223
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.006836,
+      "exact_hits": 7,
+      "mean_bit_accuracy": 0.753866,
+      "zero_centered_polarization": 0.507731,
+      "mean_hamming_fraction": 0.246134
+    },
+    "spam_normalized_polarization_ratio": 0.529132
+  },
+  {
+    "control_id": "control_24q_s1",
+    "matched_mirror_id": "mirror_24q_d1_s1",
+    "backend": "ibm_fez",
+    "backend_slot": "B",
+    "width": 24,
+    "pipeline": "prometheus_candidate",
+    "job_id": "dbiv5vpffo6c73b8igig",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.800781,
+      "exact_hits": 820,
+      "mean_bit_accuracy": 0.990763,
+      "zero_centered_polarization": 0.981527,
+      "mean_hamming_fraction": 0.009237
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.248047,
+      "exact_hits": 254,
+      "mean_bit_accuracy": 0.902832,
+      "zero_centered_polarization": 0.805664,
+      "mean_hamming_fraction": 0.097168
+    },
+    "spam_normalized_polarization_ratio": 0.820827
+  },
+  {
+    "control_id": "control_51q_s1",
+    "matched_mirror_id": "mirror_51q_d1_s1",
+    "backend": "ibm_fez",
+    "backend_slot": "B",
+    "width": 51,
+    "pipeline": "sabre_o3",
+    "job_id": "dbiv5vpffo6c73b8igig",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.456055,
+      "exact_hits": 467,
+      "mean_bit_accuracy": 0.984701,
+      "zero_centered_polarization": 0.969401,
+      "mean_hamming_fraction": 0.015299
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.001953,
+      "exact_hits": 2,
+      "mean_bit_accuracy": 0.817613,
+      "zero_centered_polarization": 0.635225,
+      "mean_hamming_fraction": 0.182387
+    },
+    "spam_normalized_polarization_ratio": 0.655276
+  },
+  {
+    "control_id": "control_51q_s1",
+    "matched_mirror_id": "mirror_51q_d1_s1",
+    "backend": "ibm_fez",
+    "backend_slot": "B",
+    "width": 51,
+    "pipeline": "tket",
+    "job_id": "dbiv5vpffo6c73b8igig",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.430664,
+      "exact_hits": 441,
+      "mean_bit_accuracy": 0.984279,
+      "zero_centered_polarization": 0.968559,
+      "mean_hamming_fraction": 0.015721
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.764342,
+      "zero_centered_polarization": 0.528684,
+      "mean_hamming_fraction": 0.235658
+    },
+    "spam_normalized_polarization_ratio": 0.545846
+  },
+  {
+    "control_id": "control_51q_s1",
+    "matched_mirror_id": "mirror_51q_d1_s1",
+    "backend": "ibm_fez",
+    "backend_slot": "B",
+    "width": 51,
+    "pipeline": "prometheus_candidate",
+    "job_id": "dbiv5vpffo6c73b8igig",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.507812,
+      "exact_hits": 520,
+      "mean_bit_accuracy": 0.987534,
+      "zero_centered_polarization": 0.975069,
+      "mean_hamming_fraction": 0.012466
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.010742,
+      "exact_hits": 11,
+      "mean_bit_accuracy": 0.859356,
+      "zero_centered_polarization": 0.718712,
+      "mean_hamming_fraction": 0.140644
+    },
+    "spam_normalized_polarization_ratio": 0.737088
+  },
+  {
+    "control_id": "control_101q_s1",
+    "matched_mirror_id": "mirror_101q_d1_s1",
+    "backend": "ibm_fez",
+    "backend_slot": "B",
+    "width": 101,
+    "pipeline": "sabre_o3",
+    "job_id": "dbiv5vpffo6c73b8igig",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.188477,
+      "exact_hits": 193,
+      "mean_bit_accuracy": 0.983195,
+      "zero_centered_polarization": 0.966391,
+      "mean_hamming_fraction": 0.016805
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.669129,
+      "zero_centered_polarization": 0.338258,
+      "mean_hamming_fraction": 0.330871
+    },
+    "spam_normalized_polarization_ratio": 0.350022
+  },
+  {
+    "control_id": "control_101q_s1",
+    "matched_mirror_id": "mirror_101q_d1_s1",
+    "backend": "ibm_fez",
+    "backend_slot": "B",
+    "width": 101,
+    "pipeline": "tket",
+    "job_id": "dbiv5vpffo6c73b8igig",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.083008,
+      "exact_hits": 85,
+      "mean_bit_accuracy": 0.977249,
+      "zero_centered_polarization": 0.954498,
+      "mean_hamming_fraction": 0.022751
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.549988,
+      "zero_centered_polarization": 0.099977,
+      "mean_hamming_fraction": 0.450012
+    },
+    "spam_normalized_polarization_ratio": 0.104743
+  },
+  {
+    "control_id": "control_101q_s1",
+    "matched_mirror_id": "mirror_101q_d1_s1",
+    "backend": "ibm_fez",
+    "backend_slot": "B",
+    "width": 101,
+    "pipeline": "prometheus_candidate",
+    "job_id": "dbiv5vpffo6c73b8igig",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.125977,
+      "exact_hits": 129,
+      "mean_bit_accuracy": 0.980488,
+      "zero_centered_polarization": 0.960976,
+      "mean_hamming_fraction": 0.019512
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.755608,
+      "zero_centered_polarization": 0.511216,
+      "mean_hamming_fraction": 0.244392
+    },
+    "spam_normalized_polarization_ratio": 0.531976
+  },
+  {
+    "control_id": "control_24q_s1",
+    "matched_mirror_id": "mirror_24q_d1_s1",
+    "backend": "ibm_kingston",
+    "backend_slot": "C",
+    "width": 24,
+    "pipeline": "sabre_o3",
+    "job_id": "dbiv6bhffo6c73b8ih70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.696289,
+      "exact_hits": 713,
+      "mean_bit_accuracy": 0.984904,
+      "zero_centered_polarization": 0.969808,
+      "mean_hamming_fraction": 0.015096
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.269531,
+      "exact_hits": 276,
+      "mean_bit_accuracy": 0.924113,
+      "zero_centered_polarization": 0.848226,
+      "mean_hamming_fraction": 0.075887
+    },
+    "spam_normalized_polarization_ratio": 0.874633
+  },
+  {
+    "control_id": "control_24q_s1",
+    "matched_mirror_id": "mirror_24q_d1_s1",
+    "backend": "ibm_kingston",
+    "backend_slot": "C",
+    "width": 24,
+    "pipeline": "tket",
+    "job_id": "dbiv6bhffo6c73b8ih70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.760742,
+      "exact_hits": 779,
+      "mean_bit_accuracy": 0.98881,
+      "zero_centered_polarization": 0.97762,
+      "mean_hamming_fraction": 0.01119
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.030273,
+      "exact_hits": 31,
+      "mean_bit_accuracy": 0.794189,
+      "zero_centered_polarization": 0.588379,
+      "mean_hamming_fraction": 0.205811
+    },
+    "spam_normalized_polarization_ratio": 0.601848
+  },
+  {
+    "control_id": "control_24q_s1",
+    "matched_mirror_id": "mirror_24q_d1_s1",
+    "backend": "ibm_kingston",
+    "backend_slot": "C",
+    "width": 24,
+    "pipeline": "prometheus_candidate",
+    "job_id": "dbiv6bhffo6c73b8ih70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.703125,
+      "exact_hits": 720,
+      "mean_bit_accuracy": 0.985352,
+      "zero_centered_polarization": 0.970703,
+      "mean_hamming_fraction": 0.014648
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.298828,
+      "exact_hits": 306,
+      "mean_bit_accuracy": 0.923299,
+      "zero_centered_polarization": 0.846598,
+      "mean_hamming_fraction": 0.076701
+    },
+    "spam_normalized_polarization_ratio": 0.872149
+  },
+  {
+    "control_id": "control_51q_s1",
+    "matched_mirror_id": "mirror_51q_d1_s1",
+    "backend": "ibm_kingston",
+    "backend_slot": "C",
+    "width": 51,
+    "pipeline": "sabre_o3",
+    "job_id": "dbiv6bhffo6c73b8ih70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.335938,
+      "exact_hits": 344,
+      "mean_bit_accuracy": 0.97953,
+      "zero_centered_polarization": 0.959061,
+      "mean_hamming_fraction": 0.02047
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.001953,
+      "exact_hits": 2,
+      "mean_bit_accuracy": 0.828757,
+      "zero_centered_polarization": 0.657514,
+      "mean_hamming_fraction": 0.171243
+    },
+    "spam_normalized_polarization_ratio": 0.685581
+  },
+  {
+    "control_id": "control_51q_s1",
+    "matched_mirror_id": "mirror_51q_d1_s1",
+    "backend": "ibm_kingston",
+    "backend_slot": "C",
+    "width": 51,
+    "pipeline": "tket",
+    "job_id": "dbiv6bhffo6c73b8ih70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.03418,
+      "exact_hits": 35,
+      "mean_bit_accuracy": 0.958276,
+      "zero_centered_polarization": 0.916552,
+      "mean_hamming_fraction": 0.041724
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.737458,
+      "zero_centered_polarization": 0.474916,
+      "mean_hamming_fraction": 0.262542
+    },
+    "spam_normalized_polarization_ratio": 0.518155
+  },
+  {
+    "control_id": "control_51q_s1",
+    "matched_mirror_id": "mirror_51q_d1_s1",
+    "backend": "ibm_kingston",
+    "backend_slot": "C",
+    "width": 51,
+    "pipeline": "prometheus_candidate",
+    "job_id": "dbiv6bhffo6c73b8ih70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.433594,
+      "exact_hits": 444,
+      "mean_bit_accuracy": 0.98472,
+      "zero_centered_polarization": 0.969439,
+      "mean_hamming_fraction": 0.01528
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.044922,
+      "exact_hits": 46,
+      "mean_bit_accuracy": 0.89591,
+      "zero_centered_polarization": 0.79182,
+      "mean_hamming_fraction": 0.10409
+    },
+    "spam_normalized_polarization_ratio": 0.816782
+  },
+  {
+    "control_id": "control_101q_s1",
+    "matched_mirror_id": "mirror_101q_d1_s1",
+    "backend": "ibm_kingston",
+    "backend_slot": "C",
+    "width": 101,
+    "pipeline": "sabre_o3",
+    "job_id": "dbiv6bhffo6c73b8ih70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.200195,
+      "exact_hits": 205,
+      "mean_bit_accuracy": 0.984104,
+      "zero_centered_polarization": 0.968209,
+      "mean_hamming_fraction": 0.015896
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.703599,
+      "zero_centered_polarization": 0.407198,
+      "mean_hamming_fraction": 0.296401
+    },
+    "spam_normalized_polarization_ratio": 0.420568
+  },
+  {
+    "control_id": "control_101q_s1",
+    "matched_mirror_id": "mirror_101q_d1_s1",
+    "backend": "ibm_kingston",
+    "backend_slot": "C",
+    "width": 101,
+    "pipeline": "tket",
+    "job_id": "dbiv6bhffo6c73b8ih70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.130859,
+      "exact_hits": 134,
+      "mean_bit_accuracy": 0.979676,
+      "zero_centered_polarization": 0.959352,
+      "mean_hamming_fraction": 0.020324
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.578463,
+      "zero_centered_polarization": 0.156927,
+      "mean_hamming_fraction": 0.421537
+    },
+    "spam_normalized_polarization_ratio": 0.163576
+  },
+  {
+    "control_id": "control_101q_s1",
+    "matched_mirror_id": "mirror_101q_d1_s1",
+    "backend": "ibm_kingston",
+    "backend_slot": "C",
+    "width": 101,
+    "pipeline": "prometheus_candidate",
+    "job_id": "dbiv6bhffo6c73b8ih70",
+    "shots": 1024,
+    "spam_control_metrics": {
+      "exact_survival": 0.216797,
+      "exact_hits": 222,
+      "mean_bit_accuracy": 0.984742,
+      "zero_centered_polarization": 0.969485,
+      "mean_hamming_fraction": 0.015258
+    },
+    "matched_mirror_d1_metrics": {
+      "exact_survival": 0.0,
+      "exact_hits": 0,
+      "mean_bit_accuracy": 0.791499,
+      "zero_centered_polarization": 0.582998,
+      "mean_hamming_fraction": 0.208501
+    },
+    "spam_normalized_polarization_ratio": 0.601348
+  }
+]

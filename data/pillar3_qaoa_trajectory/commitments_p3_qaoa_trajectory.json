@@ -1,0 +1,2312 @@
+{
+  "software_version": "Prometheus_Public_Validation_V1.0",
+  "commitment_timestamp_utc": "2026-10-31T14:09:14.103116+00:00",
+  "parameter_source": "Predetermined noiseless statevector COBYLA optimization from uniform initialization (0.35, 0.35, 0.35, 0.35)",
+  "records": {
+    "qaoa_traj_8q_g1_initial_A": {
+      "backend": "ibm_marrakesh",
+      "width": 8,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.38537,
+      "candidate_hashes": {
+        "sabre_o3": "117aa570f9f963609b98992883758b1ab691c526b646de3986172be668725bb3",
+        "tket": "928f9a160506b09e1d545782f2319dae8b447927daf8500005d52e6ca460f580",
+        "prometheus_candidate": "6f5d5f87d8e2e4737f2b08b22ac9bc8606d5ee8a597e194f5e67317fddcee574"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 221
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 302
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 235
+        }
+      }
+    },
+    "qaoa_traj_8q_g1_intermediate_A": {
+      "backend": "ibm_marrakesh",
+      "width": 8,
+      "stage": "intermediate",
+      "params": [
+        1.192154,
+        -0.010236,
+        0.144279,
+        0.797027
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.624243,
+      "candidate_hashes": {
+        "sabre_o3": "fa89709da583e96ef8902fb22657b252de4cfd6c2357e4cbba4787313181118f",
+        "tket": "bbdf5eb00ac79d7d9f902051305fd8309694617388bdf29da8bb118e1c88c84b",
+        "prometheus_candidate": "5c9eb5055f189b5d12c2a4a56e54d01a8044c0efb10490a4f4fb7e8aace0f859"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 216
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 302
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 229
+        }
+      }
+    },
+    "qaoa_traj_8q_g1_final_cobyla_solution_A": {
+      "backend": "ibm_marrakesh",
+      "width": 8,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.170665,
+        0.036366,
+        0.136263,
+        0.791287
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.62493,
+      "candidate_hashes": {
+        "sabre_o3": "ea4a68c29595e51b884250d3e0e8c63464d54745e0205bbcb22eaa9013d77b04",
+        "tket": "b548b732c9ee7ebfe2ac8d2afa2cfa7b1fa0eb2e853bbe3326c6b9dc388cce33",
+        "prometheus_candidate": "4dc983f31e524a6a82f6ebf15c5d2df10e2a6ed946a9d5ecb5bf7151f8aea0bd"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 222
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 302
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 233
+        }
+      }
+    },
+    "qaoa_traj_8q_g2_initial_A": {
+      "backend": "ibm_marrakesh",
+      "width": 8,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.369148,
+      "candidate_hashes": {
+        "sabre_o3": "3b7f2c1e07c82be31aeacdd4229389330d1bba136c9166c5a36ca9344161bf02",
+        "tket": "10c6573fb930565f509fdc8480173f8a16b4daf1e6ff6488e333a49e38c328d9",
+        "prometheus_candidate": "b38e8ed13887840bfccb316c3a172154a69da177476b0b34e81a2cd59b1aebee"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 100,
+          "depth": 262
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 315
+        },
+        "prometheus_candidate": {
+          "native_2q": 98,
+          "depth": 233
+        }
+      }
+    },
+    "qaoa_traj_8q_g2_intermediate_A": {
+      "backend": "ibm_marrakesh",
+      "width": 8,
+      "stage": "intermediate",
+      "params": [
+        0.848597,
+        0.368575,
+        0.171557,
+        0.591281
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.618345,
+      "candidate_hashes": {
+        "sabre_o3": "6e3f6b1aef2e8479d0ad31550fb98a1150f8e2de8046d528d9f823227a51558e",
+        "tket": "5f53d28f0515d9240ead788d754fdc77935b5dea9c79f7e228f2ffba884d36c0",
+        "prometheus_candidate": "d8f76c0a2a7b36affc649050c56b6ba8e6de65ab3a9dca622eac0b2f808a5f8a"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 100,
+          "depth": 258
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 315
+        },
+        "prometheus_candidate": {
+          "native_2q": 98,
+          "depth": 229
+        }
+      }
+    },
+    "qaoa_traj_8q_g2_final_cobyla_solution_A": {
+      "backend": "ibm_marrakesh",
+      "width": 8,
+      "stage": "final_cobyla_solution",
+      "params": [
+        0.788282,
+        0.428702,
+        -0.035118,
+        0.940013
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.626968,
+      "candidate_hashes": {
+        "sabre_o3": "21ddad727db1d7e26d3fd4b408dab483800144395358cb2274df62c50b49b48d",
+        "tket": "ca8e28f7071bcabd5090b8d5776bc2662190af8f5a95efcceac89ca1d78c0423",
+        "prometheus_candidate": "018779a7c25e9d16904658a200e1e025369af87ed37d4c7c182338e269ad4bb5"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 100,
+          "depth": 260
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 315
+        },
+        "prometheus_candidate": {
+          "native_2q": 98,
+          "depth": 231
+        }
+      }
+    },
+    "qaoa_traj_10q_g1_initial_A": {
+      "backend": "ibm_marrakesh",
+      "width": 10,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.387203,
+      "candidate_hashes": {
+        "sabre_o3": "05754d30ee1466fd86347d898eb2783e714fa0ff87b7650ac6cb0e85e90710bd",
+        "tket": "4e719f27ad2aa0249eca083bb56a978188bd1912657ec7071dabc36da7c08905",
+        "prometheus_candidate": "09f3a28475c91a1b43d5fba3b93614763c21286706afa38c0338fa41f76913d1"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 124,
+          "depth": 308
+        },
+        "tket": {
+          "native_2q": 129,
+          "depth": 328
+        },
+        "prometheus_candidate": {
+          "native_2q": 120,
+          "depth": 288
+        }
+      }
+    },
+    "qaoa_traj_10q_g1_intermediate_A": {
+      "backend": "ibm_marrakesh",
+      "width": 10,
+      "stage": "intermediate",
+      "params": [
+        1.155022,
+        0.268976,
+        0.387183,
+        0.718668
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.672909,
+      "candidate_hashes": {
+        "sabre_o3": "2fe1939bb8223aad498ec047153a7558afc8c4bc640792026fbe8f6533bb148b",
+        "tket": "125055f310136908ea1b802eb0a825440f41f8f5c87e7cf026634ae61e21a686",
+        "prometheus_candidate": "5bbd085b62ada1c746adcb3aa983d9870c51835b6db5abb5d138e507efa6d7dc"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 124,
+          "depth": 307
+        },
+        "tket": {
+          "native_2q": 129,
+          "depth": 328
+        },
+        "prometheus_candidate": {
+          "native_2q": 120,
+          "depth": 284
+        }
+      }
+    },
+    "qaoa_traj_10q_g1_final_cobyla_solution_A": {
+      "backend": "ibm_marrakesh",
+      "width": 10,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.180184,
+        0.145483,
+        0.393482,
+        0.799198
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.68121,
+      "candidate_hashes": {
+        "sabre_o3": "e7a8a09d5f466441fff68052d03fdc2c5f81b307437ec009c04bc4a7621f3d34",
+        "tket": "8546b1adc93255412421b78aeb70eb929d75b5e1dc58140d3d50e3621ece8311",
+        "prometheus_candidate": "f8f5785eeb6779ad785defc4c6791e613a7c8f1f3ccfb32b8d6ef81b86e28384"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 124,
+          "depth": 308
+        },
+        "tket": {
+          "native_2q": 129,
+          "depth": 328
+        },
+        "prometheus_candidate": {
+          "native_2q": 120,
+          "depth": 284
+        }
+      }
+    },
+    "qaoa_traj_10q_g2_initial_A": {
+      "backend": "ibm_marrakesh",
+      "width": 10,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.406324,
+      "candidate_hashes": {
+        "sabre_o3": "f0cf392cf476a4a58f70cd35ded59eb42375565e373c6a2eddfaa12339d0a62b",
+        "tket": "e806ab21e731bcac3b3b778ed795afae15fec2861b405d98c5a9a0159d827219",
+        "prometheus_candidate": "f2c3d6e3f15fa19612211f8062b62e7d63f999b45f323696bc6f728679d7e95a"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 128,
+          "depth": 319
+        },
+        "tket": {
+          "native_2q": 174,
+          "depth": 364
+        },
+        "prometheus_candidate": {
+          "native_2q": 127,
+          "depth": 337
+        }
+      }
+    },
+    "qaoa_traj_10q_g2_intermediate_A": {
+      "backend": "ibm_marrakesh",
+      "width": 10,
+      "stage": "intermediate",
+      "params": [
+        1.508702,
+        0.239378,
+        0.366134,
+        0.477049
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.747947,
+      "candidate_hashes": {
+        "sabre_o3": "55fe1c9f395fab22561067c7730c58402babab804d93328bb309b798f12b0254",
+        "tket": "f94f6286832ee6ade5c49704450bf35a25ad2b4dd56c529e38d477baae4df496",
+        "prometheus_candidate": "9fa1fad5f937f825060d30083bf57cc24289bc21947f13faa98833265b64f1d4"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 128,
+          "depth": 319
+        },
+        "tket": {
+          "native_2q": 174,
+          "depth": 364
+        },
+        "prometheus_candidate": {
+          "native_2q": 127,
+          "depth": 340
+        }
+      }
+    },
+    "qaoa_traj_10q_g2_final_cobyla_solution_A": {
+      "backend": "ibm_marrakesh",
+      "width": 10,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.653608,
+        0.305257,
+        0.380782,
+        0.34
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.783025,
+      "candidate_hashes": {
+        "sabre_o3": "22168473be5ce1714e85fa6c3d8087717afe3aefe583397e88c9b81788b0d618",
+        "tket": "511c3b632acd34cc5f348c3447e9fbddbe39c4be3855c5ff95ce773e6474c16f",
+        "prometheus_candidate": "24a023193952b98269ecb849c53d46fb92ad1de0d41cd2c76c2784c5149f29af"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 128,
+          "depth": 313
+        },
+        "tket": {
+          "native_2q": 174,
+          "depth": 364
+        },
+        "prometheus_candidate": {
+          "native_2q": 127,
+          "depth": 331
+        }
+      }
+    },
+    "qaoa_traj_12q_g1_initial_A": {
+      "backend": "ibm_marrakesh",
+      "width": 12,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 15.0,
+      "ideal_approx_ratio": 0.3931,
+      "candidate_hashes": {
+        "sabre_o3": "26f461341ee2f835b5f9313a1463e859a5691e257310ec16678001c0712c0f85",
+        "tket": "a71e4cc11a5e28cf7ad2bbf2b6cfacb8af07b746ec23a181ba2441f3e805ac62",
+        "prometheus_candidate": "5e549be8212fe29e305999412ec1d2796e957a1bf844cb9b0aa5cc081da14703"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 180,
+          "depth": 341
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 416
+        },
+        "prometheus_candidate": {
+          "native_2q": 169,
+          "depth": 301
+        }
+      }
+    },
+    "qaoa_traj_12q_g1_intermediate_A": {
+      "backend": "ibm_marrakesh",
+      "width": 12,
+      "stage": "intermediate",
+      "params": [
+        1.1067,
+        0.198819,
+        0.343079,
+        0.864413
+      ],
+      "exact_optimum": 15.0,
+      "ideal_approx_ratio": 0.712134,
+      "candidate_hashes": {
+        "sabre_o3": "d4eefbe6fc998e17c13ed32213e499aca1843e7d73a4c19cf4c10f9717f01c7b",
+        "tket": "5fb9246495c859fec0c5915129003d1cafabc97fb1b093e98ff73e31d3534d7a",
+        "prometheus_candidate": "6fba31cf49c70c09487b2c0c737b37265ddfb934658668e6bd8a39941a0d741b"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 180,
+          "depth": 340
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 416
+        },
+        "prometheus_candidate": {
+          "native_2q": 169,
+          "depth": 298
+        }
+      }
+    },
+    "qaoa_traj_12q_g1_final_cobyla_solution_A": {
+      "backend": "ibm_marrakesh",
+      "width": 12,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.119306,
+        0.208791,
+        0.319665,
+        0.861328
+      ],
+      "exact_optimum": 15.0,
+      "ideal_approx_ratio": 0.713183,
+      "candidate_hashes": {
+        "sabre_o3": "237bd14aa7d1f7a491e7900bb23d1defc085c4ecaa1a6fc1551aa6bc2ba67cc8",
+        "tket": "b2def803cca684c1b0f8f81ed180e065375e1c28b15f3f1732676d9477ded933",
+        "prometheus_candidate": "2663e7b01a4f46e593b02241c9b5f938fa85c9a37badfd5702790ecda72c5935"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 180,
+          "depth": 341
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 416
+        },
+        "prometheus_candidate": {
+          "native_2q": 170,
+          "depth": 300
+        }
+      }
+    },
+    "qaoa_traj_12q_g2_initial_A": {
+      "backend": "ibm_marrakesh",
+      "width": 12,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 16.0,
+      "ideal_approx_ratio": 0.349082,
+      "candidate_hashes": {
+        "sabre_o3": "07b0f9507e3c9333b1e8e0e40095e61220c5f334723cf8934fe8970627581217",
+        "tket": "fe057d7854f989fdbe2101bd602e15f76959864f17ff3a3d7c35f38af20a4bc5",
+        "prometheus_candidate": "c6e1b7b172d769f48523d05117056b4b6e16e887eecc5c828cfeccde11526536"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 174,
+          "depth": 295
+        },
+        "tket": {
+          "native_2q": 240,
+          "depth": 470
+        },
+        "prometheus_candidate": {
+          "native_2q": 162,
+          "depth": 290
+        }
+      }
+    },
+    "qaoa_traj_12q_g2_intermediate_A": {
+      "backend": "ibm_marrakesh",
+      "width": 12,
+      "stage": "intermediate",
+      "params": [
+        0.844647,
+        0.561944,
+        0.192811,
+        0.286415
+      ],
+      "exact_optimum": 16.0,
+      "ideal_approx_ratio": 0.603153,
+      "candidate_hashes": {
+        "sabre_o3": "fef8f486dfb4bc1052b3da1c7e5060ddb668f194e1c3413da9364c7b40793bcf",
+        "tket": "a80b103ba5f0596d81d8e1fbb2b9467f742c915aaf0cced8eef1449e87f9115a",
+        "prometheus_candidate": "e70582ce211d0306d6df02d84799c2efc633d11831277f73dfdf915f010f998f"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 174,
+          "depth": 297
+        },
+        "tket": {
+          "native_2q": 240,
+          "depth": 470
+        },
+        "prometheus_candidate": {
+          "native_2q": 162,
+          "depth": 293
+        }
+      }
+    },
+    "qaoa_traj_12q_g2_final_cobyla_solution_A": {
+      "backend": "ibm_marrakesh",
+      "width": 12,
+      "stage": "final_cobyla_solution",
+      "params": [
+        0.959653,
+        0.256304,
+        0.054601,
+        0.33197
+      ],
+      "exact_optimum": 16.0,
+      "ideal_approx_ratio": 0.624327,
+      "candidate_hashes": {
+        "sabre_o3": "6ba1a29aae369bfbd6d8f7a2c6c36747a8c5f2ce0a3ddc9a2db2488eb0e6c44a",
+        "tket": "2c692ce0cb3a56471114e21b48ca4918e1adde1a858b895ea9cdcc6a86d90dde",
+        "prometheus_candidate": "fafcab8f6db252178ba5e73b619e18829d03ed48c2d2866dfc025607f3833356"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 174,
+          "depth": 299
+        },
+        "tket": {
+          "native_2q": 240,
+          "depth": 470
+        },
+        "prometheus_candidate": {
+          "native_2q": 162,
+          "depth": 291
+        }
+      }
+    },
+    "qaoa_traj_14q_g1_initial_A": {
+      "backend": "ibm_marrakesh",
+      "width": 14,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.373933,
+      "candidate_hashes": {
+        "sabre_o3": "101855713b219fc3714d57e59f6e887d1f0a02d0e346032bad1e4a2b53c5bc07",
+        "tket": "8b8a89d52cbd980b35d81a9a455514afaecb849a5173e55d6d82dcd4dd901f7b",
+        "prometheus_candidate": "8e03ad9a5d5f15cc41c0895681e6ef7a47d6c2b7e15356ceb03f3bf6e4e8362b"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 196,
+          "depth": 415
+        },
+        "tket": {
+          "native_2q": 300,
+          "depth": 513
+        },
+        "prometheus_candidate": {
+          "native_2q": 176,
+          "depth": 383
+        }
+      }
+    },
+    "qaoa_traj_14q_g1_intermediate_A": {
+      "backend": "ibm_marrakesh",
+      "width": 14,
+      "stage": "intermediate",
+      "params": [
+        1.190494,
+        0.196584,
+        0.34393,
+        0.87153
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.646891,
+      "candidate_hashes": {
+        "sabre_o3": "6dde754cb2e3e360483ba54fbf7e8b3630612ad1430ea6cd1684db8c86a97b45",
+        "tket": "045b116cfc4c4ecf0ac4e1a09c79523483147911fb4c9d2b644a0118e58c79d1",
+        "prometheus_candidate": "6c9bd3ca20ddf420e0a583b9e8af6dc6a3dc3f93be12fae04d464cf3fd074c7d"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 196,
+          "depth": 411
+        },
+        "tket": {
+          "native_2q": 300,
+          "depth": 513
+        },
+        "prometheus_candidate": {
+          "native_2q": 171,
+          "depth": 371
+        }
+      }
+    },
+    "qaoa_traj_14q_g1_final_cobyla_solution_A": {
+      "backend": "ibm_marrakesh",
+      "width": 14,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.205311,
+        0.170514,
+        0.310364,
+        0.84548
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.64862,
+      "candidate_hashes": {
+        "sabre_o3": "133bddfad17f4a33467e77f7c8702d04b4a48a14a9c9e99f8e1ec691ee2b686e",
+        "tket": "5518eefb4eda62366b6b1ad2ee74fbe40a487dbecd3e7e822078e872a120a737",
+        "prometheus_candidate": "16fa7a320c1ec4cac9f1032a63e1ac129174636419c5bf51fb0cb113f2a512bd"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 196,
+          "depth": 409
+        },
+        "tket": {
+          "native_2q": 300,
+          "depth": 513
+        },
+        "prometheus_candidate": {
+          "native_2q": 176,
+          "depth": 379
+        }
+      }
+    },
+    "qaoa_traj_14q_g2_initial_A": {
+      "backend": "ibm_marrakesh",
+      "width": 14,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.375196,
+      "candidate_hashes": {
+        "sabre_o3": "c13540fd8fd4dde3dd8e49b250153f38a41e5d8b58e178bf22b0f0930e4b8b9a",
+        "tket": "a18445104cdb3432ad13d051069d50975e84eaf765700f8774e87b9a78bae3f7",
+        "prometheus_candidate": "ece746807c668bfc9f03b545441ae0426d567ea8f6f46dd06867834caff29b33"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 206,
+          "depth": 416
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 465
+        },
+        "prometheus_candidate": {
+          "native_2q": 200,
+          "depth": 388
+        }
+      }
+    },
+    "qaoa_traj_14q_g2_intermediate_A": {
+      "backend": "ibm_marrakesh",
+      "width": 14,
+      "stage": "intermediate",
+      "params": [
+        1.158859,
+        0.286069,
+        0.251796,
+        0.756136
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.723962,
+      "candidate_hashes": {
+        "sabre_o3": "2805678d10e7cc86dcc11004436c1d2b4a6106e3abab38cdf0e829d7becfe1d5",
+        "tket": "fa50fd1d3b866b0d8fa73b023fa85db1ec3d68e5dea7211d4391a8b486984975",
+        "prometheus_candidate": "060f44aefc6102d3352b488cbe78df5e1ec656f3a045ea1442607bee60ac3d4f"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 206,
+          "depth": 424
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 465
+        },
+        "prometheus_candidate": {
+          "native_2q": 200,
+          "depth": 391
+        }
+      }
+    },
+    "qaoa_traj_14q_g2_final_cobyla_solution_A": {
+      "backend": "ibm_marrakesh",
+      "width": 14,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.195369,
+        0.163494,
+        0.354145,
+        0.834639
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.778946,
+      "candidate_hashes": {
+        "sabre_o3": "342bf82326b07424ec9c08e0cee82afbbb00dd84a2719c56770afba53d4ecf6c",
+        "tket": "314721f05f71ff1cb533d7bc6ec72f27d7b5eb2e9b6dabd82783de4fb7a41763",
+        "prometheus_candidate": "fe1a0cd096f3b0569d6f0ccb95aa6a1a52f2f40a29b34c2dc41d37d18e351ee2"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 206,
+          "depth": 415
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 465
+        },
+        "prometheus_candidate": {
+          "native_2q": 189,
+          "depth": 383
+        }
+      }
+    },
+    "qaoa_traj_8q_g1_initial_B": {
+      "backend": "ibm_fez",
+      "width": 8,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.38537,
+      "candidate_hashes": {
+        "sabre_o3": "d3ce9c953ccbcc670083afaa5f8a182b8f9daa2a3ec41f0bdbe397e8bf8e5853",
+        "tket": "928f9a160506b09e1d545782f2319dae8b447927daf8500005d52e6ca460f580",
+        "prometheus_candidate": "078aae3a812fecdd0a9d3754b5f72d27773cf3ca0906e826f17bde9a4b5b25c8"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 221
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 302
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 234
+        }
+      }
+    },
+    "qaoa_traj_8q_g1_intermediate_B": {
+      "backend": "ibm_fez",
+      "width": 8,
+      "stage": "intermediate",
+      "params": [
+        1.192154,
+        -0.010236,
+        0.144279,
+        0.797027
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.624243,
+      "candidate_hashes": {
+        "sabre_o3": "5138d298dc1b4233732d304d618cf6cdd1dbc165389d32576e4d3fd91ae9a1c9",
+        "tket": "bbdf5eb00ac79d7d9f902051305fd8309694617388bdf29da8bb118e1c88c84b",
+        "prometheus_candidate": "3412dcbd9a9b7de32e09f8c0ec609dd5d2128a7fd315254ed98a87b5e1919022"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 217
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 302
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 229
+        }
+      }
+    },
+    "qaoa_traj_8q_g1_final_cobyla_solution_B": {
+      "backend": "ibm_fez",
+      "width": 8,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.170665,
+        0.036366,
+        0.136263,
+        0.791287
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.62493,
+      "candidate_hashes": {
+        "sabre_o3": "c6b35c992ef866e96fc0976b4ebef029a8d316e5225e5e834e78d064f404b569",
+        "tket": "b548b732c9ee7ebfe2ac8d2afa2cfa7b1fa0eb2e853bbe3326c6b9dc388cce33",
+        "prometheus_candidate": "197907ebac9bcffe335ed37acd210e407da6824316dcd27bc569086cbbd18326"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 222
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 302
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 233
+        }
+      }
+    },
+    "qaoa_traj_8q_g2_initial_B": {
+      "backend": "ibm_fez",
+      "width": 8,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.369148,
+      "candidate_hashes": {
+        "sabre_o3": "0a94461c67b33ab45acb48bf530a1b38a12220e4c0525f5d612925fb094133fd",
+        "tket": "10c6573fb930565f509fdc8480173f8a16b4daf1e6ff6488e333a49e38c328d9",
+        "prometheus_candidate": "855dfbdcaa90a1dbf951ce49d1f90767df98f555214975facb001f247ff8981e"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 100,
+          "depth": 261
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 315
+        },
+        "prometheus_candidate": {
+          "native_2q": 98,
+          "depth": 232
+        }
+      }
+    },
+    "qaoa_traj_8q_g2_intermediate_B": {
+      "backend": "ibm_fez",
+      "width": 8,
+      "stage": "intermediate",
+      "params": [
+        0.848597,
+        0.368575,
+        0.171557,
+        0.591281
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.618345,
+      "candidate_hashes": {
+        "sabre_o3": "d729fabe8b84d6c654495c53662935964d5e00e032e0d4f38fcc0feb92ea1ea6",
+        "tket": "5f53d28f0515d9240ead788d754fdc77935b5dea9c79f7e228f2ffba884d36c0",
+        "prometheus_candidate": "4b4db772f6e15a52349b131c6d487c5b6f63cab000dc448829d417e7e8ed4705"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 100,
+          "depth": 258
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 315
+        },
+        "prometheus_candidate": {
+          "native_2q": 98,
+          "depth": 229
+        }
+      }
+    },
+    "qaoa_traj_8q_g2_final_cobyla_solution_B": {
+      "backend": "ibm_fez",
+      "width": 8,
+      "stage": "final_cobyla_solution",
+      "params": [
+        0.788282,
+        0.428702,
+        -0.035118,
+        0.940013
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.626968,
+      "candidate_hashes": {
+        "sabre_o3": "9317951df5d348d942e53cec5898c26e7322133f1d9dcd43862d77766e3905d6",
+        "tket": "ca8e28f7071bcabd5090b8d5776bc2662190af8f5a95efcceac89ca1d78c0423",
+        "prometheus_candidate": "5e160c8a50f3fb8c61a7f4a9fe223feded58e28db93b5e05f984725da4f86337"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 100,
+          "depth": 260
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 315
+        },
+        "prometheus_candidate": {
+          "native_2q": 98,
+          "depth": 233
+        }
+      }
+    },
+    "qaoa_traj_10q_g1_initial_B": {
+      "backend": "ibm_fez",
+      "width": 10,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.387203,
+      "candidate_hashes": {
+        "sabre_o3": "aa8320b3bc998f2a8e95857c6bdaefea4d7df7875fee32255dbf3e96d2415160",
+        "tket": "4e719f27ad2aa0249eca083bb56a978188bd1912657ec7071dabc36da7c08905",
+        "prometheus_candidate": "bb0330d0579990b340f2c12081106d71158811b87b5ce062c5b8a78170b80b17"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 124,
+          "depth": 307
+        },
+        "tket": {
+          "native_2q": 129,
+          "depth": 328
+        },
+        "prometheus_candidate": {
+          "native_2q": 118,
+          "depth": 279
+        }
+      }
+    },
+    "qaoa_traj_10q_g1_intermediate_B": {
+      "backend": "ibm_fez",
+      "width": 10,
+      "stage": "intermediate",
+      "params": [
+        1.155022,
+        0.268976,
+        0.387183,
+        0.718668
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.672909,
+      "candidate_hashes": {
+        "sabre_o3": "1d79793c32d4162f5675b34005acdc296aaf9db7b691c8e47829c8a6c3c4a938",
+        "tket": "125055f310136908ea1b802eb0a825440f41f8f5c87e7cf026634ae61e21a686",
+        "prometheus_candidate": "a313142a256a8cd12f47a2a0c749be752ad3f3a6c26765407a15b9da11d24c29"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 124,
+          "depth": 305
+        },
+        "tket": {
+          "native_2q": 129,
+          "depth": 328
+        },
+        "prometheus_candidate": {
+          "native_2q": 118,
+          "depth": 273
+        }
+      }
+    },
+    "qaoa_traj_10q_g1_final_cobyla_solution_B": {
+      "backend": "ibm_fez",
+      "width": 10,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.180184,
+        0.145483,
+        0.393482,
+        0.799198
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.68121,
+      "candidate_hashes": {
+        "sabre_o3": "e5e6983c0a621cc99e7475be14faa3e4bade1cc5a7d0ec5248502405dfe0e889",
+        "tket": "8546b1adc93255412421b78aeb70eb929d75b5e1dc58140d3d50e3621ece8311",
+        "prometheus_candidate": "8d8db78c93d83dcfc712b87bb96d6cf0e91ccda9a738f101039cc08010a823df"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 124,
+          "depth": 307
+        },
+        "tket": {
+          "native_2q": 129,
+          "depth": 328
+        },
+        "prometheus_candidate": {
+          "native_2q": 118,
+          "depth": 273
+        }
+      }
+    },
+    "qaoa_traj_10q_g2_initial_B": {
+      "backend": "ibm_fez",
+      "width": 10,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.406324,
+      "candidate_hashes": {
+        "sabre_o3": "39b2a2c4e659a081446cca33ea5d82f4bd0bee0179898a967b1db339120e209f",
+        "tket": "e806ab21e731bcac3b3b778ed795afae15fec2861b405d98c5a9a0159d827219",
+        "prometheus_candidate": "3ec70f94611298d2ae7180472ae9da8aeefb390874d08d953adff35a0a948c6e"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 128,
+          "depth": 320
+        },
+        "tket": {
+          "native_2q": 174,
+          "depth": 364
+        },
+        "prometheus_candidate": {
+          "native_2q": 129,
+          "depth": 336
+        }
+      }
+    },
+    "qaoa_traj_10q_g2_intermediate_B": {
+      "backend": "ibm_fez",
+      "width": 10,
+      "stage": "intermediate",
+      "params": [
+        1.508702,
+        0.239378,
+        0.366134,
+        0.477049
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.747947,
+      "candidate_hashes": {
+        "sabre_o3": "2a60d4510ec5804b479ef593dee5432436b5ad9d91c5a6b7dae95bc93ae39c49",
+        "tket": "f94f6286832ee6ade5c49704450bf35a25ad2b4dd56c529e38d477baae4df496",
+        "prometheus_candidate": "d08ee00435cbacd8cdc1483776dee931a97a032e0ef35443600e0562681b2c37"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 128,
+          "depth": 321
+        },
+        "tket": {
+          "native_2q": 174,
+          "depth": 364
+        },
+        "prometheus_candidate": {
+          "native_2q": 129,
+          "depth": 337
+        }
+      }
+    },
+    "qaoa_traj_10q_g2_final_cobyla_solution_B": {
+      "backend": "ibm_fez",
+      "width": 10,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.653608,
+        0.305257,
+        0.380782,
+        0.34
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.783025,
+      "candidate_hashes": {
+        "sabre_o3": "4254b9168e1a74888121261bccbb1e0fbda5ae01ef850259d1671cddcaf62f6b",
+        "tket": "511c3b632acd34cc5f348c3447e9fbddbe39c4be3855c5ff95ce773e6474c16f",
+        "prometheus_candidate": "93b24c9a02ae803d420e6974e6616546f8a3443a87f11bd0c8af076857caef9a"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 128,
+          "depth": 311
+        },
+        "tket": {
+          "native_2q": 174,
+          "depth": 364
+        },
+        "prometheus_candidate": {
+          "native_2q": 129,
+          "depth": 330
+        }
+      }
+    },
+    "qaoa_traj_12q_g1_initial_B": {
+      "backend": "ibm_fez",
+      "width": 12,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 15.0,
+      "ideal_approx_ratio": 0.3931,
+      "candidate_hashes": {
+        "sabre_o3": "5acb0b89e6cf858d2799ab59bdd59b762792384ac30c7f745ce1eb453b552fa8",
+        "tket": "a71e4cc11a5e28cf7ad2bbf2b6cfacb8af07b746ec23a181ba2441f3e805ac62",
+        "prometheus_candidate": "ac910c8b07a2c5fb896b6dda63c88c7ef4d55063fdcae8fb0fe24a0194791fbd"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 180,
+          "depth": 339
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 416
+        },
+        "prometheus_candidate": {
+          "native_2q": 169,
+          "depth": 304
+        }
+      }
+    },
+    "qaoa_traj_12q_g1_intermediate_B": {
+      "backend": "ibm_fez",
+      "width": 12,
+      "stage": "intermediate",
+      "params": [
+        1.1067,
+        0.198819,
+        0.343079,
+        0.864413
+      ],
+      "exact_optimum": 15.0,
+      "ideal_approx_ratio": 0.712134,
+      "candidate_hashes": {
+        "sabre_o3": "26e62f80e9188e317884c42f8d82a55d2e115b45c31dc5d18a5998fec5a9cc7f",
+        "tket": "5fb9246495c859fec0c5915129003d1cafabc97fb1b093e98ff73e31d3534d7a",
+        "prometheus_candidate": "ae0d7edeb745ed15e8cae5bf10590157ca165bcb7d8586df3442b5191c2f3b00"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 180,
+          "depth": 338
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 416
+        },
+        "prometheus_candidate": {
+          "native_2q": 169,
+          "depth": 304
+        }
+      }
+    },
+    "qaoa_traj_12q_g1_final_cobyla_solution_B": {
+      "backend": "ibm_fez",
+      "width": 12,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.119306,
+        0.208791,
+        0.319665,
+        0.861328
+      ],
+      "exact_optimum": 15.0,
+      "ideal_approx_ratio": 0.713183,
+      "candidate_hashes": {
+        "sabre_o3": "c3e9e38c9053a55fd2289d1e0b59ea1a86dcd0c8c2486b4e51ae8a7af7a0dae0",
+        "tket": "b2def803cca684c1b0f8f81ed180e065375e1c28b15f3f1732676d9477ded933",
+        "prometheus_candidate": "e422e2e87531b8f2dddc189bf7e4824f9c71593d76dd178cda002a566c2b143a"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 180,
+          "depth": 340
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 416
+        },
+        "prometheus_candidate": {
+          "native_2q": 169,
+          "depth": 305
+        }
+      }
+    },
+    "qaoa_traj_12q_g2_initial_B": {
+      "backend": "ibm_fez",
+      "width": 12,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 16.0,
+      "ideal_approx_ratio": 0.349082,
+      "candidate_hashes": {
+        "sabre_o3": "9658c5db4e148f0eb005195ca5dfc2dae933837a2355794d2689d83c2b4bfd9a",
+        "tket": "fe057d7854f989fdbe2101bd602e15f76959864f17ff3a3d7c35f38af20a4bc5",
+        "prometheus_candidate": "88c70a3dc67a1f5274cf3b3e93fd0d5d66ab59b5b30d54c3149893dcad2f9911"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 174,
+          "depth": 296
+        },
+        "tket": {
+          "native_2q": 240,
+          "depth": 470
+        },
+        "prometheus_candidate": {
+          "native_2q": 172,
+          "depth": 282
+        }
+      }
+    },
+    "qaoa_traj_12q_g2_intermediate_B": {
+      "backend": "ibm_fez",
+      "width": 12,
+      "stage": "intermediate",
+      "params": [
+        0.844647,
+        0.561944,
+        0.192811,
+        0.286415
+      ],
+      "exact_optimum": 16.0,
+      "ideal_approx_ratio": 0.603153,
+      "candidate_hashes": {
+        "sabre_o3": "fd69991b7db0fc30d235d06a24beced2dbb4defc5120db0d90a62226ab1a2b20",
+        "tket": "a80b103ba5f0596d81d8e1fbb2b9467f742c915aaf0cced8eef1449e87f9115a",
+        "prometheus_candidate": "ad27e658ba2ee347b8cc581bf7b26b8fcc110ed859c689297fd8359b5a4d06fa"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 174,
+          "depth": 299
+        },
+        "tket": {
+          "native_2q": 240,
+          "depth": 470
+        },
+        "prometheus_candidate": {
+          "native_2q": 172,
+          "depth": 286
+        }
+      }
+    },
+    "qaoa_traj_12q_g2_final_cobyla_solution_B": {
+      "backend": "ibm_fez",
+      "width": 12,
+      "stage": "final_cobyla_solution",
+      "params": [
+        0.959653,
+        0.256304,
+        0.054601,
+        0.33197
+      ],
+      "exact_optimum": 16.0,
+      "ideal_approx_ratio": 0.624327,
+      "candidate_hashes": {
+        "sabre_o3": "81ca06ea49cce3ff13eb9a44a0b10bed7af0e6055d5ca58f4d30ecbd4bc09abb",
+        "tket": "2c692ce0cb3a56471114e21b48ca4918e1adde1a858b895ea9cdcc6a86d90dde",
+        "prometheus_candidate": "1d5b21ce9df192672350f6ddeb4b044dbda2d8e5b53d84e4de93e6f688e3f1c9"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 174,
+          "depth": 301
+        },
+        "tket": {
+          "native_2q": 240,
+          "depth": 470
+        },
+        "prometheus_candidate": {
+          "native_2q": 172,
+          "depth": 278
+        }
+      }
+    },
+    "qaoa_traj_14q_g1_initial_B": {
+      "backend": "ibm_fez",
+      "width": 14,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.373933,
+      "candidate_hashes": {
+        "sabre_o3": "d8fb77934a31de5bfecfc1b2fca0444abb06a72f1677bcd78152e5851e79d52d",
+        "tket": "8b8a89d52cbd980b35d81a9a455514afaecb849a5173e55d6d82dcd4dd901f7b",
+        "prometheus_candidate": "d2c067e218bf291ed0dc11291f44becf6ba82e23520ba1153066884e116ace1f"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 196,
+          "depth": 410
+        },
+        "tket": {
+          "native_2q": 300,
+          "depth": 513
+        },
+        "prometheus_candidate": {
+          "native_2q": 191,
+          "depth": 375
+        }
+      }
+    },
+    "qaoa_traj_14q_g1_intermediate_B": {
+      "backend": "ibm_fez",
+      "width": 14,
+      "stage": "intermediate",
+      "params": [
+        1.190494,
+        0.196584,
+        0.34393,
+        0.87153
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.646891,
+      "candidate_hashes": {
+        "sabre_o3": "9670530cb7564fd0bd46a597e25be63658e88814fdb144e55b24d882b2e15841",
+        "tket": "045b116cfc4c4ecf0ac4e1a09c79523483147911fb4c9d2b644a0118e58c79d1",
+        "prometheus_candidate": "9bab5f06dfe1e22b1e5af96ef4c223a98ee49e4899dc11a32dfa110fbe2a72a0"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 196,
+          "depth": 408
+        },
+        "tket": {
+          "native_2q": 300,
+          "depth": 513
+        },
+        "prometheus_candidate": {
+          "native_2q": 191,
+          "depth": 372
+        }
+      }
+    },
+    "qaoa_traj_14q_g1_final_cobyla_solution_B": {
+      "backend": "ibm_fez",
+      "width": 14,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.205311,
+        0.170514,
+        0.310364,
+        0.84548
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.64862,
+      "candidate_hashes": {
+        "sabre_o3": "beef1995f446b45d0e8bfbab386902c1e1b009d83b97c6a936fd00a01e8f1deb",
+        "tket": "5518eefb4eda62366b6b1ad2ee74fbe40a487dbecd3e7e822078e872a120a737",
+        "prometheus_candidate": "44cd9adda520778c4e0b6f1e45af41cd76e5627994fa34b1e4eff3fb235f01c2"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 196,
+          "depth": 406
+        },
+        "tket": {
+          "native_2q": 300,
+          "depth": 513
+        },
+        "prometheus_candidate": {
+          "native_2q": 191,
+          "depth": 370
+        }
+      }
+    },
+    "qaoa_traj_14q_g2_initial_B": {
+      "backend": "ibm_fez",
+      "width": 14,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.375196,
+      "candidate_hashes": {
+        "sabre_o3": "f709fd3b3167403ac8b9b26b2df634567d053b4a04c24dac1b3e20bfcf1c9839",
+        "tket": "a18445104cdb3432ad13d051069d50975e84eaf765700f8774e87b9a78bae3f7",
+        "prometheus_candidate": "09ecbff682af038dabf844f523a2f274e76c1f119722ece0fdf022c31b02b68c"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 206,
+          "depth": 413
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 465
+        },
+        "prometheus_candidate": {
+          "native_2q": 186,
+          "depth": 349
+        }
+      }
+    },
+    "qaoa_traj_14q_g2_intermediate_B": {
+      "backend": "ibm_fez",
+      "width": 14,
+      "stage": "intermediate",
+      "params": [
+        1.158859,
+        0.286069,
+        0.251796,
+        0.756136
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.723962,
+      "candidate_hashes": {
+        "sabre_o3": "9016533c4af2f98b307a82e0ecedb03c61b65ce68efb6f02ef72508ca396797a",
+        "tket": "fa50fd1d3b866b0d8fa73b023fa85db1ec3d68e5dea7211d4391a8b486984975",
+        "prometheus_candidate": "6aec13e950f8e8780d611260a93368a21933b2d45a32d022b95f71353028f284"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 206,
+          "depth": 422
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 465
+        },
+        "prometheus_candidate": {
+          "native_2q": 188,
+          "depth": 446
+        }
+      }
+    },
+    "qaoa_traj_14q_g2_final_cobyla_solution_B": {
+      "backend": "ibm_fez",
+      "width": 14,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.195369,
+        0.163494,
+        0.354145,
+        0.834639
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.778946,
+      "candidate_hashes": {
+        "sabre_o3": "adbaaab67f6451c9aebdb4b3fae4c6a9689df1b4b62ff66432fb3260c910ea23",
+        "tket": "314721f05f71ff1cb533d7bc6ec72f27d7b5eb2e9b6dabd82783de4fb7a41763",
+        "prometheus_candidate": "3c0fdf6491df2d1c44891658cee4c93df30c025e1992f3bbd3a48692d3f003d8"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 206,
+          "depth": 408
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 465
+        },
+        "prometheus_candidate": {
+          "native_2q": 188,
+          "depth": 446
+        }
+      }
+    },
+    "qaoa_traj_8q_g1_initial_C": {
+      "backend": "ibm_kingston",
+      "width": 8,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.38537,
+      "candidate_hashes": {
+        "sabre_o3": "1e86ac0f6fc7d94135071eb9088c1fbdbbb70c92a787d61087a046104acc50f2",
+        "tket": "928f9a160506b09e1d545782f2319dae8b447927daf8500005d52e6ca460f580",
+        "prometheus_candidate": "f1d00efc21184dc27a5b93bb8eaf2b7084e75e32d7cbca5e85bcd887da002803"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 219
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 302
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 233
+        }
+      }
+    },
+    "qaoa_traj_8q_g1_intermediate_C": {
+      "backend": "ibm_kingston",
+      "width": 8,
+      "stage": "intermediate",
+      "params": [
+        1.192154,
+        -0.010236,
+        0.144279,
+        0.797027
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.624243,
+      "candidate_hashes": {
+        "sabre_o3": "444a4fbcfc4acb911f13027ed1b60e98d170b7b72ff6d54abe59f3e9669a7281",
+        "tket": "bbdf5eb00ac79d7d9f902051305fd8309694617388bdf29da8bb118e1c88c84b",
+        "prometheus_candidate": "c00fac60ae0b7fe8ab320f53c29ef1e515b9f343b82a90471380ae7d9767b9aa"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 215
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 302
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 228
+        }
+      }
+    },
+    "qaoa_traj_8q_g1_final_cobyla_solution_C": {
+      "backend": "ibm_kingston",
+      "width": 8,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.170665,
+        0.036366,
+        0.136263,
+        0.791287
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.62493,
+      "candidate_hashes": {
+        "sabre_o3": "0dd6f46b0f2046680cae6b180736ba4bc93fd9011624032db7e5154cb9c0c4e8",
+        "tket": "b548b732c9ee7ebfe2ac8d2afa2cfa7b1fa0eb2e853bbe3326c6b9dc388cce33",
+        "prometheus_candidate": "7bf35bb719773792a70cd52fe87903d78ef64d82faf6903e054f0c185f1c087f"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 105,
+          "depth": 220
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 302
+        },
+        "prometheus_candidate": {
+          "native_2q": 90,
+          "depth": 232
+        }
+      }
+    },
+    "qaoa_traj_8q_g2_initial_C": {
+      "backend": "ibm_kingston",
+      "width": 8,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.369148,
+      "candidate_hashes": {
+        "sabre_o3": "00d16b6b205d0253ccf32e68a4c01202b8f8141914a3fe099e9b769a479cc1e4",
+        "tket": "10c6573fb930565f509fdc8480173f8a16b4daf1e6ff6488e333a49e38c328d9",
+        "prometheus_candidate": "85221ada7ecaf3e69ed024a989966ad9806b29b9161084f83080e59115d23985"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 100,
+          "depth": 258
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 315
+        },
+        "prometheus_candidate": {
+          "native_2q": 98,
+          "depth": 233
+        }
+      }
+    },
+    "qaoa_traj_8q_g2_intermediate_C": {
+      "backend": "ibm_kingston",
+      "width": 8,
+      "stage": "intermediate",
+      "params": [
+        0.848597,
+        0.368575,
+        0.171557,
+        0.591281
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.618345,
+      "candidate_hashes": {
+        "sabre_o3": "6ac8e65ad4aae34f9777e4078b9d6019a7faf4adcceb9db84a1714803d2fafb4",
+        "tket": "5f53d28f0515d9240ead788d754fdc77935b5dea9c79f7e228f2ffba884d36c0",
+        "prometheus_candidate": "5f34b55d575fdbbfc84ee94ef6dea70192747758c34b2a0173d2bc3d290e2d72"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 100,
+          "depth": 260
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 315
+        },
+        "prometheus_candidate": {
+          "native_2q": 98,
+          "depth": 229
+        }
+      }
+    },
+    "qaoa_traj_8q_g2_final_cobyla_solution_C": {
+      "backend": "ibm_kingston",
+      "width": 8,
+      "stage": "final_cobyla_solution",
+      "params": [
+        0.788282,
+        0.428702,
+        -0.035118,
+        0.940013
+      ],
+      "exact_optimum": 10.0,
+      "ideal_approx_ratio": 0.626968,
+      "candidate_hashes": {
+        "sabre_o3": "8618f8113b41e1d93bb22c68722e74fc9ae97da451988513c8593b98fe384e5f",
+        "tket": "ca8e28f7071bcabd5090b8d5776bc2662190af8f5a95efcceac89ca1d78c0423",
+        "prometheus_candidate": "a5e868bef4b39a7dda6fd321035cee187c990ff8001281779c3849a5df7f192f"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 100,
+          "depth": 256
+        },
+        "tket": {
+          "native_2q": 120,
+          "depth": 315
+        },
+        "prometheus_candidate": {
+          "native_2q": 98,
+          "depth": 231
+        }
+      }
+    },
+    "qaoa_traj_10q_g1_initial_C": {
+      "backend": "ibm_kingston",
+      "width": 10,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.387203,
+      "candidate_hashes": {
+        "sabre_o3": "d44f169ac5ea29d1e220556074c761c6ebc0df81fc38366f27eb5cada1336766",
+        "tket": "4e719f27ad2aa0249eca083bb56a978188bd1912657ec7071dabc36da7c08905",
+        "prometheus_candidate": "a799a9b2e31505e37836752f96ec5f5f6324f2b5810285ed184540c61775f656"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 124,
+          "depth": 306
+        },
+        "tket": {
+          "native_2q": 129,
+          "depth": 328
+        },
+        "prometheus_candidate": {
+          "native_2q": 121,
+          "depth": 283
+        }
+      }
+    },
+    "qaoa_traj_10q_g1_intermediate_C": {
+      "backend": "ibm_kingston",
+      "width": 10,
+      "stage": "intermediate",
+      "params": [
+        1.155022,
+        0.268976,
+        0.387183,
+        0.718668
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.672909,
+      "candidate_hashes": {
+        "sabre_o3": "8ba46ceedc9d1bfad01c0c9d475b3bf9a3b8a4ffa09523b4094ec4d95abde4bd",
+        "tket": "125055f310136908ea1b802eb0a825440f41f8f5c87e7cf026634ae61e21a686",
+        "prometheus_candidate": "8cbdc8a77f1b230f7005a713d95bb603f92ff6fd02bb9ee97649b7e0474d5e95"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 124,
+          "depth": 301
+        },
+        "tket": {
+          "native_2q": 129,
+          "depth": 328
+        },
+        "prometheus_candidate": {
+          "native_2q": 121,
+          "depth": 281
+        }
+      }
+    },
+    "qaoa_traj_10q_g1_final_cobyla_solution_C": {
+      "backend": "ibm_kingston",
+      "width": 10,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.180184,
+        0.145483,
+        0.393482,
+        0.799198
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.68121,
+      "candidate_hashes": {
+        "sabre_o3": "30ef28a66e568e12ce4fb1d14593f0b05abc54c0624fffe4e91869eac788f29b",
+        "tket": "8546b1adc93255412421b78aeb70eb929d75b5e1dc58140d3d50e3621ece8311",
+        "prometheus_candidate": "a6991d84a651186343ae4fd75b9a783c2d69d16494b4f97a9ceb3f82256c0019"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 124,
+          "depth": 303
+        },
+        "tket": {
+          "native_2q": 129,
+          "depth": 328
+        },
+        "prometheus_candidate": {
+          "native_2q": 121,
+          "depth": 279
+        }
+      }
+    },
+    "qaoa_traj_10q_g2_initial_C": {
+      "backend": "ibm_kingston",
+      "width": 10,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.406324,
+      "candidate_hashes": {
+        "sabre_o3": "29cae2b5a4039921475962d7840ccd43e86dbe8b42c9ebe7dc0909c214e07790",
+        "tket": "e806ab21e731bcac3b3b778ed795afae15fec2861b405d98c5a9a0159d827219",
+        "prometheus_candidate": "3362b251c9eb82c3299a93e087043a429a35350c604daa9d0da3060f98da8988"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 128,
+          "depth": 321
+        },
+        "tket": {
+          "native_2q": 174,
+          "depth": 364
+        },
+        "prometheus_candidate": {
+          "native_2q": 127,
+          "depth": 345
+        }
+      }
+    },
+    "qaoa_traj_10q_g2_intermediate_C": {
+      "backend": "ibm_kingston",
+      "width": 10,
+      "stage": "intermediate",
+      "params": [
+        1.508702,
+        0.239378,
+        0.366134,
+        0.477049
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.747947,
+      "candidate_hashes": {
+        "sabre_o3": "4672937ba2183fcebf4ecbdaa6f8e0191c6746bbfb21c51f03be4cf593b14811",
+        "tket": "f94f6286832ee6ade5c49704450bf35a25ad2b4dd56c529e38d477baae4df496",
+        "prometheus_candidate": "847544a9d46c680e265be67aceccd68454938f8922169e6282dcf110dcabc310"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 128,
+          "depth": 323
+        },
+        "tket": {
+          "native_2q": 174,
+          "depth": 364
+        },
+        "prometheus_candidate": {
+          "native_2q": 127,
+          "depth": 347
+        }
+      }
+    },
+    "qaoa_traj_10q_g2_final_cobyla_solution_C": {
+      "backend": "ibm_kingston",
+      "width": 10,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.653608,
+        0.305257,
+        0.380782,
+        0.34
+      ],
+      "exact_optimum": 12.0,
+      "ideal_approx_ratio": 0.783025,
+      "candidate_hashes": {
+        "sabre_o3": "9e86080753605f0a704f8a79245f8655b5ae628e864727bcbb3f25e4ec0f9009",
+        "tket": "511c3b632acd34cc5f348c3447e9fbddbe39c4be3855c5ff95ce773e6474c16f",
+        "prometheus_candidate": "04fa364c323bb5440f67afdd01f509374642cafb142964b21e41605c3a2e1093"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 128,
+          "depth": 316
+        },
+        "tket": {
+          "native_2q": 174,
+          "depth": 364
+        },
+        "prometheus_candidate": {
+          "native_2q": 127,
+          "depth": 339
+        }
+      }
+    },
+    "qaoa_traj_12q_g1_initial_C": {
+      "backend": "ibm_kingston",
+      "width": 12,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 15.0,
+      "ideal_approx_ratio": 0.3931,
+      "candidate_hashes": {
+        "sabre_o3": "0bfb10f34715d504fe5b3b84ee8b45e68b944cbe76b97ca681129f42fe0c9ea2",
+        "tket": "a71e4cc11a5e28cf7ad2bbf2b6cfacb8af07b746ec23a181ba2441f3e805ac62",
+        "prometheus_candidate": "1997ac06f22b3486ec92f4e084094545716936ca4580baff8626f75c2c34b666"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 180,
+          "depth": 339
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 416
+        },
+        "prometheus_candidate": {
+          "native_2q": 169,
+          "depth": 305
+        }
+      }
+    },
+    "qaoa_traj_12q_g1_intermediate_C": {
+      "backend": "ibm_kingston",
+      "width": 12,
+      "stage": "intermediate",
+      "params": [
+        1.1067,
+        0.198819,
+        0.343079,
+        0.864413
+      ],
+      "exact_optimum": 15.0,
+      "ideal_approx_ratio": 0.712134,
+      "candidate_hashes": {
+        "sabre_o3": "7e4cf5df672d36da5d4bbd91b66cf64fc63de4fecf3dfb43e2616c9712e5001f",
+        "tket": "5fb9246495c859fec0c5915129003d1cafabc97fb1b093e98ff73e31d3534d7a",
+        "prometheus_candidate": "e065d693288d0059d714aa897a04f548a23ee58653f4fffacfc0633e23fcb6c4"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 180,
+          "depth": 339
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 416
+        },
+        "prometheus_candidate": {
+          "native_2q": 169,
+          "depth": 304
+        }
+      }
+    },
+    "qaoa_traj_12q_g1_final_cobyla_solution_C": {
+      "backend": "ibm_kingston",
+      "width": 12,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.119306,
+        0.208791,
+        0.319665,
+        0.861328
+      ],
+      "exact_optimum": 15.0,
+      "ideal_approx_ratio": 0.713183,
+      "candidate_hashes": {
+        "sabre_o3": "7d15da4175f38712cd5bbe17622a47711b0eb8fa5e0864d54288ace11d779cda",
+        "tket": "b2def803cca684c1b0f8f81ed180e065375e1c28b15f3f1732676d9477ded933",
+        "prometheus_candidate": "164cee3bc074d43a7334902585bc60e892438c9166401a0cceaf1e00a7ba2b9c"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 180,
+          "depth": 341
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 416
+        },
+        "prometheus_candidate": {
+          "native_2q": 169,
+          "depth": 305
+        }
+      }
+    },
+    "qaoa_traj_12q_g2_initial_C": {
+      "backend": "ibm_kingston",
+      "width": 12,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 16.0,
+      "ideal_approx_ratio": 0.349082,
+      "candidate_hashes": {
+        "sabre_o3": "379eca45189763f43d41ece78d19321a971f1a8ef282bf4bd272393f03f969ac",
+        "tket": "fe057d7854f989fdbe2101bd602e15f76959864f17ff3a3d7c35f38af20a4bc5",
+        "prometheus_candidate": "7a47fea6dbea03d5fb64318baf4d07101c47d2b95aaf0568fbe3fc1b7cb97b75"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 174,
+          "depth": 292
+        },
+        "tket": {
+          "native_2q": 240,
+          "depth": 470
+        },
+        "prometheus_candidate": {
+          "native_2q": 162,
+          "depth": 313
+        }
+      }
+    },
+    "qaoa_traj_12q_g2_intermediate_C": {
+      "backend": "ibm_kingston",
+      "width": 12,
+      "stage": "intermediate",
+      "params": [
+        0.844647,
+        0.561944,
+        0.192811,
+        0.286415
+      ],
+      "exact_optimum": 16.0,
+      "ideal_approx_ratio": 0.603153,
+      "candidate_hashes": {
+        "sabre_o3": "ad061c02172e08765eb4f1033a4148594f7c4810ea27786121571eec771f9c90",
+        "tket": "a80b103ba5f0596d81d8e1fbb2b9467f742c915aaf0cced8eef1449e87f9115a",
+        "prometheus_candidate": "6bbc8e7f8fddec0be131fd3ef0946fcd099345e9124564afe59525397276fd42"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 174,
+          "depth": 298
+        },
+        "tket": {
+          "native_2q": 240,
+          "depth": 470
+        },
+        "prometheus_candidate": {
+          "native_2q": 170,
+          "depth": 422
+        }
+      }
+    },
+    "qaoa_traj_12q_g2_final_cobyla_solution_C": {
+      "backend": "ibm_kingston",
+      "width": 12,
+      "stage": "final_cobyla_solution",
+      "params": [
+        0.959653,
+        0.256304,
+        0.054601,
+        0.33197
+      ],
+      "exact_optimum": 16.0,
+      "ideal_approx_ratio": 0.624327,
+      "candidate_hashes": {
+        "sabre_o3": "6003bf395b5b63d8da2f136006aa3558f43ae1348bedf28593fc1b4bbffffa14",
+        "tket": "2c692ce0cb3a56471114e21b48ca4918e1adde1a858b895ea9cdcc6a86d90dde",
+        "prometheus_candidate": "92e1d41c47c3cc7da39fb2c4f2a1f9ff30a9f409dc5d65bbc630bab1190ceb68"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 174,
+          "depth": 296
+        },
+        "tket": {
+          "native_2q": 240,
+          "depth": 470
+        },
+        "prometheus_candidate": {
+          "native_2q": 170,
+          "depth": 426
+        }
+      }
+    },
+    "qaoa_traj_14q_g1_initial_C": {
+      "backend": "ibm_kingston",
+      "width": 14,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.373933,
+      "candidate_hashes": {
+        "sabre_o3": "c91572e9799de2ec1edfa62469584b9ff2cf0c1e5588d88ba5d4e03c3682ba44",
+        "tket": "8b8a89d52cbd980b35d81a9a455514afaecb849a5173e55d6d82dcd4dd901f7b",
+        "prometheus_candidate": "7744a57dd4a6cb958a8fbaec7835b649a5cac5ae1d131793cd942b17874fb9f6"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 196,
+          "depth": 408
+        },
+        "tket": {
+          "native_2q": 300,
+          "depth": 513
+        },
+        "prometheus_candidate": {
+          "native_2q": 183,
+          "depth": 504
+        }
+      }
+    },
+    "qaoa_traj_14q_g1_intermediate_C": {
+      "backend": "ibm_kingston",
+      "width": 14,
+      "stage": "intermediate",
+      "params": [
+        1.190494,
+        0.196584,
+        0.34393,
+        0.87153
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.646891,
+      "candidate_hashes": {
+        "sabre_o3": "0eee0739e5c35500f6f4f4f85e2613d8098d94cc982e37eab5b60456071bfabd",
+        "tket": "045b116cfc4c4ecf0ac4e1a09c79523483147911fb4c9d2b644a0118e58c79d1",
+        "prometheus_candidate": "b5126a518298f043781e50b4648fdd444e217c86fd297153b420de7f83e99384"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 196,
+          "depth": 407
+        },
+        "tket": {
+          "native_2q": 300,
+          "depth": 513
+        },
+        "prometheus_candidate": {
+          "native_2q": 183,
+          "depth": 504
+        }
+      }
+    },
+    "qaoa_traj_14q_g1_final_cobyla_solution_C": {
+      "backend": "ibm_kingston",
+      "width": 14,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.205311,
+        0.170514,
+        0.310364,
+        0.84548
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.64862,
+      "candidate_hashes": {
+        "sabre_o3": "1e9f6efcb6f609b49b997a74e74ee180b1b9b3898c4e0d30fb19c786e6f4fc4e",
+        "tket": "5518eefb4eda62366b6b1ad2ee74fbe40a487dbecd3e7e822078e872a120a737",
+        "prometheus_candidate": "c850cd3e2f64783cf5067a13f8f08a81855f1f7ca7a554cf3d69979f3ae6d1cc"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 196,
+          "depth": 405
+        },
+        "tket": {
+          "native_2q": 300,
+          "depth": 513
+        },
+        "prometheus_candidate": {
+          "native_2q": 183,
+          "depth": 503
+        }
+      }
+    },
+    "qaoa_traj_14q_g2_initial_C": {
+      "backend": "ibm_kingston",
+      "width": 14,
+      "stage": "initial",
+      "params": [
+        0.35,
+        0.35,
+        0.35,
+        0.35
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.375196,
+      "candidate_hashes": {
+        "sabre_o3": "5c25b54368a03b7ff19005b26b9e6bb354509d9f76177a986e9e114581f973df",
+        "tket": "a18445104cdb3432ad13d051069d50975e84eaf765700f8774e87b9a78bae3f7",
+        "prometheus_candidate": "4eb4a4ebd275a1e51352f2cc571ffd81568eef7f78b291555129e1a95da90440"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 206,
+          "depth": 416
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 465
+        },
+        "prometheus_candidate": {
+          "native_2q": 191,
+          "depth": 361
+        }
+      }
+    },
+    "qaoa_traj_14q_g2_intermediate_C": {
+      "backend": "ibm_kingston",
+      "width": 14,
+      "stage": "intermediate",
+      "params": [
+        1.158859,
+        0.286069,
+        0.251796,
+        0.756136
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.723962,
+      "candidate_hashes": {
+        "sabre_o3": "cf9e86fb6e4b3f19b07a8e38e9bb8ba195035666ca5a6eba1721257600bbe15a",
+        "tket": "fa50fd1d3b866b0d8fa73b023fa85db1ec3d68e5dea7211d4391a8b486984975",
+        "prometheus_candidate": "526b84c114ebfa69c171ee85feeac2f3e245fbfae0f2053cbbb9513cfe11d8fb"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 206,
+          "depth": 425
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 465
+        },
+        "prometheus_candidate": {
+          "native_2q": 191,
+          "depth": 361
+        }
+      }
+    },
+    "qaoa_traj_14q_g2_final_cobyla_solution_C": {
+      "backend": "ibm_kingston",
+      "width": 14,
+      "stage": "final_cobyla_solution",
+      "params": [
+        1.195369,
+        0.163494,
+        0.354145,
+        0.834639
+      ],
+      "exact_optimum": 18.0,
+      "ideal_approx_ratio": 0.778946,
+      "candidate_hashes": {
+        "sabre_o3": "ffcb890afdcdc752dd0fa794eb8a98c70c43b47df85ecdcbf2d4e9e081219d3b",
+        "tket": "314721f05f71ff1cb533d7bc6ec72f27d7b5eb2e9b6dabd82783de4fb7a41763",
+        "prometheus_candidate": "cb6b8b282ae824dd4b175fcb606a9e0fd3d38486083467c6de4fba8202a381b0"
+      },
+      "structural": {
+        "sabre_o3": {
+          "native_2q": 206,
+          "depth": 418
+        },
+        "tket": {
+          "native_2q": 228,
+          "depth": 465
+        },
+        "prometheus_candidate": {
+          "native_2q": 191,
+          "depth": 357
+        }
+      }
+    }
+  },
+  "original_pre_execution_commitment_sha256": "92e56d749e1b90cf6224ba662b0c9d3c1d78eb237c07d7216f1215c53d7f9b09"
+}

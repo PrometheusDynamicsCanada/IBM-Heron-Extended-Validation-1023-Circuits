@@ -1,0 +1,112 @@
+{
+  "instances": [
+    {
+      "instance_id": "fresh_qaoa_8q_s20261139",
+      "family": "qaoa_maxcut",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "width": 8,
+      "seed": 20261139,
+      "qasm_path": "fresh_qaoa_8q_s20261139.qasm",
+      "reference_path": "fresh_qaoa_8q_s20261139.npz"
+    },
+    {
+      "instance_id": "fresh_qaoa_10q_s20261158",
+      "family": "qaoa_maxcut",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "width": 10,
+      "seed": 20261158,
+      "qasm_path": "fresh_qaoa_10q_s20261158.qasm",
+      "reference_path": "fresh_qaoa_10q_s20261158.npz"
+    },
+    {
+      "instance_id": "fresh_qaoa_12q_s20261177",
+      "family": "qaoa_maxcut",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "width": 12,
+      "seed": 20261177,
+      "qasm_path": "fresh_qaoa_12q_s20261177.qasm",
+      "reference_path": "fresh_qaoa_12q_s20261177.npz"
+    },
+    {
+      "instance_id": "fresh_qaoa_14q_s20261196",
+      "family": "qaoa_maxcut",
+      "primary_metric": "mean_cut_over_exact_optimum",
+      "width": 14,
+      "seed": 20261196,
+      "qasm_path": "fresh_qaoa_14q_s20261196.qasm",
+      "reference_path": "fresh_qaoa_14q_s20261196.npz"
+    },
+    {
+      "instance_id": "fresh_qft_8q_s20261239",
+      "family": "qft_phase",
+      "primary_metric": "target_success_probability",
+      "width": 8,
+      "seed": 20261239,
+      "qasm_path": "fresh_qft_8q_s20261239.qasm",
+      "reference_path": "fresh_qft_8q_s20261239.npz"
+    },
+    {
+      "instance_id": "fresh_qft_10q_s20261264",
+      "family": "qft_phase",
+      "primary_metric": "target_success_probability",
+      "width": 10,
+      "seed": 20261264,
+      "qasm_path": "fresh_qft_10q_s20261264.qasm",
+      "reference_path": "fresh_qft_10q_s20261264.npz"
+    },
+    {
+      "instance_id": "fresh_qft_12q_s20261289",
+      "family": "qft_phase",
+      "primary_metric": "target_success_probability",
+      "width": 12,
+      "seed": 20261289,
+      "qasm_path": "fresh_qft_12q_s20261289.qasm",
+      "reference_path": "fresh_qft_12q_s20261289.npz"
+    },
+    {
+      "instance_id": "fresh_qft_14q_s20261314",
+      "family": "qft_phase",
+      "primary_metric": "target_success_probability",
+      "width": 14,
+      "seed": 20261314,
+      "qasm_path": "fresh_qft_14q_s20261314.qasm",
+      "reference_path": "fresh_qft_14q_s20261314.npz"
+    },
+    {
+      "instance_id": "fresh_dense_8q_s20261339",
+      "family": "dense",
+      "primary_metric": "squared_hellinger_fidelity",
+      "width": 8,
+      "seed": 20261339,
+      "qasm_path": "fresh_dense_8q_s20261339.qasm",
+      "reference_path": "fresh_dense_8q_s20261339.npz"
+    },
+    {
+      "instance_id": "fresh_bipartite_10q_s20261372",
+      "family": "bipartite",
+      "primary_metric": "squared_hellinger_fidelity",
+      "width": 10,
+      "seed": 20261372,
+      "qasm_path": "fresh_bipartite_10q_s20261372.qasm",
+      "reference_path": "fresh_bipartite_10q_s20261372.npz"
+    },
+    {
+      "instance_id": "fresh_dense_12q_s20261405",
+      "family": "dense",
+      "primary_metric": "squared_hellinger_fidelity",
+      "width": 12,
+      "seed": 20261405,
+      "qasm_path": "fresh_dense_12q_s20261405.qasm",
+      "reference_path": "fresh_dense_12q_s20261405.npz"
+    },
+    {
+      "instance_id": "fresh_bipartite_14q_s20261438",
+      "family": "bipartite",
+      "primary_metric": "squared_hellinger_fidelity",
+      "width": 14,
+      "seed": 20261438,
+      "qasm_path": "fresh_bipartite_14q_s20261438.qasm",
+      "reference_path": "fresh_bipartite_14q_s20261438.npz"
+    }
+  ]
+}
